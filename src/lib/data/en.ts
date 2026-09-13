@@ -116,15 +116,15 @@ export default
 
             shrinkingFox : 
             {   
-                src : "shrinkingFox.GIF",
-                desc : "Gif displaying the fox, starting to be small once the player comes near him. It almost looks like he is scared, and its defense mechanism is to shrink himself.",
+                src : "shrinkingFox.webm",
+                desc : "Video displaying the fox, starting to be small once the player comes near him. It almost looks like he is scared, and its defense mechanism is to shrink himself.",
                 title : "Img. 9 : The fox is now shrinking",
             },
 
             MiniFoxRunning : 
             {   
-                src : "MiniFoxRunning.GIF",
-                desc : "Gif displaying the fox, still small. He is correctly doing his run animation, but he is way too small for someone to see it.",
+                src : "MiniFoxRunning.webm",
+                desc : "Video displaying the fox, still small. He is correctly doing his run animation, but he is way too small for someone to see it.",
                 title : "Img. 10 : The fox, very small, is trying to run away",
             },
 
@@ -132,8 +132,8 @@ export default
 
             RunningFox : 
             {   
-                src : "runningFox.GIF",
-                desc : "Gif representing the fox, in its correct size. He is showed \"running\" away, or as explained previously, he's walking very fast.",
+                src : "runningFox.webm",
+                desc : "Video representing the fox, in its correct size. He is showed \"running\" away, or as explained previously, he's walking very fast.",
                 title : "Img. 11 : The fox walks fast, away from the player",
             },
 
@@ -151,8 +151,8 @@ export default
             },
             ShootingTheFoxGif : 
             {   
-                src : "ShootingTheFox.GIF",
-                desc : "Gif taken from Unity. We can see the player aiming at a fox, shooting and killing him, while the snow is still falling. As explained before, the camera moves forward and so does the reticule.",
+                src : "ShootingTheFox.webm",
+                desc : "Video taken from Unity. We can see the player aiming at a fox, shooting and killing him, while the snow is still falling. As explained before, the camera moves forward and so does the reticule.",
                 title : "Img. 13 : The bow in action, taken from Unity",
             },
 

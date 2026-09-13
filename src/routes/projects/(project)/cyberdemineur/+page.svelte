@@ -32,6 +32,7 @@
 	<div class="Paragraph">
 		
 		<Image 
+			type="image"
 			srcLink={"/images/projects/Cyberdemineur/" + $translate.project.cyberdemineur.ConceptArt.src} 
 			altTxt={$translate.project.cyberdemineur.ConceptArt.desc} 
 			title={$translate.project.cyberdemineur.ConceptArt.title}
@@ -62,6 +63,7 @@
 	<div class="Paragraph" style="grid-template-columns:1fr 1fr;">
 		<Texte txt={$translate.project.cyberdemineur.aText}/>
 		<Image 
+			type="image"
 			srcLink={"/images/projects/Cyberdemineur/" + $translate.project.cyberdemineur.generatedGrid.src} 
 			altTxt={$translate.project.cyberdemineur.generatedGrid.desc} 
 			title={$translate.project.cyberdemineur.generatedGrid.title}
@@ -78,6 +80,7 @@
 	<div class="Paragraph">
 		
 		<Image 
+			type="image"
 			srcLink={"/images/projects/Cyberdemineur/" + $translate.project.cyberdemineur.difficultyPage.src} 
 			altTxt={$translate.project.cyberdemineur.difficultyPage.desc} 
 			title={$translate.project.cyberdemineur.difficultyPage.title}
@@ -87,6 +90,7 @@
 	<div class="Paragraph" style="grid-template-columns:1fr 1fr;">
 		<Texte txt={$translate.project.cyberdemineur.bTextGame}/>
 		<Image 
+			type="image"
 			srcLink={"/images/projects/Cyberdemineur/" + $translate.project.cyberdemineur.pythonGameOpened.src} 
 			altTxt={$translate.project.cyberdemineur.pythonGameOpened.desc} 
 			title={$translate.project.cyberdemineur.pythonGameOpened.title}
@@ -102,11 +106,13 @@
 
 	<div class="Paragraph" style="grid-template-columns:1fr 1fr;">
 		<Image 
+			type="image"
 			srcLink={"/images/projects/Cyberdemineur/" + $translate.project.cyberdemineur.pythonOptionMenu.src} 
 			altTxt={$translate.project.cyberdemineur.pythonOptionMenu.desc} 
 			title={$translate.project.cyberdemineur.pythonOptionMenu.title}
 		/>
 		<Image 
+			type="image"
 			srcLink={"/images/projects/Cyberdemineur/" + $translate.project.cyberdemineur.pythonHelpPopup.src} 
 			altTxt={$translate.project.cyberdemineur.pythonHelpPopup.desc} 
 			title={$translate.project.cyberdemineur.pythonHelpPopup.title}
@@ -123,6 +129,7 @@
 	<div class="Paragraph">
 		
 		<Image 
+			type="image"
 			srcLink={"/images/projects/Cyberdemineur/" + $translate.project.cyberdemineur.DBCode.src} 
 			altTxt={$translate.project.cyberdemineur.DBCode.desc} 
 			title={$translate.project.cyberdemineur.DBCode.title}
@@ -148,12 +155,14 @@
 	<div class="Paragraph" style="grid-template-columns:1fr 1fr;">
 		
 		<Image 
+			type="image"
 			srcLink={"/images/projects/Cyberdemineur/" + $translate.project.cyberdemineur.javaFullGrid.src} 
 			altTxt={$translate.project.cyberdemineur.javaFullGrid.desc} 
 			title={$translate.project.cyberdemineur.javaFullGrid.title}
 		/>
 
 		<Image 
+			type="image"
 			srcLink={"/images/projects/Cyberdemineur/" + $translate.project.cyberdemineur.javaOpenGrid.src} 
 			altTxt={$translate.project.cyberdemineur.javaOpenGrid.desc} 
 			title={$translate.project.cyberdemineur.javaOpenGrid.title}
@@ -170,12 +179,14 @@
 	<div class="Paragraph" style="grid-template-columns:1fr 1fr;">
 		
 		<Image 
+			type="image"
 			srcLink={"/images/projects/Cyberdemineur/" + $translate.project.cyberdemineur.cppMainMenu.src} 
 			altTxt={$translate.project.cyberdemineur.cppMainMenu.desc} 
 			title={$translate.project.cyberdemineur.cppMainMenu.title}
 		/>
 
 		<Image 
+			type="image"
 			srcLink={"/images/projects/Cyberdemineur/" + $translate.project.cyberdemineur.cppGridOpen.src} 
 			altTxt={$translate.project.cyberdemineur.cppGridOpen.desc} 
 			title={$translate.project.cyberdemineur.cppGridOpen.title}

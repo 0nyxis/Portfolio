@@ -1,5 +1,5 @@
 <script>	
-	let {srcLink, altTxt, title} = $props();
+	let {type, srcLink, altTxt, title} = $props();
 </script>
 
 <style>
@@ -9,7 +9,7 @@
         margin : 0;
     }
 
-    img
+    img, video
     {
         display : block;
         width : 100%;
@@ -29,6 +29,17 @@
 </style>
 
 <figure>
-    <img src={srcLink} alt={altTxt}/> 
+    {#if type === "image"}
+        <img src={srcLink} alt={altTxt}/> 
+    {:else if type === "video"}
+        <video
+            src={srcLink}
+            autoplay
+            loop
+            muted
+            playsinline
+            ></video>
+
+    {/if}
     <figcaption><em> {title} </em></figcaption>
 </figure>
