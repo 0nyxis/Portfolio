@@ -1,6 +1,9 @@
 <script>	
 	import { language } from "$lib/stores/language";
 	import { resolve } from "$app/paths";
+
+	import { base } from '$app/paths';
+
 	let {project} = $props();
 </script>
 
@@ -59,7 +62,7 @@
 
 <div class="projectCard">
     <a href={resolve(project.link)}>
-		<img class="thumbnail" src={"images/thumbnails/" + project.thumbnail} 
+		<img class="thumbnail" src={base + "/images/thumbnails/" + project.thumbnail} 
 		alt={project.alt_txt_thumbnail[$language]}
 		/>
 

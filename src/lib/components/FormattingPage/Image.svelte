@@ -1,4 +1,6 @@
-<script>	
+<script>
+    import { base } from '$app/paths';
+
 	let {type, srcLink, altTxt, title} = $props();
 </script>
 
@@ -30,10 +32,10 @@
 
 <figure>
     {#if type === "image"}
-        <img src={srcLink} alt={altTxt}/> 
+        <img src={base + srcLink} alt={altTxt}/> 
     {:else if type === "video"}
         <video
-            src={srcLink}
+            src={base + srcLink}
             autoplay
             loop
             muted

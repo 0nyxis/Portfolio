@@ -122,7 +122,7 @@ export const projects : Project[] =
             fr : "null"
             },
         link: "/projects/error",
-        thumbnail : "",
+        thumbnail : "test.png",
         alt_txt_thumbnail : 
         {
             en : "",

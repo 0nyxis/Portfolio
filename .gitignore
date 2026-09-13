@@ -1,6 +1,7 @@
 node_modules
 
 # Output
+.vs
 .output
 .vercel
 .netlify

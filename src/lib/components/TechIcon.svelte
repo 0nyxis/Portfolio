@@ -1,4 +1,5 @@
 <script>	
+    import { base } from '$app/paths';
 	let {techno} = $props();
 </script>
 
@@ -34,6 +35,6 @@
 </style>
 
 <div class="TechIcon" style="background-image: linear-gradient(to top, {techno.known},white );">
-    <img src={"/images/technoIcon/" + techno.image} alt={techno.alt_txt}/>
+    <img src={base + "/images/technoIcon/" + techno.image} alt={techno.alt_txt}/>
     <p> {techno.name} </p>
 </div>

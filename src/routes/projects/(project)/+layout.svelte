@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { base } from '$app/paths';
     import { language } from "$lib/stores/language";
 
 	let { children, data } = $props();
@@ -101,7 +102,7 @@
     <div class="ProjectCard">
     <!--!> 10fr / 5fr <!-->
         <div class="image">
-            <img class="thumbnail" src={"/images/thumbnails/" + data.project.thumbnail} alt={data.project.alt_txt_thumbnail[$language]}/>
+            <img class="thumbnail" src={ base + "/images/thumbnails/" + data.project.thumbnail} alt={data.project.alt_txt_thumbnail[$language]}/>
         </div>
 
         <div class="title">{data.project.title[$language]} </div>
