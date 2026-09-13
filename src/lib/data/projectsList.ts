@@ -8,11 +8,13 @@ export interface Project {
     featured : boolean;
     thumbnail : string;
     alt_txt_thumbnail : Record<Language, string>;
+    overview : Record<Language, string>;
     desc : Record<Language, string>;
     role : string;
     year : number;
     engine : string;
     tags: string[];
+    shown : boolean;
 }
 
 export function getProject(id : string){
@@ -21,7 +23,7 @@ export function getProject(id : string){
 
 export function getFeaturedProjects()
 {
-    return projects.filter(projects => projects.featured);
+    return projects.filter(projects => projects.featured && projects.shown);
 }
 
 export const projects : Project[] = 
@@ -41,6 +43,11 @@ export const projects : Project[] =
             en :"Image from the game \"Cyberdemineur\". It display a game of minesweeper, in the middle of play. A bomb was uncovered, and multiple flags were putted down.",
             fr : "Image venant du jeu \"Cyberdemineur\". En pleine partie, on y voit qu'une bombe a été découverte, ainsi que des drapeaux ont été posés.",
         },
+        overview : 
+        {
+            fr : "[WIP] Rapide explication",
+            en : "[WIP] Quick explanation",
+        },
         desc :
         {
             en : "The first reel project I've worked on : it is a minesweeper game, with a \"cyberpunk\" art visual.",
@@ -52,7 +59,8 @@ export const projects : Project[] =
         tags : 
         [
             "firstProject", "Python", "Small-Team", "Multiple-Iteration"
-        ]
+        ],
+        shown : true,
     },
 
 	{
@@ -70,6 +78,11 @@ export const projects : Project[] =
             en : "Image from the game \"After Impact\", displaying the initial plane crash of the game. There is debris and fire, in the middle of the snowy forest",
             fr : "Image venant du jeu \"After Impact\", montrant le crash d'avion initial du jeu. Il y a des débris et du feu, au milieu d'une forêt enneigée.",
         },
+        overview : 
+        {
+            fr : "[WIP] Rapide explication",
+            en : "[WIP] Quick explanation",
+        },
         desc :
         {
             en : "Final project of 3rd year of Creajeux, it is a survival game, focused on exploring the world and crafting new items to help you survive, and escape.",
@@ -81,7 +94,8 @@ export const projects : Project[] =
         tags : 
         [
             "Creajeux", "Group-Project", "C#"
-        ]
+        ],
+        shown : true,
     },
 
     {
@@ -99,6 +113,11 @@ export const projects : Project[] =
             en : "",
             fr : "",
         },
+        overview : 
+        {
+            fr : "",
+            en : "",
+        },
         desc :
         {
             en : "Last year internship done in Quebec",
@@ -110,7 +129,8 @@ export const projects : Project[] =
         tags : 
         [
             ""
-        ]
+        ],
+        shown : true,
     },
 
     {
@@ -128,6 +148,11 @@ export const projects : Project[] =
             en : "",
             fr : "",
         },
+        overview : 
+        {
+            fr : "",
+            en : "",
+        },
         desc :
         {
             en : "",
@@ -139,6 +164,7 @@ export const projects : Project[] =
         tags : 
         [
             ""
-        ]
+        ],
+        shown : false,
     },
 ]

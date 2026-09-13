@@ -17,12 +17,18 @@ export default
     },
     home :
     {
-        welcomeTitle : "Welcome to my Website (it is a portfolio)",
-        welcomeTxt : "You can find a list of my projects",
-        projectAll : "All the projects are here",
-        technologies : "Technologies",
+        welcomeTitle : "Louis [0nyxis] - Game Programmer",
+        welcomeTxt : "Hi, I'm a game programming student at Créajeux, focused on gameplay and systems programming.<br><br>I build games, experiment with new technologies, and enjoy solving the technical problems behind interactive experiences, usually invisible to the user.",
+
+        projectTitle : "Projects",
+        projectText : "Here is a selection of projects I've worked on throughout my studies, as well as personal projects.",
+        projectLink :  "[See all projects]",
+
+        technologiesTitle : "Technologies",
+        technologiesText : "These are the technologies I have worked with in academic, personal and professional projects.My level of experience naturally varies between them.",
+
         aboutme : "Quick text about me",
-        helphover : "Here, you'll have the hover text",
+        helphover : "What do the colors means ? <br><br>Green -- I have worked with this technology recently and can use it comfortably. <br><br>Yellow -- I have worked extensively with this technology in the past, so my knowledge should come back quickly. <br><br>Red -- I have worked with this technology in the past, but I may need some time to become comfortable with it again",
     },
     projectPage : 
     {

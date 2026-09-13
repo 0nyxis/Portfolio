@@ -117,7 +117,7 @@
 			<ul class="sous-menu">
 			
 				{#each getFeaturedProjects() as project(project.id)}
-					<li class="elt-sous-menu"><a href={resolve(project.link)}> {project.title[$language]} </a></li>
+					<a href={resolve(project.link)}><li class="elt-sous-menu"> {project.title[$language]} </li></a>
 				{/each}
 			</ul>
 		</li>

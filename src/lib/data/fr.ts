@@ -16,12 +16,18 @@ export default
     },
     home :
     {
-        welcomeTitle : "",
-        welcomeTxt : "",
-        projectAll : "",
-        technologies : "",
+        welcomeTitle : "Louis [0nyxis] - Programmeur de Jeux Vidéo",
+        welcomeTxt : "Salut, je suis un étudiant en programmation de jeux-vidéo à Créajeux, spécialisé dans le gameplay, et la conception de systèmes. <br><br> J'aime créer des jeux, expérimenter avec de technologies je ne connaissais pas, et surtout résoudre les problèmes techniques qui se cachent derrière les expériences interactives, souvent invisibles aux utilisateurs.",
+
+        projectTitle : "Projets",
+        projectText : "Voici une sélection de projets sur lesquels j'ai travaillé au cours de mes études, ainsi que projet personnel.",
+        projectLink :  "[Voir tout les projets]",
+
+        technologiesTitle : "Technologies",
+        technologiesText : "Voici les technologies que j'ai utilisées au cours de mes projets académiques, personnels et professionnels. Mon niveau d'expérience varie naturellement selon les technologies.",
+
         aboutme : "",
-        helphover : "",
+        helphover : "Que veulent dire les couleurs ? <br><br>Vert -- J'ai travaillé récemment avec cette technologie et je peux l'utiliser sans difficulté. <br><br> Jaune -- J'ai beaucoup travaillé avec cette technologie par le passé, mes connaissances devraient donc me revenir rapidement. <br><br> Rouge -- J'ai travaillé avec cette technologie par le passé, mais je pourrais avoir besoin de temps pour me remettre à niveau.",
     },
     projectPage : 
     {

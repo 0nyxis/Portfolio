@@ -59,13 +59,12 @@
 	}
 
 </style>
-
 <div class="projectCard">
     <a href={resolve(project.link)}>
 		<img class="thumbnail" src={base + "/images/thumbnails/" + project.thumbnail} 
 		alt={project.alt_txt_thumbnail[$language]}
 		/>
 
-		<p class="textCard"> The name is {project.title[$language]} </p>
+		<p class="textCard"> {project.overview[$language]} </p>
 	</a>
 </div>

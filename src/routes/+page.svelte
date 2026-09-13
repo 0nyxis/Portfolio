@@ -5,6 +5,8 @@
 	import { getFeaturedProjects } from '$lib/data/projectsList';
 	import { getAllTech } from '$lib/data/technologies';
 	import TechIcon from '$lib/components/TechIcon.svelte';
+	import Texte from '$lib/components/FormattingPage/Texte.svelte';
+
 
 </script>
 
@@ -44,7 +46,7 @@
         top: calc(100% + 10px);
         right: 0;
 
-        width: 220px;
+        width: 400px;
         padding: 1rem;
 
         background-color: #f0f0f0d0;
@@ -80,40 +82,74 @@
     {
         text-decoration: none;
     }
+
+    .section
+	{
+		border : 2px solid #104439;
+        border-radius: 30px;
+		padding: 1rem 2rem 1rem 1rem;
+		margin: 1rem;
+	}
+
+	.Paragraph
+	{
+		display:grid;
+		align-items : center;
+	}
 </style>
 
-<h3>{$translate.home.welcomeTitle}</h3>
-<p>{$translate.home.welcomeTxt}</p>
+<div class="section">
+    <div class="Paragraph">
+        <h3>
+            <Texte txt={$translate.home.welcomeTitle}/>
+        </h3>
+        <Texte txt={$translate.home.welcomeTxt}/>
+    </div>
 
-<hr/>
+    <hr/>
+    <div class="Paragraph">
+        <h3>
+            <Texte txt={$translate.home.projectTitle}/>
+        </h3>
 
-<h4><a href={resolve('/projects')}> {$translate.home.projectAll}</a></h4>
-<div class="carouselProject">
-    {#each getFeaturedProjects() as project(project)}
-        <ProjectCardHome {project}/>
-    {/each}
-</div>
+        <Texte txt={$translate.home.projectText}/>
 
-<hr/>
+        <div class="carouselProject">
+            {#each getFeaturedProjects() as project(project)}
+                <ProjectCardHome {project}/>
+            {/each}
+        </div>
 
-<div class="technoHeader">
-    <h4>{$translate.home.technologies}</h4>
-    <div class="help">
-            <span> ? </span>
-            <div class="helpTxt">
-                {$translate.home.helphover}
+        <a href="{resolve('/projects')}">{$translate.home.projectLink} </a>
+    </div>
+
+    <hr/>
+
+    <div class="Paragraph">
+        <div class="technoHeader">
+            <h4>
+                <Texte txt = {$translate.home.technologiesTitle} />
+            </h4>  
+
+            <div class="help">
+                <span> ? </span>
+                <div class="helpTxt">
+                    <Texte txt = {$translate.home.helphover} />
+                </div>
             </div>
+        </div>
+        <Texte txt = {$translate.home.technologiesText} />
+
+        <div class="technoPart">
+            <div class="technoDiv">
+                {#each getAllTech() as techno(techno.name)}
+                    <TechIcon {techno}/>
+                {/each}
+            </div>
+        </div>
     </div>
+
+    <hr/>
+
+    <p> {$translate.home.aboutme}</p>
 </div>
-
-<div class="technoPart">
-    <div class="technoDiv">
-        {#each getAllTech() as techno(techno.name)}
-            <TechIcon {techno}/>
-        {/each}
-    </div>
-</div>
-
-<hr/>
-
-<p> {$translate.home.aboutme}</p>

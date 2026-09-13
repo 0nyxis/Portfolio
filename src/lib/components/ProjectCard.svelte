@@ -81,7 +81,7 @@
         color: black;
     }
 </style>
-
+{#if project.shown}
 <div class="projectCard">
     <a href={resolve(project.link)}>
         <img class="thumbnail" src={base + "/images/thumbnails/" + project.thumbnail} alt={project.alt_txt_thumbnail[$language]}/>
@@ -104,3 +104,4 @@
         </div>
     </a>
 </div>
+{/if}
