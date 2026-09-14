@@ -151,5 +151,10 @@
 
     <hr/>
 
-    <p> {$translate.home.aboutme}</p>
+    <div class="Paragraph">
+        <h3>
+            <Texte txt={$translate.home.aboutmeTitle}/>
+        </h3>
+        <a href="{resolve('/about')}">{$translate.home.aboutMeText} </a>
+    </div>
 </div>
