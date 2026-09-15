@@ -29,7 +29,7 @@ export default
 
         aboutmeTitle : "Want to know more about me or my studies ?",
         aboutMeText : "Then check out my \"About page\" !",
-        helphover : "What do the colors means ? <br><br>Green -- I have worked with this technology recently and can use it comfortably. <br><br>Yellow -- I have worked extensively with this technology in the past, so my knowledge should come back quickly. <br><br>Red -- I have worked with this technology in the past, but I may need some time to become comfortable with it again",
+        helphover : "What do the colors means ? <br><br>Green -- I have worked with this technology recently and can use it comfortably. <br><br>Yellow -- I have worked extensively with this technology in the past, so my knowledge should come back quickly. <br><br>Orange -- I have worked with this technology in the past, but I may need some time to become comfortable with it again",
     },
     projectPage : 
     {

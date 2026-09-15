@@ -1,23 +1,23 @@
 interface sortColor {
     id: number;
-    known: "Green" | "Yellow" | "Red";
+    known: "green" | "yellow" | "orange";
 }
 
 const sortByColor: sortColor[] = [
-{ id : 1, known: "Red"},
-{ id : 2, known: "Yellow"},
-{ id : 3, known: "Green"},
+{ id : 1, known: "orange"},
+{ id : 2, known: "yellow"},
+{ id : 3, known: "green"},
 ]
 
 const priority: Record<string, number> = {
-    "Green": 1,
-    "Yellow" : 2,
-    "Red" : 3
+    "green": 1,
+    "yellow" : 2,
+    "orange" : 3
 }
 
 export function getAllTech()
 {
-    return technologies.sort((a,b) => priority[a.known] - priority[b.known]);
+    return technologies.sort((a,b) => { return priority[a.known] - priority[b.known]; });
 }
 
 export const technologies = 
@@ -49,50 +49,51 @@ export const technologies =
     {
         name: "SQLite",
         known: "yellow",
-        image: "UE.png",
-        alt_txt: "Unreal Engine Logo",
+        image: "SQLite.webp",
+        alt_txt: "SQLite Logo",
     },
     {
         name: "MySQL",
         known: "yellow",
-        image: "UE.png",
-        alt_txt: "Unreal Engine Logo",
+        image: "MySQL.png",
+        alt_txt: "MySQL Logo",
     },
     {
         name: "Php",
         known: "yellow",
-        image: "UE.png",
-        alt_txt: "Unreal Engine Logo",
+        image: "PHP.webp",
+        alt_txt: "PHP Logo",
     },
     {
         name: "HTML",
         known: "yellow",
-        image: "UE.png",
-        alt_txt: "Unreal Engine Logo",
+        image: "HTML5.webp",
+        alt_txt: "HTML5 Logo",
     },
     {
-        name: "HTMLd",
+        name: "CSS",
         known: "yellow",
-        image: "UE.png",
-        alt_txt: "Unreal Engine Logo",
+        image: "CSS3.webp",
+        alt_txt: "CSS3 Logo",
+    }
+    ,
+    {
+        name: "C",
+        known: "orange",
+        image: "C.png",
+        alt_txt: "C Logo",
     },
     {
-        name: "HTMsL",
+        name: "C++",
         known: "yellow",
-        image: "UE.png",
-        alt_txt: "Unreal Engine Logo",
+        image: "Cpp.webp",
+        alt_txt: "C++ Logo",
     },
     {
-        name: "HTqML",
+        name: "C#",
         known: "yellow",
-        image: "UE.png",
-        alt_txt: "Unreal Engine Logo",
-    },
-    {
-        name: "HTMfL",
-        known: "yellow",
-        image: "UE.png",
-        alt_txt: "Unreal Engine Logo",
+        image: "CS.webp",
+        alt_txt: "C# Logo",
     },
 
 ]

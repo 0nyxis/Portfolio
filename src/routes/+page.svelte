@@ -66,8 +66,8 @@
     }
     .technoDiv
     {
-        display:flex;
-        flex-direction: wrap;
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         gap:1rem;
     }
     .carouselProject
