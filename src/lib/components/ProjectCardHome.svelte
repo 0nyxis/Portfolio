@@ -65,6 +65,6 @@
 		alt={project.alt_txt_thumbnail[$language]}
 		/>
 
-		<p class="textCard"> {project.overview[$language]} </p>
+		<p class="textCard"> <b>{project.title[$language]}</b> {project.overview[$language]} </p>
 	</a>
 </div>

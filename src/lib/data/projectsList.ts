@@ -45,8 +45,8 @@ export const projects : Project[] =
         },
         overview : 
         {
-            fr : "[WIP] Rapide explication",
-            en : "[WIP] Quick explanation",
+            fr : " est un jeu développé sur Python en binôme. Il s'agit de mon tout premier projet, que j'ai ensuite itérer sur du Java, ou C++.",
+            en : " is a game developped using Python in pair. It was my first ever project, and I later iterate it on Java or C++",
         },
         desc :
         {
@@ -80,8 +80,8 @@ export const projects : Project[] =
         },
         overview : 
         {
-            fr : "[WIP] Rapide explication",
-            en : "[WIP] Quick explanation",
+            fr : " est un jeu de survie en montagne, développé par un groupe de 12 personnes sur Unity. Il s'agit de mon projet le plus récent",
+            en : " is a survival game in a mountain, developped by 12 people on Unity. It is the latest work I've been part of",
         },
         desc :
         {
@@ -130,7 +130,7 @@ export const projects : Project[] =
         [
             ""
         ],
-        shown : true,
+        shown : false,
     },
 
     {

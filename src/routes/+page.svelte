@@ -62,7 +62,7 @@
 
     .technoPart
     {
-        display:flex;
+        width : 100%;
     }
     .technoDiv
     {
@@ -105,6 +105,7 @@
         </h3>
         <Texte txt={$translate.home.welcomeTxt}/>
     </div>
+     <br/>
 
     <hr/>
     <div class="Paragraph">
@@ -113,13 +114,13 @@
         </h3>
 
         <Texte txt={$translate.home.projectText}/>
-
+            <br/>
         <div class="carouselProject">
             {#each getFeaturedProjects() as project(project)}
                 <ProjectCardHome {project}/>
             {/each}
         </div>
-
+            <br/>
         <a href="{resolve('/projects')}">{$translate.home.projectLink} </a>
     </div>
 
@@ -139,7 +140,7 @@
             </div>
         </div>
         <Texte txt = {$translate.home.technologiesText} />
-
+            <br/>
         <div class="technoPart">
             <div class="technoDiv">
                 {#each getAllTech() as techno(techno.name)}
@@ -148,7 +149,7 @@
             </div>
         </div>
     </div>
-
+    <br/>
     <hr/>
 
     <div class="Paragraph">
