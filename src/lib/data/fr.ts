@@ -113,13 +113,13 @@ export default
             },
             shrinkingFox : 
             {   
-                src : "shrinkingFox.GIF",
+                src : "shrinkingFox.webm",
                 desc : "",
                 title : "",
             },
             MiniFoxRunning : 
             {   
-                src : "MiniFoxRunning.GIF",
+                src : "MiniFoxRunning.webm",
                 desc : "",
                 title : "",
             },
@@ -127,7 +127,7 @@ export default
             animalAnimConclusion : "",
             RunningFox : 
             {   
-                src : "runningFox.GIF",
+                src : "runningFox.webm",
                 desc : "",
                 title : "",
             },
@@ -145,7 +145,7 @@ export default
             },
             ShootingTheFoxGif : 
             {   
-                src : "ShootingTheFox.GIF",
+                src : "ShootingTheFox.webm",
                 desc : "",
                 title : "",
             },

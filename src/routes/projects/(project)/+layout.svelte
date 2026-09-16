@@ -9,19 +9,20 @@
     .ProjectCard
     {
         width :100%;
+        max-width: 800px;
 
-        border : 2px solid #104439;
-        border-radius: 30px;
+        border : 2px solid var(--border);
+        border-radius: var(--radius);
         overflow:hidden;
 
-        margin-top: 1rem;
+        margin: 1rem auto;
 
         display:grid;
         grid-template-columns: 4fr 3.5fr 2.5fr;
         grid-template-rows: repeat(5, 1fr);
 
         aspect-ratio : 2 / 1;
-        background-color: grey;
+        background-color: var(--background);
     }
 
     .image
@@ -29,10 +30,10 @@
         grid-column: 1;
         grid-row: 1 / 6;
 
-        background-color: white;
+        background-color: var(--background);
 
-        border : 2px solid #104439;
-        border-radius: 30px;
+        border : 2px solid var(--border);
+        border-radius: var(--radius);
         margin : 0 2rem 0 0;
         overflow: hidden;
         align-items: center;
@@ -84,10 +85,10 @@
 
     .title, .desc, .roles, .year, .engines, .tags
     {
-        background-color: white;
+        background-color: var(--background);
 
-        border : 2px solid #104439;
-        border-radius: 30px;
+        border : 2px solid var(--border);
+        border-radius: var(--radius);
         padding: 1rem;
         margin: 0.25rem;
 

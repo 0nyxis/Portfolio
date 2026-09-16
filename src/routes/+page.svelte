@@ -11,13 +11,10 @@
 </script>
 
 <style>
-    .technoHeader
-    {
-        display : flex;
-        justify-content: space-between;
-        align-items: center;
 
-        position: relative;
+    :global(body)
+    {
+        margin: 0 ;
     }
 
     .help
@@ -31,7 +28,7 @@
         justify-content: center;
         align-items: center;
 
-        border: 3px solid black;
+        border: 2px solid var(--border);
         border-radius: 50%;
 
         cursor: help;
@@ -49,8 +46,8 @@
         width: 400px;
         padding: 1rem;
 
-        background-color: #f0f0f0d0;
-        border: 2px solid #888;
+        background-color: var(--help-text-bg);
+        border: 1px solid var(--border);
 
         box-sizing: border-box;
     }
@@ -60,6 +57,14 @@
         display:block;
     }
 
+    .technoHeader
+    {
+        display : flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+
     .technoPart
     {
         width : 100%;
@@ -67,35 +72,40 @@
     .technoDiv
     {
         display:grid;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(90px, 110px));
+        justify-content: center;
         gap:1rem;
     }
+
     .carouselProject
     {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, minmax(0,1fr));
         gap : 2rem;
-        margin: 0 3rem;
-    }
-
-    a
-    {
-        text-decoration: none;
     }
 
     .section
 	{
-		border : 2px solid #104439;
-        border-radius: 30px;
-		padding: 1rem 2rem 1rem 1rem;
-		margin: 1rem;
+		border : 1px solid var(--border);
+        border-radius: var(--radius);
+		padding: 2rem;
+		margin: 2rem 0;
+
+        background-color: var(--background);
 	}
 
 	.Paragraph
 	{
-		display:grid;
-		align-items : center;
+        padding: 1rem 0;
 	}
+
+     @media (max-width:700px)
+     {
+        .carouselProject
+        {
+            grid-template-columns: 1fr;
+        }
+     }
 </style>
 
 <div class="section">

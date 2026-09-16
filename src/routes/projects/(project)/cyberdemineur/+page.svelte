@@ -8,16 +8,19 @@
 <style>
 	.section
 	{
-		border : 2px solid #104439;
-        border-radius: 30px;
-		padding: 1rem 2rem 1rem 1rem;
-		margin: 1rem;
+		border : 1px solid var(--border);
+        border-radius: var(--radius);
+		padding: 2rem;
+		margin: 2rem 0;
+
+        background-color: var(--background);
 	}
 
 	.Paragraph
 	{
+        padding: 1rem 0;
 		display:grid;
-		align-items : center;
+		align-items: center;
 	}
 </style>
 

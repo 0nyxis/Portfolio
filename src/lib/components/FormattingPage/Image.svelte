@@ -5,43 +5,52 @@
 </script>
 
 <style>
+    .containerMedia
+    {
+        width: 100%;
+    }
+
     figure 
     {
         width : 100%;
         margin : 0;
+        padding:1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     img, video
     {
-        display : block;
-        width : 100%;
+        width : auto;
         height : auto;
         max-width: 500px;
-        border-radius: 30px;
-		padding: 1rem;
-
-    }
+        border-radius: var(--radius);
+		box-sizing: border-box;
+        }
 
     figcaption
     {
         text-align: center;
         margin-top: 0rem;
-        padding-top: 0rem;
     }
+
 </style>
 
-<figure>
-    {#if type === "image"}
-        <img src={base + srcLink} alt={altTxt}/> 
-    {:else if type === "video"}
-        <video
-            src={base + srcLink}
-            autoplay
-            loop
-            muted
-            playsinline
-            ></video>
+<div class="containerMedia">
+    <figure>
+        {#if type === "image"}
+            <img src={base + srcLink} alt={altTxt}/> 
+        {:else if type === "video"}
+            <video
+                src={base + srcLink}
+                autoplay
+                loop
+                muted
+                playsinline
+                ></video>
 
-    {/if}
-    <figcaption><em> {title} </em></figcaption>
-</figure>
+        {/if}
+        <figcaption><em> {title} </em></figcaption>
+    </figure>
+</div>
