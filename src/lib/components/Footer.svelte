@@ -1,3 +1,7 @@
+<script>
+	import { Texte } from '$lib/components/FormattingPage/Texte.svelte';
+</script>
+
 <style>
 	p {
 		color:black;
@@ -5,4 +9,18 @@
 	}
 </style>
 
-<footer> <p> LE CLEAC'H Louis - 2026 </p></footer>
+<footer> 
+	<div>
+		<Texte text="GitHub" />
+		<Texte text="itch.io" />
+		<Texte text="LinkedIn" />
+		<Texte text="CV" />
+	</div>
+	<div>
+		<Texte text="Contact : email@example.com" />
+	</div>
+	<p> LE CLEAC'H Louis - 2026 </p>
+
+
+
+</footer>
