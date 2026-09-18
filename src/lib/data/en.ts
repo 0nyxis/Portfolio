@@ -31,6 +31,34 @@ export default
         aboutMeText : "Then check out my \"About page\" !",
         helphover : "What do the colors means ? <br><br>Green -- I have worked with this technology recently and can use it comfortably. <br><br>Yellow -- I have worked extensively with this technology in the past, so my knowledge should come back quickly. <br><br>Orange -- I have worked with this technology in the past, but I may need some time to become comfortable with it again",
     },
+    about :
+    {
+        littleTitle : "A little about me",
+        littleText : "Hi, I'm Louis LE CLEAC'H, or 0nyxis online, and I am a 23-year-old student at the video game programming school Creajeux. Currently in my final year, I'm looking for internship opportunities coming this next year (2027) on game development. I particularly enjoy building gameplay systems and figuring out how different pieces of a game can work together.",
+        
+        journeyTitle : "My journey",
+        journeyTextMiddleSchool : "When I reached middle school, I was asked what the usual question : what do you want to do later ? At that time, I didn't know what to do. But I did know, however, that I was curious and that I enjoyed spending time on a computer. I like writing on a keyboard, exploring things and figuring out how they worked, and at the same time, video games had always been something I enjoyed. Without being sure of it, I settled on this, and went to high school. When I could, I chose my \"specialty\" (a new system where you could choose three school subjects you wanted our main focus to be) : NSI (\"Numérique et Science de l'informatique\", or \"Digital and Computer Science\"), Maths and LLCE (\"Langue Littérature et Culture de l'Etranger\", or \"Language, Litterature and Foreign Culture\") which I chose in English language.",
+        journeyTextHSBUT : "After doing two years of NSI, and a project you can find here, I was assured that I liked developing apps, more specifically games, so I started to search for my next goals, after high school. I could have gone directly to a video game school, but I wanted to have a broader foundation first and keep my options open beyond the game industry. I therefore chose to study for a BUT in Computer Science, where I learned about databases, web development, software architecture, networking and many other areas of computer science.",
+        journeyTextCreajeux : "After those three years passed, this time I was ready to specialize myself in video game, and so I went to Créajeux. The broad range of subjects in the BUT was interesting and useful, but I was happy to return to game development - this time with a stronger foundation and a lot more to learn.",
+
+        beyondTitle : "Beyond development",
+        beyondRoutine : "I'm naturally someone who likes having a routine, but I also try to push myself out of it by experiencing new things. Going somewhere with a friend, trying a new sport, or simply picking up something unfamiliar can sometimes lead to surprisingly good experiences. Speaking of sports, I'm trying to do Calisthenics, but I'm still in the beginner phase. It's going slow, but it's going steady !",
+        beyondGames : "Video games are, unsurprisingly, also a big part of my interests. I enjoy discovering both new and older games, and I tend to jump between very different genres (going from \"Final Fantasy XIV\" and \"Warframe\", to \"The Binding of Isaac\", \"Powerwash\" or even \"A Dance Of Fire And Ice\" or \"Sayonara Wild Hearts\"). I enjoy these games for many different reasons, whether it's the story, gameplay, music, or a combination of three or more.",
+        beyondMusic : "Another thing I find interesting is music, in particular how it contributes to the identity and atmosphere of a game. I've recently started learning piano on my own. I never had formal lessons, so it's definitely a slower process, but I've become increasingly interested in understanding how music is written and how different musical choices affect the feeling of a piece. I also love listening to music, as I listen to a lot of different genres (from  [EXAMPLE])",
+
+        workTitle : "How do I work ?",
+        workTeamProject : "Most of my programming experience has been gained through team projects. Over the past six years, I've worked on more than 15 projects with different teams and team members, including two internships.",
+        workTeamImportance : "Working in a team taught me that programming isn't just about making your own part work. You need to communicate, understand what other people need from your systems and be willing to adapt when the project changes.",
+        workOutside : "I'm also used to this kind of coordination outside of development. I regularly participate in high-level raids in Final Fantasy XIV, where success depends on a group of players understanding their individual responsibilities, communicating during difficult situations, and helping each other recover from mistakes. There's very little value in blaming someone when something goes wrong; the useful question is what the team can change to succeed on the next attempt.",
+
+        lookingTitle : "What I'm looking for",
+        lookingDate : "I'm currently looking for a 6-month game programming internship starting in March 2027, as part of my final year at Créajeux.",
+        lookingWhat : "I'm primarily looking for an opportunity where I can continue developing my skills as a programmer while contributing to a professional game development team.",
+        lookingLocation : "Location: I'm available for on-site work anywhere in France. I'm particularly interested in opportunities around Normandy (Rouen/Évreux) and Occitanie (Nîmes / Montpellier), but I'm open to relocating. I'm also open to international remote opportunities and can adapt my schedule to work with teams in different time zones.",
+
+        talkTitle : "Let's talk :",
+        talkText : "If you'd like to discuss an internship, one of my projects, or simply get in touch, feel free to contact me. Email/LinkedIn/GitHub/CV",
+    },
     projectPage : 
     {
         welcomeTxt : "Welcome here, click on card for more info"

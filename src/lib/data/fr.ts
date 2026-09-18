@@ -30,6 +30,34 @@ export default
         aboutMeText : "Alors n'hésitez pas à aller voir la page \"A propos\" !",
         helphover : "Que veulent dire les couleurs ? <br><br>Vert -- J'ai travaillé récemment avec cette technologie et je peux l'utiliser sans difficulté. <br><br> Jaune -- J'ai beaucoup travaillé avec cette technologie par le passé, mes connaissances devraient donc me revenir rapidement. <br><br> Orange -- J'ai travaillé avec cette technologie par le passé, mais je pourrais avoir besoin de temps pour me remettre à niveau.",
     },
+    about :
+    {
+        littleTitle : "",
+        littleText : "",
+        
+        journeyTitle : "",
+        journeyTextMiddleSchool : "",
+        journeyTextHSBUT : "",
+        journeyTextCreajeux : "",
+
+        beyondTitle : "",
+        beyondRoutine : "",
+        beyondGames : "",
+        beyondMusic : "",
+
+        workTitle : "",
+        workTeamProject : "",
+        workTeamImportance : "",
+        workOutside : "",
+
+        lookingTitle : "",
+        lookingDate : "",
+        lookingWhat : "",
+        lookingLocation : "",
+
+        talkTitle : "",
+        talkText : "",
+    },
     projectPage : 
     {
         welcomeTxt : ""
