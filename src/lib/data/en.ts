@@ -1,7 +1,7 @@
 export default 
 {
     nav : {
-        home:"Home",
+        home:"Louis [0nyxis]",
         projects : "Projects",
         about : "About me",
         btn : 
@@ -23,7 +23,7 @@ export default
         CV : "/CV/CV_LECLEACH_Louis_En.pdf",
         copyright : "© LE CLEAC'H - Louis [0nyxis]",
         contact : "Contact :",
-        mail : "<a href=\"mailto:louislecleach27@gmail.com\"> louislecleach27@gmail.com </a>",
+        mail : "<a href=\"mailto:louislecleach27@gmail.com\" target=\"_blank\"> louislecleach27@gmail.com </a>",
     },
     home :
     {
@@ -35,7 +35,7 @@ export default
         projectLink :  "[See all projects]",
 
         technologiesTitle : "Technologies",
-        technologiesText : "These are the technologies I have worked with in academic, personal and professional projects.My level of experience naturally varies between them.",
+        technologiesText : "These are the technologies I have worked with in academic, personal and professional projects. My level of experience naturally varies between them.",
 
         aboutmeTitle : "Want to know more about me or my studies ?",
         aboutMeText : "Then check out my \"About page\" !",
@@ -90,7 +90,7 @@ export default
             },
 
             title2 : "What is After Impact, in its core ?",
-            whatisit : "After Impact is a survival game. The player first crashes unto a mountain, and needs to explore it to find ways to survive, but most importantly, find a way out. The player will encounter some difficulty : the harsh cold temperature needs to be dealt with, along with a thirst and hunger bar to be filled.  The player might also encounter foes, in the form of animals. To deal with those problems, the player will need to search the world for items like branches, mushrooms, or stone, in order to craft key items, such as a bow and arrows (to hunt the animal down, and get food), campfire to cook food, a tent, to skip the night away (as the cold is stronger at night) etc. While foraging for items like these, the player might encounter key area, like a cabin, where they can progress the story : for them to escape the mountain, they need to find a way to contact a rescue team, and the radio of the plane is busted, so they need to repair it.",
+            whatisit : "After Impact is a survival game. The player first crashes unto a mountain, and needs to explore it to find ways to survive, but most importantly, find a way out. The player will encounter some difficulty : the harsh cold temperature needs to be dealt with, along with a thirst and hunger bar to be filled.  The player might also encounter foes, in the form of animals. <br><br>To deal with those problems, the player will need to search the world for items like branches, mushrooms, or stone, in order to craft key items, such as a bow and arrows (to hunt the animal down, and get food), campfire to cook food, a tent, to skip the night away (as the cold is stronger at night) etc. While foraging for items like these, the player might encounter key area, like a cabin, where they can progress the story : for them to escape the mountain, they need to find a way to contact a rescue team, and the radio of the plane is busted, so they need to repair it.",
 
             Inventory : 
             {   
@@ -112,8 +112,10 @@ export default
                 title : "Img. 3 : Inspector view of the Custom Editor tool of the Item Data",
             },
 
-            customEditor : "With this tool, you could easily add or modify an new item. In there, you could change its name and weight (at first, we wanted to have each item weight something, and take that into account in the inventory and player's speed), but also choose its \"type\" (food, drink, use, craft etc... Those are used to group items that have the same code and function). In another part, you could change its sprite in 2D (we first wanted to show the inventory in 2D, but then later on decided to take inspiration from The Forest, and do a 3D inventory), but also its material and mesh (and those would be set up automatically, with no need to drag them correctly). Later in development, we switched to using FBX files for the 3D assets, which allowed us to import the mesh, material and related data together, including animations for the animals. Lastly, from this Scriptable Object, you had a link to the \"object\" created, so you could click and check its info there. Likewise, the object contained a link to the Scriptable Object. Of course, the created object was automatic, and had the correct script and info, provided in the Scriptable Object.",
+            customEditor : "With this tool, you could easily add or modify an new item. In there, you could change its name and weight (at first, we wanted to have each item weight something, and take that into account in the inventory and player's speed), but also choose its \"type\" (food, drink, use, craft etc... Those are used to group items that have the same code and function). In another part, you could change its sprite in 2D (we first wanted to show the inventory in 2D, but then later on decided to take inspiration from The Forest, and do a 3D inventory), but also its material and mesh (and those would be set up automatically, with no need to drag them correctly). <br><br>Later in development, we switched to using FBX files for the 3D assets, which allowed us to import the mesh, material and related data together, including animations for the animals. Lastly, from this Scriptable Object, you had a link to the \"object\" created, so you could click and check its info there. Likewise, the object contained a link to the Scriptable Object. Of course, the created object was automatic, and had the correct script and info, provided in the Scriptable Object.",
+
             entitiesReused : "After that, I was tasked to do the system behind \"entities\", or rather \"animals\". After some planification, I found that my item system could somewhat be reused, so I did another tool for the animal, in case a lot of animals had to be added, and I kept getting my team's opinion as to what they wanted to add, optimize or automate on these systems.",
+
             customEditor2 : "As you can see, a lot of things are similar to the item tool, particularly in the graphic section. There are a lot more information you can set up there, such as a creature health point, speed, or size (later used for the trap, or navigation system). Since I was also responsible for the loot, I decided to implement it directly in the tool too, with the number of item, and the chance to loot it. In our game, you have \"passive\" and \"aggressive\" animals, who attacks you or not, but also animals that flees you or not, and you could set everything up in the Behavior section.",
 
             CustomEditorEntities : 
@@ -125,7 +127,8 @@ export default
 
             title4b : "b. Animal systems",
             animalOverview : "Having set up the data for the animals, I was then asked to implement them in the game, from their movement logic, to their spawning logic, including how the animations are handled as well as their loot.",
-            animalMovementBehavior : "For their movement logic, I used a NavMesh covering the entire map. I initially thought of doing \"chunks of the map\", only loading those close to the player, but it would have taken too much time to do, as it had to change a lot of systems, hence why I decided to stick with whole map, as it didn't really change the process time, once generated. On it, animals were following a Behavior Tree : their basic movement is to idle, then wander someplace random around themselves. After reaching their goal (or a certain time has passed), they stop, and \"wait\". They actually go to an \"Idle state\", while \"searching\" for the trap around them. If they locate a trap in which they fit, they will then walk towards it and then, would proceed to die. However, if they find nothing, they will just wander off like before, unless they encounter the player. In this case, two possibilities : if the animal is \"agressive\", they will then \"chase\" the player down, running towards it. On the contrary, if they are not agressive but not passive, they will flee away from the player. Finally, if they are passive, and not agressive, they will just continue their cycle of wandering, searching and idling.",
+
+            animalMovementBehavior : "For their movement logic, I used a NavMesh covering the entire map. I initially thought of doing \"chunks of the map\", only loading those close to the player, but it would have taken too much time to do, as it had to change a lot of systems, hence why I decided to stick with whole map, as it didn't really change the process time, once generated. On it, animals were following a Behavior Tree : their basic movement is to idle, then wander someplace random around themselves. <br><br>After reaching their goal (or a certain time has passed), they stop, and \"wait\". They actually go to an \"Idle state\", while \"searching\" for the trap around them. If they locate a trap in which they fit, they will then walk towards it and then, would proceed to die. However, if they find nothing, they will just wander off like before, unless they encounter the player. In this case, two possibilities : if the animal is \"agressive\", they will then \"chase\" the player down, running towards it. On the contrary, if they are not agressive but not passive, they will flee away from the player. Finally, if they are passive, and not agressive, they will just continue their cycle of wandering, searching and idling.",
 
             BehaviorTree : 
             {   
@@ -186,7 +189,9 @@ export default
             title4c : "c. Hunting systems",
             huntOverview : "After that, I implemented mechanics that were closed to the animals, consisting of two methods of hunting : a bow-based projectile system and deployable traps.",
             huntTraps : "Traps could be placed freely in the environment. When an animal entered the trap's trigger area, its movement was disabled and after a few seconds, its death state would be triggered, which eventually produce its loot.",
-            bowAndArrow : "As for the bow and arrow, I had to work on projectiles. Except from falling particles, we didn't have anything close to it in the code, so I had to search a bit about projectiles. After some test, and research, I ended up using a Raycast from the viewport of the camera, and to calculate its distance based on the time the player charged it. To tell the player it was at full charge, there was a small reticule in the center of the screen. At first, we wanted to keep the game with intradiegetic element, and such interface element were incoherent, but we later used floating texts, and other interface symbol, so I decided to do a dynamic reticule, appearing when equipping the bow, and changing depending on the current charge. Also, when doing that, the camera zooms in a bit, as you're aiming for a target in front of you. Once the player release the click, it spawns an arrow with an initial velocity based on the charged, going forward (following the raycast from the viewport) and then, if it collide with anything, it sticks to it, and if it's an animal, it proceeds on activating the death state. Even if you could only shoot the arrow you have crafted previously, and don't have infinite arrows, I decided to put some failsafe to avoid any lags, hence why the arrows have a lifespan, and a check using their current height (if they fall through the map), in which case if they exceed a value, they will be destroyed.",
+
+            bowAndArrow : "As for the bow and arrow, I had to work on projectiles. Except from falling particles, we didn't have anything close to it in the code, so I had to search a bit about projectiles. After some test, and research, I ended up using a Raycast from the viewport of the camera, and to calculate its distance based on the time the player charged it. To tell the player it was at full charge, there was a small reticule in the center of the screen. At first, we wanted to keep the game with intradiegetic element, and such interface element were incoherent, but we later used floating texts, and other interface symbol, so I decided to do a dynamic reticule, appearing when equipping the bow, and changing depending on the current charge. Also, when doing that, the camera zooms in a bit, as you're aiming for a target in front of you.<br><br> Once the player release the click, it spawns an arrow with an initial velocity based on the charged, going forward (following the raycast from the viewport) and then, if it collide with anything, it sticks to it, and if it's an animal, it proceeds on activating the death state. Even if you could only shoot the arrow you have crafted previously, and don't have infinite arrows, I decided to put some failsafe to avoid any lags, hence why the arrows have a lifespan, and a check using their current height (if they fall through the map), in which case if they exceed a value, they will be destroyed.",
+            
             arrowDifficulty : "I had some difficulties making the arrow work, as it was continuously changed whether it be its size, or model, and that would cause some collision bug. After a while, I also noticed that it wasn't shooting straight, because it was somewhat reflected by other object. So, I decided it would ignore the player's model and physique, as well as the bow's, and other arrows. That way, it would shoot straight ahead !",
 
             ShootingTheFox : 
@@ -219,7 +224,7 @@ export default
         cyberdemineur :
         {
             titleOverview : "Overview",
-            textOverview : "Cyberdémineur was a game I developed during my final year of high school, as part of a class called \"NSI\" (\"Numérique et Science de l'informatique\", or \"Digital and Computer Science\"). We were asked to work in small groups on a project of our choice. I worked with a friend on my idea for a Minesweeper-inspired game. \n\n After three months of development in Python, using the PIL, TKinter and SQLite libraries, we had a fully playable game that exceeded our teachers' expectations. A few years later, I recreated the game in Java and C++/SFML. All of the versions are available in French only.",
+            textOverview : "Cyberdémineur was a game I developed during my final year of high school, as part of a class called \"NSI\" (\"Numérique et Science de l'informatique\", or \"Digital and Computer Science\"). We were asked to work in small groups on a project of our choice. I worked with a friend on my idea for a Minesweeper-inspired game. <br><br> After three months of development in Python, using the PIL, TKinter and SQLite libraries, we had a fully playable game that exceeded our teachers' expectations. A few years later, I recreated the game in Java and C++/SFML. All of the versions are available in French only.",
 
             ConceptArt : 
             {
@@ -229,13 +234,13 @@ export default
             },
 
             whatIsTitle : "What is Cyberdémineur ?",
-            whatIsText : "Cyberdemineur is a Minesweeper-inspired logic game. The player must locate hidden bombs using the numbers displayed around them. \n\n Unlike the original Minesweeper, the game gives the player three lives, allowing them to make mistakes without immediately losing the game. It features three difficulty levels - Easy, Medium, and Hard - which change the grid size and number of bombs. Players can also submit their completion time to a local high-score database.",
+            whatIsText : "Cyberdemineur is a Minesweeper-inspired logic game. The player must locate hidden bombs using the numbers displayed around them. <br><br> Unlike the original Minesweeper, the game gives the player three lives, allowing them to make mistakes without immediately losing the game. It features three difficulty levels - Easy, Medium, and Hard - which change the grid size and number of bombs. Players can also submit their completion time to a local high-score database.",
 
             contriTitle : "My contributions and responsibilities",
-            contriText : "As the project was based on my original idea, I was responsible for most of the programming. My main contributions were: \n- Grid generation Algorithm\n- Main game loop and game-state management\n- Options menu \n- High-score system and SQLite database integration",
+            contriText : "As the project was based on my original idea, I was responsible for most of the programming. My main contributions were: <br>- Grid generation Algorithm<br>- Main game loop and game-state management<br>- Options menu <br>- High-score system and SQLite database integration",
 
             aTitle : "a. Grid Creation Algorithm.",
-            aText : "The first thing I implemented was the grid generation algorithm. Each difficulty defines the dimensions of the grid and the number of bombs to generate. \n\nThe algorithm first creates an empty 2D array, randomly places the bombs while preventing duplicates, and then calculates the number of adjacent bombs for every remaining cell. \n\nOne of the first problems I encountered was handling cells at the edges of the grid. My initial implementation checked neighboring cells directly, which could result in accesses outside the bounds of the array. \n\nTo avoid adding numerous special cases for edges and corner cells, I added a one-cell border around the playable grid. These additional rows and columns could never contain bombs, allowing the generation algorithm to safely inspect every neighboring cell. Once generation was complete, the border was removed before the grid was used by the game.\n\nI also implemented first-click protection. When the player open their first cell, the generated grid is checked to ensure that the selected cell doesn't contain a bomb. If it does, the grid is regenerated until a valid starting position is found.",
+            aText : "The first thing I implemented was the grid generation algorithm. Each difficulty defines the dimensions of the grid and the number of bombs to generate. <br><br>The algorithm first creates an empty 2D array, randomly places the bombs while preventing duplicates, and then calculates the number of adjacent bombs for every remaining cell. <br><br> One of the first problems I encountered was handling cells at the edges of the grid. My initial implementation checked neighboring cells directly, which could result in accesses outside the bounds of the array. <br><br>To avoid adding numerous special cases for edges and corner cells, I added a one-cell border around the playable grid. These additional rows and columns could never contain bombs, allowing the generation algorithm to safely inspect every neighboring cell. Once generation was complete, the border was removed before the grid was used by the game.<br><br>I also implemented first-click protection. When the player open their first cell, the generated grid is checked to ensure that the selected cell doesn't contain a bomb. If it does, the grid is regenerated until a valid starting position is found.",
 
             generatedGrid :
             {
@@ -255,7 +260,7 @@ export default
                 title : "Img. 3 : The menu to choose the difficulty of the game",
             },
 
-            bTextGame : "Once the player selects a difficulty, the grid is generated and displayed unopened. The player starts with three lives, and the timer begins after the first valid cell is opened. Every time a cell is opened or flagged, the game checks if the number of bombs found (and opened) + the number of correctly flagged cells are equal to the number of bombs to find. If it is, the screen changes to the \"Victory\" one, and if not, it just continues the game. If the player ever clicks and discovers a bomb, he will lose a life, and the algorithm will check if he still has more than 0 lives. If it's not the case, the screen changes to the \"Too bad\" screen, prompting the player to try again, or quit the game.",
+            bTextGame : "Once the player selects a difficulty, the grid is generated and displayed unopened. The player starts with three lives, and the timer begins after the first valid cell is opened. <br><br>Every time a cell is opened or flagged, the game checks if the number of bombs found (and opened) + the number of correctly flagged cells are equal to the number of bombs to find. If it is, the screen changes to the \"Victory\" one, and if not, it just continues the game. If the player ever clicks and discovers a bomb, he will lose a life, and the algorithm will check if he still has more than 0 lives. <br><br>If it's not the case, the screen changes to the \"Too bad\" screen, prompting the player to try again, or quit the game.",
 
             pythonGameOpened :
             {
@@ -282,7 +287,7 @@ export default
             },
 
             dTitle : "d. Score handling and database integration",
-            dText : "During the project, I wanted to apply the database concepts we had learned in class to something useful within the game. A Minesweeper-style game naturally lends itself to a high-score system, so I implemented a local database to store player names and completion times. \n\nI used SQLite to create and manage the high-score table. Because this system was implemented relatively late in development, its interface is less polished than the rest of the game, but the underlying system is functional.",
+            dText : "During the project, I wanted to apply the database concepts we had learned in class to something useful within the game. A Minesweeper-style game naturally lends itself to a high-score system, so I implemented a local database to store player names and completion times. <br><br>I used SQLite to create and manage the high-score table. Because this system was implemented relatively late in development, its interface is less polished than the rest of the game, but the underlying system is functional.",
 
             DBCode :
             {
@@ -295,7 +300,7 @@ export default
             laterIterOverview : "Cyberdémineur did not end with the original Python version. As I learned new languages and frameworks, I repeatedly returned to the project to see how I could rebuild it with tools I had learned.",
 
             javaTitle : "Java",
-            javaText : "After finishing high school, I learned Java and decided to recreate Cyberdémineur as a personal exercise once I was comfortable enough with the language. \n\nI spent approximately one to two weeks rebuilding the core gameplay. The Java version retains the main Minesweeper mechanics, including the grid generation, lives, timer, and flagging system, but does not include some of the features of the original version, such as the difficulty selection, music, background customization, and victory/defeat screens.\n\nThis version was primarly an exercise in transferring an existing gameplay system to a new language rather than creating a complete replacement for the original game.",
+            javaText : "After finishing high school, I learned Java and decided to recreate Cyberdémineur as a personal exercise once I was comfortable enough with the language. <br><br>I spent approximately one to two weeks rebuilding the core gameplay. The Java version retains the main Minesweeper mechanics, including the grid generation, lives, timer, and flagging system, but does not include some of the features of the original version, such as the difficulty selection, music, background customization, and victory/defeat screens.<br><br>This version was primarly an exercise in transferring an existing gameplay system to a new language rather than creating a complete replacement for the original game.",
 
             javaFullGrid :
             {
@@ -312,7 +317,7 @@ export default
             },
 
             cppTitle : "C++",
-            cppText : "Later, after learning C++ and SFML at Créajeux, I decided to recreate Cyberdémineur once again. This version was another opportunity to apply what I had learned to a project I already understood.\n\n Compared with the original Python version, the implementation focuses more on the presentation and navigation of the game. The interface is rendered at a consistent scale in fullscreen, and the player can navigate larger grids using ZQSD.\n\nSome features from the original were intentionally left out. The Options and Leaderboards buttons remain visible but disabled, as those systems were not implemented in this version. Music and the timer were also omitted.",
+            cppText : "Later, after learning C++ and SFML at Créajeux, I decided to recreate Cyberdémineur once again. This version was another opportunity to apply what I had learned to a project I already understood.<br><br> Compared with the original Python version, the implementation focuses more on the presentation and navigation of the game. The interface is rendered at a consistent scale in fullscreen, and the player can navigate larger grids using ZQSD.<br><br>Some features from the original were intentionally left out. The Options and Leaderboards buttons remain visible but disabled, as those systems were not implemented in this version. Music and the timer were also omitted.",
 
             cppMainMenu :
             {
@@ -338,7 +343,7 @@ export default
             retroTextB : "Writing a list of desired features is one thing; having the scope to implement them is another. With the original version of Cyberdémineur, I quickly realized that a custom difficulty system would be too much for the project, so I chose to remove it from the scope. In the later iterations, I initially wanted to recreate the original game feature-for-feature, but quickly realized that this wasn't the purpose of those versions. That is something I remember when thinking of new fonctionalities : a feature can be a good idea while still not being appropriate for the scope of the project.",
 
             retroTitleC : "Revisiting my own work",
-            retroTextC : "Revisiting Cyberdémineur several years after its original development gave me an opportunity to see how my programming approach had evolved. The original Python version was primarily focused on making the game work, while the later implementations gave me more opportunities to think about structure, presentation, and maintainability. \n\nEven while writing this portfolio page, I found myself going back to my C++ implementation to understand decisions I had made months earlier. It was a good reminder that code should not only work when it is written, but should also remain understandable when returning to it later.",
+            retroTextC : "Revisiting Cyberdémineur several years after its original development gave me an opportunity to see how my programming approach had evolved. The original Python version was primarily focused on making the game work, while the later implementations gave me more opportunities to think about structure, presentation, and maintainability. <br><br>Even while writing this portfolio page, I found myself going back to my C++ implementation to understand decisions I had made months earlier. It was a good reminder that code should not only work when it is written, but should also remain understandable when returning to it later.",
 
             links : "<a href=\"https://github.com/ThomasRub/Cyberdemineur\"> Game's Python version </a>, on my friend's GitHub page. <br> <a href=\"https://github.com/0nyxis/Cyberdemineur-Java\"> Game's Java version</a>, on my GitHub page. <br> <a href=\"https://github.com/0nyxis/Cyberdemineur-Cpp\"> Game's C++ version</a> , on my GitHub page."
         },

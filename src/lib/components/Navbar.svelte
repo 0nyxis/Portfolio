@@ -20,17 +20,21 @@
 		z-index : 100;
 
 		height: 70px;
-		
-		display : flex;
-		justify-content: space-between;
-		align-items: center;
-
-		padding: 0 2rem;
-		
+				
 		background-color: #a0a2a5;
 		color : white;
 		
 		box-sizing: border-box;
+	}
+
+	.navContent {
+		width : min(1200px, calc(100% - 40px));
+		height: 100%;
+		margin : 0 auto;
+		
+		display : flex;
+		justify-content: space-between;
+		align-items: center;
 	}
 
 	.navbar a 
@@ -71,10 +75,16 @@
 
 	.sous-menu li
 	{
+		padding: 0;
+	}
+
+	.sous-menu li a
+	{
+		display : block;
 		padding: 0.6rem 1rem;
 	}
 
-	.sous-menu li:hover
+	.sous-menu li a:hover
 	{
 		background-color: #294840;
 	}
@@ -93,7 +103,7 @@
 	{
 		display : flex;
 		align-items: center;
-		gap: 1.5rem;
+		gap: 1rem;
 	}
 
 	.right > ul 
@@ -101,28 +111,35 @@
 		display: flex;
 		align-items: center;
 		gap:1.5rem;
+
 		list-style: none;
 		margin:0;
-		padding:0;
+		padding:0 3rem 0 0;
 	}
 </style>
 
 <nav class="navbar">
-	<div class="left">
-		<a href={resolve("/")}> {$translate.nav.home} </a>
-	</div>
-	<div class="right"> 
-	<ul >
-		<li class="projects"><a href={resolve("/projects")}> {$translate.nav.projects} </a>
-			<ul class="sous-menu">
-			
-				{#each getFeaturedProjects() as project(project.id)}
-					<a href={resolve(project.link)}><li class="elt-sous-menu"> {project.title[$language]} </li></a>
-				{/each}
-			</ul>
-		</li>
-		<li><a href={resolve("/about")}> {$translate.nav.about} </a></li>
-	</ul>
-		<ButtonTheme/> <ButtonLanguage/>
-	</div>	
+	<div class="navContent">
+		<div class="left">
+			<a href={resolve("/")}> {$translate.nav.home} </a>
+		</div>
+		<div class="right"> 
+		<ul>
+			<li class="projects"><a href={resolve("/projects")}> {$translate.nav.projects} </a>
+				<ul class="sous-menu">
+				
+					{#each getFeaturedProjects() as project(project.id)}
+						<li class="elt-sous-menu">
+							<a href={resolve(project.link)}> {project.title[$language]}</a>
+						</li>
+					{/each}
+				</ul>
+			</li>
+			<li>
+				<a href={resolve("/about")}> {$translate.nav.about} </a>
+			</li>
+		</ul>
+			<ButtonTheme/> <ButtonLanguage/>
+		</div>	
+</div>
 </nav>

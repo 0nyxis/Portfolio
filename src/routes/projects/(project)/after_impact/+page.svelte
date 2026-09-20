@@ -46,6 +46,7 @@
 				srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.ImgForShow.src} 
 				altTxt={$translate.project.after_impact.ImgForShow.desc} 
 				title={$translate.project.after_impact.ImgForShow.title}
+				maxWidth = "700px"
 			/>
 		</div>
 		<div class="Paragraph">
@@ -58,6 +59,7 @@
 			srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.Inventory.src} 
 			altTxt={$translate.project.after_impact.Inventory.desc} 
 			title={$translate.project.after_impact.Inventory.title}
+			maxWidth = "700px"
 		/>
 	</div>
 
@@ -78,6 +80,7 @@
 				srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.CustomEditorItem.src} 
 				altTxt={$translate.project.after_impact.CustomEditorItem.desc} 
 				title={$translate.project.after_impact.CustomEditorItem.title}
+				maxWidth = "300px"
 				/>
 			<Texte txt={$translate.project.after_impact.customEditor}/>
 		</div>
@@ -112,6 +115,7 @@
 				srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.BehaviorTree.src} 
 				altTxt={$translate.project.after_impact.BehaviorTree.desc} 
 				title={$translate.project.after_impact.BehaviorTree.title}
+				maxWidth = "700px"
 				/>
 		</div>
 
@@ -124,12 +128,14 @@
 				srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.SpawnerInScene.src} 
 				altTxt={$translate.project.after_impact.SpawnerInScene.desc} 
 				title={$translate.project.after_impact.SpawnerInScene.title}
+				maxWidth = "450px"
 				/>
 			<Media 
 				type="image"
 				srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.SpawnerInInspector.src} 
 				altTxt={$translate.project.after_impact.SpawnerInInspector.desc} 
 				title={$translate.project.after_impact.SpawnerInInspector.title}
+				maxWidth = "400px"
 				/>
 		</div>
 
@@ -137,7 +143,7 @@
 			<Texte txt={$translate.project.after_impact.animalAnimation}/>
 		</div>
 
-		<div class="Paragraph" style="grid-template-columns:repeat(3, minmax(0,1fr));">
+		<div class="Paragraph" style="grid-template-columns:repeat(2, minmax(0,1fr));">
 			<Media 
 				type="image"
 				srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.FoxBig.src} 
@@ -150,6 +156,9 @@
 				altTxt={$translate.project.after_impact.shrinkingFox.desc} 
 				title={$translate.project.after_impact.shrinkingFox.title}
 				/>
+		</div>
+
+		<div class="Paragraph" style="grid-template-columns:repeat(1, minmax(0,1fr));">
 			<Media 
 				type="video"
 				srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.MiniFoxRunning.src} 

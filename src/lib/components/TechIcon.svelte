@@ -7,6 +7,20 @@
     p 
     {
         display:none;
+        
+        position: absolute;
+        z-index: 1;
+
+        top: calc(60% + 10px);
+        right: 0;
+
+        width: 100%;
+        padding: 0.2rem;
+
+        background-color: var(--help-text-bg);
+        border: 1px solid var(--border);
+
+        box-sizing: border-box;
     }
 
     .TechIcon
@@ -24,6 +38,11 @@
         border: 2px solid #000000;
 
         box-sizing: border-box;
+    }
+
+    .TechIcon:hover p{
+        display : flex;
+        justify-content: center;
     }
 
     img

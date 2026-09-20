@@ -38,6 +38,7 @@
 			srcLink={"/images/projects/Cyberdemineur/" + $translate.project.cyberdemineur.ConceptArt.src} 
 			altTxt={$translate.project.cyberdemineur.ConceptArt.desc} 
 			title={$translate.project.cyberdemineur.ConceptArt.title}
+			maxWidth = "700px"
 		/>
 	</div>
 
@@ -63,6 +64,7 @@
 			srcLink={"/images/projects/Cyberdemineur/" + $translate.project.cyberdemineur.generatedGrid.src} 
 			altTxt={$translate.project.cyberdemineur.generatedGrid.desc} 
 			title={$translate.project.cyberdemineur.generatedGrid.title}
+			maxWidth = "300px"
 		/>
 	</div>
 
@@ -78,6 +80,7 @@
 			srcLink={"/images/projects/Cyberdemineur/" + $translate.project.cyberdemineur.difficultyPage.src} 
 			altTxt={$translate.project.cyberdemineur.difficultyPage.desc} 
 			title={$translate.project.cyberdemineur.difficultyPage.title}
+			maxWidth = "700px"
 		/>
 	</div>	
 
@@ -123,6 +126,7 @@
 			srcLink={"/images/projects/Cyberdemineur/" + $translate.project.cyberdemineur.DBCode.src} 
 			altTxt={$translate.project.cyberdemineur.DBCode.desc} 
 			title={$translate.project.cyberdemineur.DBCode.title}
+				maxWidth = "700px"
 		/>
 	</div>
 </div>

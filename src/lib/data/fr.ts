@@ -1,7 +1,7 @@
 export default 
 {
     nav : {
-        home:"Page principale",
+        home:"Louis [0nyxis]",
         projects : "Projets",
         about : "A propos",
         btn : 

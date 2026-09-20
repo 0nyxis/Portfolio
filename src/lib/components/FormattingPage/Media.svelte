@@ -1,7 +1,7 @@
 <script>
     import { base } from '$app/paths';
 
-	let {type, srcLink, altTxt, title} = $props();
+	let {type, srcLink, altTxt, title, maxWidth = "500px"} = $props();
 </script>
 
 <style>
@@ -40,15 +40,32 @@
 <div class="containerMedia">
     <figure>
         {#if type === "image"}
-            <img src={base + srcLink} alt={altTxt}/> 
+            {#if maxWidth != "500px"}  
+                <img src={base + srcLink} alt={altTxt} style="max-width:{maxWidth} !important; width:{maxWidth} !important"/> 
+            {:else}
+                <img src={base + srcLink} alt={altTxt}/> 
+            {/if}
         {:else if type === "video"}
-            <video
-                src={base + srcLink}
-                autoplay
-                loop
-                muted
-                playsinline
-                ></video>
+            {#if maxWidth != "500px"}
+                <video
+                    src={base + srcLink}
+                    autoplay
+                    loop
+                    muted
+                    playsinline
+                    
+                    style="max-width:{maxWidth} !important; 
+                            width:{maxWidth} !important">
+                </video>
+            {:else}
+                <video
+                    src={base + srcLink}
+                    autoplay
+                    loop
+                    muted
+                    playsinline>
+                </video>
+            {/if}
 
         {/if}
         <figcaption><em> {title} </em></figcaption>
