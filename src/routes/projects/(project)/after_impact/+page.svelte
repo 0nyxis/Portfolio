@@ -1,6 +1,7 @@
 <script>
-	import Image from '$lib/components/FormattingPage/Image.svelte';
+	import Media from '$lib/components/FormattingPage/Media.svelte';
 	import Texte from '$lib/components/FormattingPage/Texte.svelte';
+	import Title from '$lib/components/FormattingPage/Title.svelte';
 	import { translate } from '$lib/data/translateSystem';
 
 </script>
@@ -34,15 +35,13 @@
 </style>
 <div class="section">
 	<div class="Paragraph">
-		<h3>
-			<Texte txt={$translate.project.after_impact.title1}/>
-		</h3>
+		<Title txt={$translate.project.after_impact.title1}/>
 		<Texte txt={$translate.project.after_impact.overview}/>
 	</div>
 
 	<div class="Paragraph" style="grid-template-columns:repeat(3, minmax(0,1fr));">
 		<br>
-			<Image 
+			<Media 
 				type="image"
 				srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.ImgForShow.src} 
 				altTxt={$translate.project.after_impact.ImgForShow.desc} 
@@ -50,13 +49,11 @@
 			/>
 		</div>
 		<div class="Paragraph">
-			<h4>
-				<Texte txt={$translate.project.after_impact.title2}/>
-			</h4>
+			<Title txt={$translate.project.after_impact.title2}/>
 			<Texte txt={$translate.project.after_impact.whatisit}/>
 		</div>
 
-		<Image 
+		<Media 
 			type="image"
 			srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.Inventory.src} 
 			altTxt={$translate.project.after_impact.Inventory.desc} 
@@ -66,21 +63,17 @@
 
 	<div class="section">
 		<div class="Paragraph">
-			<h4>
-				<Texte txt={$translate.project.after_impact.title3}/>
-			</h4>
+			<Title txt={$translate.project.after_impact.title3}/>
 			<Texte txt={$translate.project.after_impact.contributions}/>
 		</div>
 
 		<div class="Paragraph">
-			<h4>
-				<Texte txt={$translate.project.after_impact.title4a}/>
-			</h4>
+			<Title txt={$translate.project.after_impact.title4a}/>
 			<Texte txt={$translate.project.after_impact.itemEntitySys}/>
 		</div>
 
 		<div class="Paragraph" style="grid-template-columns:repeat(2, minmax(0,1fr));">
-			<Image 
+			<Media 
 				type="image"
 				srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.CustomEditorItem.src} 
 				altTxt={$translate.project.after_impact.CustomEditorItem.desc} 
@@ -95,7 +88,7 @@
 				<br>
 				<Texte txt={$translate.project.after_impact.customEditor2}/>
 			</div>
-			<Image 
+			<Media 
 				type="image"
 				srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.CustomEditorEntities.src} 
 				altTxt={$translate.project.after_impact.CustomEditorEntities.desc} 
@@ -107,16 +100,14 @@
 	
 	<div class="section">
 		<div class="Paragraph">
-			<h4>
-				<Texte txt={$translate.project.after_impact.title4b}/>
-			</h4>
+			<Title txt={$translate.project.after_impact.title4b}/>
 			<Texte txt={$translate.project.after_impact.animalOverview}/>
 		</div>
 			<br>
 		<div class="Paragraph">
 			<Texte txt={$translate.project.after_impact.animalMovementBehavior}/>
 
-			<Image 
+			<Media 
 				type="image"
 				srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.BehaviorTree.src} 
 				altTxt={$translate.project.after_impact.BehaviorTree.desc} 
@@ -128,13 +119,13 @@
 			<Texte txt={$translate.project.after_impact.animalSpawning}/>
 		</div>
 		<div class="Paragraph" style="grid-template-columns:repeat(2, minmax(0,1fr));">
-			<Image 
+			<Media 
 				type="image"
 				srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.SpawnerInScene.src} 
 				altTxt={$translate.project.after_impact.SpawnerInScene.desc} 
 				title={$translate.project.after_impact.SpawnerInScene.title}
 				/>
-			<Image 
+			<Media 
 				type="image"
 				srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.SpawnerInInspector.src} 
 				altTxt={$translate.project.after_impact.SpawnerInInspector.desc} 
@@ -147,19 +138,19 @@
 		</div>
 
 		<div class="Paragraph" style="grid-template-columns:repeat(3, minmax(0,1fr));">
-			<Image 
+			<Media 
 				type="image"
 				srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.FoxBig.src} 
 				altTxt={$translate.project.after_impact.FoxBig.desc} 
 				title={$translate.project.after_impact.FoxBig.title}
 				/>
-			<Image 
+			<Media 
 				type="video"
 				srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.shrinkingFox.src} 
 				altTxt={$translate.project.after_impact.shrinkingFox.desc} 
 				title={$translate.project.after_impact.shrinkingFox.title}
 				/>
-			<Image 
+			<Media 
 				type="video"
 				srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.MiniFoxRunning.src} 
 				altTxt={$translate.project.after_impact.MiniFoxRunning.desc} 
@@ -172,7 +163,7 @@
 		</div>
 
 		<div class="Paragraph">
-			<Image 
+			<Media 
 				type="video"
 				srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.RunningFox.src} 
 				altTxt={$translate.project.after_impact.RunningFox.desc} 
@@ -183,9 +174,7 @@
 
 <div class="section">
 	<div class="Paragraph">
-		<h4>
-			<Texte txt={$translate.project.after_impact.title4c}/>
-		</h4>
+		<Title txt={$translate.project.after_impact.title4c}/>
 		<Texte txt={$translate.project.after_impact.huntOverview}/>
 		<br>
 		<Texte txt={$translate.project.after_impact.huntTraps}/>
@@ -199,13 +188,13 @@
 	</div>
 
 	<div class="Paragraph" style="grid-template-columns:repeat(2, minmax(0,1fr));">
-		<Image 
+		<Media 
 			type="image"
 			srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.ShootingTheFox.src} 
 			altTxt={$translate.project.after_impact.ShootingTheFox.desc} 
 			title={$translate.project.after_impact.ShootingTheFox.title}
 			/>
-		<Image 
+		<Media 
 			type="video"
 			srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.ShootingTheFoxGif.src} 
 			altTxt={$translate.project.after_impact.ShootingTheFoxGif.desc} 
@@ -216,39 +205,29 @@
 
 <div class="section">
 	<div class="Paragraph">
-		<h4>
-			<Texte txt={$translate.project.after_impact.retrospectiveTitle}/>
-		</h4>
+		<Title txt={$translate.project.after_impact.retrospectiveTitle}/>
 		<Texte txt={$translate.project.after_impact.retroOverview}/>
 	</div>
 
 	<div class="Paragraph">
-		<h4>
-			<Texte txt={$translate.project.after_impact.retroTitleA}/>
-		</h4>
+		<Title txt={$translate.project.after_impact.retroTitleA}/>
 		<Texte txt={$translate.project.after_impact.retroA}/>
 	</div>
 
 	<div class="Paragraph">
-		<h4>
-			<Texte txt={$translate.project.after_impact.retroTitleB}/>
-		</h4>
+		<Title txt={$translate.project.after_impact.retroTitleB}/>
 		<Texte txt={$translate.project.after_impact.retroB}/>
 	</div>
 
 	<div class="Paragraph">
-		<h4>
-			<Texte txt={$translate.project.after_impact.retroTitleC}/>
-		</h4>
+		<Title txt={$translate.project.after_impact.retroTitleC}/>
 		<Texte txt={$translate.project.after_impact.retroC}/>
 	</div>
 
 	<div class="Paragraph">
-		<h4>
-			<Texte txt={$translate.project.after_impact.retroTitleD}/>
-		</h4>
+		<Title txt={$translate.project.after_impact.retroTitleD}/>
 		<Texte txt={$translate.project.after_impact.retroD}/>
 		<br>
-		<Texte txt={$translate.project.after_impact.links}/>
+		<Title txt={$translate.project.after_impact.links}/>
 	</div>
 </div>

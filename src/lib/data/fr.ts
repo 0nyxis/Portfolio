@@ -14,6 +14,16 @@ export default
             french : "Passer en Français",
         }
     },
+    footer : {
+        titleTouch : "Let's get in touch : ",
+        github : "https:\/\/github.com\/0nyxis",
+        itchio : "https:\/\/0nyxis.itch.io\/",
+        LinkedIn : "https:\/\/www.linkedin.com\/in\/louis-le-cleach\/",
+        CV : "/CV/CV_LECLEACH_Louis_Fr.pdf",
+        copyright : "© LE CLEAC'H - Louis [0nyxis]",
+        contact : "Contact :",
+        mail : "louislecleach27@gmail.com",
+    },
     home :
     {
         welcomeTitle : "Louis [0nyxis] - Programmeur de Jeux Vidéo",
@@ -60,7 +70,8 @@ export default
     },
     projectPage : 
     {
-        welcomeTxt : ""
+        welcomeTitle : "Bienvenu sur ma page de projets !",
+        welcomeText : "Sur cette page, vous pouvez brièvement lire quel était le principe du projet, ainsi que l'année dans laquelle il a été produit. Vous y trouvez également la plateforme ou langage utilisé, ainsi que le rôle que j'avais dans ce projet. Si vous souhaitez avoir plus d'informations sur un projet spécifique, cliquez sur sa carte."
     },
 
     project:

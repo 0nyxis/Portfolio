@@ -15,6 +15,16 @@ export default
 
         }
     },
+    footer : {
+        titleTouch : "Let's get in touch : ",
+        github : "https:\/\/github.com\/0nyxis",
+        itchio : "https:\/\/0nyxis.itch.io\/",
+        LinkedIn : "https:\/\/www.linkedin.com\/in\/louis-le-cleach\/",
+        CV : "/CV/CV_LECLEACH_Louis_En.pdf",
+        copyright : "© LE CLEAC'H - Louis [0nyxis]",
+        contact : "Contact :",
+        mail : "<a href=\"mailto:louislecleach27@gmail.com\"> louislecleach27@gmail.com </a>",
+    },
     home :
     {
         welcomeTitle : "Louis [0nyxis] - Game Programmer",
@@ -61,7 +71,8 @@ export default
     },
     projectPage : 
     {
-        welcomeTxt : "Welcome here, click on card for more info"
+        welcomeTitle : "Welcome to my project page !",
+        welcomeText : "On this page, you can read briefly what each project were, as well as the year it was made in. You also have the plateform or language used and what role I had in the project. If you want more info on a specific project, click on it.",
     },
 
      project:

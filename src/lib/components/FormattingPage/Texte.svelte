@@ -3,5 +3,5 @@
 </script>
 
 <div>
-    {@html txt}
+    &nbsp;&nbsp;&nbsp;&nbsp; {@html txt}
 </div>

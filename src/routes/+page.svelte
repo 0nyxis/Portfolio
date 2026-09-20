@@ -6,6 +6,7 @@
 	import { getAllTech } from '$lib/data/technologies';
 	import TechIcon from '$lib/components/TechIcon.svelte';
 	import Texte from '$lib/components/FormattingPage/Texte.svelte';
+	import Title from '$lib/components/FormattingPage/Title.svelte';
 
 
 </script>
@@ -110,18 +111,14 @@
 
 <div class="section">
     <div class="Paragraph">
-        <h3>
-            <Texte txt={$translate.home.welcomeTitle}/>
-        </h3>
+        <Title txt={$translate.home.welcomeTitle}/>
         <Texte txt={$translate.home.welcomeTxt}/>
     </div>
      <br/>
 
     <hr/>
     <div class="Paragraph">
-        <h3>
-            <Texte txt={$translate.home.projectTitle}/>
-        </h3>
+        <Title txt={$translate.home.projectTitle}/>
 
         <Texte txt={$translate.home.projectText}/>
             <br/>
@@ -138,9 +135,7 @@
 
     <div class="Paragraph">
         <div class="technoHeader">
-            <h4>
-                <Texte txt = {$translate.home.technologiesTitle} />
-            </h4>  
+            <Title txt = {$translate.home.technologiesTitle} />
 
             <div class="help">
                 <span> ? </span>
@@ -163,9 +158,7 @@
     <hr/>
 
     <div class="Paragraph">
-        <h3>
-            <Texte txt={$translate.home.aboutmeTitle}/>
-        </h3>
+        <Title txt={$translate.home.aboutmeTitle}/>
         <a href="{resolve('/about')}">{$translate.home.aboutMeText} </a>
     </div>
 </div>
