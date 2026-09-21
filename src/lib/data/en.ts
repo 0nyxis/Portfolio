@@ -110,7 +110,7 @@ export default
             CustomEditorItem : 
             {   
                 src : "CustomEditorItem.png",
-                desc : "Screenshot from the Unity project of\"After Impact\" showing the Custom Editor tool I made.",
+                desc : "Screenshot from the Unity project of \"After Impact\" showing the Custom Editor tool I made.",
                 title : "Img. 3 : Inspector view of the Custom Editor tool of the Item Data",
             },
 

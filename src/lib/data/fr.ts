@@ -87,40 +87,42 @@ export default
             ImgForShow : 
             {   
                 src : "ImageForShow.png",
-                desc : "",
-                title : "",
+                desc : "Capture d'écran de \"After Impact\" montrant une montre avec l'heure 21:54. Il fait nuit, et on peut voir que l'ambiance devient sombre.",
+                title : "Img. 1 : Capture d'écran pendant la nuit",
             },
 
-            title2 : "",
-            whatisit : "",
+            title2 : "Qu'est-ce qu'After Impact, en son essence ?",
+            whatisit : "After Impact est un jeu de survie. L'avion de notre personnage a eu un accident, et a atteris sur une montagne, et le joueur doit l'explorer dans l'espoir de survivre, et surtout, trouver une façon de partir. Il devra faire face à certaines difficultés : la froide température est son principal adversaire, mais il devra également gérer une barre de soif et de faim. Le joueur pourra également rencontrer des adversaires, dans la forme d'animaux. <br> <br> Pour faire face à ces problèmes, le joueur devra chercher dans le monde des objets comme des branches, des champignons, ou des pierres par exemple, afin de fabriquer des objets clés, tel que l'arc et les flèches (permettant de chasser les animaux, et obtenir à manger), un feu de camp pour cuisiner à manger, une tente pour passer la nuit (le froid est plus important pendant la nuit) etc. Pendant sa recherhce, il pourra également trouver des zones clés, telles que la cabine, où l'histoire peut progresser : en effet, pour s'échapper de la montagne, le joueur doit trouver un moyen de contacter les secours, et la radio de l'avion est cassée, alors il doit la réparer.",
             Inventory : 
             {   
                 src : "Inventory.png",
-                desc : "",
-                title : "",
+                desc : "Capture d'écran d'\"After Impact\" montrant l'inventaire du joueur. A tapis blanc est positionné au centre, il s'agit la zone de craft. Autour, plusieurs objets sont disposés en groupe : bâtons, cordes, pierres...",
+                title : "Img. 2 : Capture d'écran de l'inventaire",
             },
 
-            title3 : "",
-            contributions : "",
+            title3 : "Mes contributions et responsabilités",
+            contributions : "Sur ce projet, j'ai travaillé sur de nombreux aspect du jeu. Mes responsabilités étaient : <br>- Objets, et leurs données <br>- Outils de l'éditeur Unity personnalisés <br>- Les données liés aux animaux <br>- Apparition, comportement, mort et objet lié à la mort des animaux <br>- Intégration des animations <br>- Système de chasse et de piège <br>- Système d'arc et de projectiles",
 
-            title4a : "",
-            itemEntitySys : "",
+            title4a : "a. Système d'objets et d'entités",
+            itemEntitySys : "La première chose que j'ai dû faire était d'implémenter les objets, et comment elles sont gérées dans le jeu, en tant que données. Après avoir fait quelques recherches, j'ai appris que leur meilleure représentation sous Unity était les \"Scriptable Object\", un format qui permet d'ajouter et de mettre à jour des objets en dehors de la partie programmation. Depuis le début, je me disais que les artistes voudraient  peut-être eux-même ajouter des objets dans le jeu, afin de les positionner dans la scène par exemple, et je ne voulais pas qu'ils soient obligés de demander à un programmeur, ou à \"apprendre le code\". J'ai alors décidé de faire une outils Éditeur Personnalisé de Unity pour palier à ce problème. ",
+
             CustomEditorItem : 
             {   
                 src : "CustomEditorItem.png",
-                desc : "",
-                title : "",
+                desc : "Capture d'écran du projet Unity de \"After Impact\" montrant l'outils Editeur Personnalisé que j'ai fait.",
+                title : "Img. 3 : Vue de l'inspecteur de l'outils Editeur Personnalisé du script \"Item Data\" (donnée d'objet)",
             },
 
-            customEditor : "",
-            entitiesReused : "",
-            customEditor2 : "",
+            customEditor : "Avec cet outils, vous pouvez facilement ajouter ou modifier un nouvel objet. Dans ce menu, vous pouviez changer son nom et poids (nous pensions au départ mettre un système qui prenait en compte le poid total des objets dans l'inventaire, et qui ralentirait le joueur), et nous pouvons également choisir son \"type\" (nourriture, boisson, utilisation, fabrication etc... Ceci était utilisé pour grouper les objets qui ont les mêmes codes et fonctions). Dans une autre partie, nous pouvions changer son Sprite en 2D (à l'origine, nous voulions afficher l'inventaire en 2D, mais avons fait le choix de prendre une inspiration de The Forest, and de faire un inventaire en 3D), mais également son Matériel et Mesh (and ceci se paramètrent autoamtiquement, sans besoin de le faire à la main). <br><br>Plus tard dans le développement, nous avons changé afin d'utiliser les fichiers FBX pour les assets 3D, ce qui a nous permis d'importer le Mesh, Materiel, et autre données en lien en même temps, cela incluant par exemple les animations pour les animaux. Enfin, depuis ces Scriptable Object, vous aviez un lien vers \"l'objet\" créé, de façon à pouvoir directement clicker et vérifier les informations là-bas. De la même manière, l'objet contenait un lien vers le Scriptable Object. Evidemment, l'objet créé était créé de manière automatique, et possédait directement les bon script et information, inscrite dans le Scriptable Object.",
+
+            entitiesReused : "Après cela, j'ai eu pour tâche de faire le système derrière les \"entités\", ou plutôt les \"animaux\". Après quelques plannifications, j'ai trouvé que mon système d'objet pouvait en quelques sortes être réutiliser, alors j'ai fait un second outils, pour les animaux cette fois-ci, pour le cas où de nombreux animaux pourraient être ajouté, and je continuais d'avoir l'avis de mon équipe pour ce qui est de ce qu'ils voulaient dans ces outils, que ce soit en terme d'optimisations ou d'automatisation.",
+            customEditor2 : "Comme vous pouvez le voir, de nombreuses choses sont similaire à l'outils d'objet, particulièrement dans la section graphique. Il y a beaucoup plus d'informations que vous pouvez modifier ici en plus, telle que les points de vie de la créature, sa vitesse, sa taille (plus tard utilisé pour les pièges, ou le système de navigation). Puisque j'étais également responsables du butin, j'ai décidé de l'implémenter directement dans l'outils aussi, avec le nombre d'objet ainsi que sa chance d'être laissé par l'ennemis en mourrant. Dans notre jeu, il y a des animaux \"passifs\" et \"aggressifs\", qui vous attaquent ou non, mais également des animaux qui fuient en vous voyons ou non, et tout cela était paramétrable dans la section \"Comportement\" (\"Behavior\").",
 
             CustomEditorEntities : 
             {   
                 src : "CustomEditorEntities.png",
-                desc : "",
-                title : "title roodjf sd",
+                desc : "Capture d'écran du projet Unity de \"After Impact\" montrant l'outils Editeur Personnalisé que j'ai fait. Cette fois-ci, il s'agit de l'outils Entités",
+                title : "Img. 4 : Outils Editeur Personnalisé pour les entités",
             },
 
             title4b : "",
