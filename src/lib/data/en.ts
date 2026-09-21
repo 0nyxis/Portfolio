@@ -23,7 +23,7 @@ export default
         CV : "/CV/CV_LECLEACH_Louis_En.pdf",
         copyright : "© LE CLEAC'H - Louis [0nyxis]",
         contact : "Contact :",
-        mail : "<a href=\"mailto:louislecleach27@gmail.com\" target=\"_blank\"> louislecleach27@gmail.com </a>",
+        mail : "louislecleach27@gmail.com",
     },
     home :
     {
@@ -47,8 +47,10 @@ export default
         littleText : "Hi, I'm Louis LE CLEAC'H, or 0nyxis online, and I am a 23-year-old student at the video game programming school Creajeux. Currently in my final year, I'm looking for internship opportunities coming this next year (2027) on game development. I particularly enjoy building gameplay systems and figuring out how different pieces of a game can work together.",
         
         journeyTitle : "My journey",
-        journeyTextMiddleSchool : "When I reached middle school, I was asked what the usual question : what do you want to do later ? At that time, I didn't know what to do. But I did know, however, that I was curious and that I enjoyed spending time on a computer. I like writing on a keyboard, exploring things and figuring out how they worked, and at the same time, video games had always been something I enjoyed. Without being sure of it, I settled on this, and went to high school. When I could, I chose my \"specialty\" (a new system where you could choose three school subjects you wanted our main focus to be) : NSI (\"Numérique et Science de l'informatique\", or \"Digital and Computer Science\"), Maths and LLCE (\"Langue Littérature et Culture de l'Etranger\", or \"Language, Litterature and Foreign Culture\") which I chose in English language.",
-        journeyTextHSBUT : "After doing two years of NSI, and a project you can find here, I was assured that I liked developing apps, more specifically games, so I started to search for my next goals, after high school. I could have gone directly to a video game school, but I wanted to have a broader foundation first and keep my options open beyond the game industry. I therefore chose to study for a BUT in Computer Science, where I learned about databases, web development, software architecture, networking and many other areas of computer science.",
+        journeyTextMiddleSchool : "When I reached middle school, I was asked what the usual question : what do you want to do later ? At that time, I didn't know what to do. But I did know, however, that I was curious and that I enjoyed spending time on a computer. I like writing on a keyboard, exploring things and figuring out how they worked, and at the same time, video games had always been something I enjoyed. Without being sure of it, I settled on this, and went to high school. When I could, I chose my \"specialty\" (a new system where you could choose three school subjects you wanted our main focus to be) : NSI (\"Numérique et Science de l'informatique\", or \"Digital and Computer Science\"), Maths and LLCE (\"Langue Littérature et Cultures Étrangères\", or \"Language, Litterature and Foreign Culture\") which I chose in English language.",
+
+        journeyTextHSBUT : "After doing two years of NSI, and a project you can find here, I was assured that I liked developing apps, more specifically games, so I started to search for my next goals, after high school. I could have gone directly to a video game school, but I wanted to have a broader foundation first and keep my options open beyond the game industry. I therefore chose to study for a BUT in Computer Science in Le Havre, where I learned about databases, web development, software architecture, networking and many other areas of computer science.",
+
         journeyTextCreajeux : "After those three years passed, this time I was ready to specialize myself in video game, and so I went to Créajeux. The broad range of subjects in the BUT was interesting and useful, but I was happy to return to game development - this time with a stronger foundation and a lot more to learn.",
 
         beyondTitle : "Beyond development",
@@ -59,12 +61,12 @@ export default
         workTitle : "How do I work ?",
         workTeamProject : "Most of my programming experience has been gained through team projects. Over the past six years, I've worked on more than 15 projects with different teams and team members, including two internships.",
         workTeamImportance : "Working in a team taught me that programming isn't just about making your own part work. You need to communicate, understand what other people need from your systems and be willing to adapt when the project changes.",
-        workOutside : "I'm also used to this kind of coordination outside of development. I regularly participate in high-level raids in Final Fantasy XIV, where success depends on a group of players understanding their individual responsibilities, communicating during difficult situations, and helping each other recover from mistakes. There's very little value in blaming someone when something goes wrong; the useful question is what the team can change to succeed on the next attempt.",
+        workOutside : "I'm also used to this kind of coordination outside of development. I regularly participate in high-level raids in \"Final Fantasy XIV\", where success depends on a group of players understanding their individual responsibilities, communicating during difficult situations, and helping each other recover from mistakes. There's very little value in blaming someone when something goes wrong; the useful question is what the team can change to succeed on the next attempt.",
 
         lookingTitle : "What I'm looking for",
         lookingDate : "I'm currently looking for a 6-month game programming internship starting in March 2027, as part of my final year at Créajeux.",
         lookingWhat : "I'm primarily looking for an opportunity where I can continue developing my skills as a programmer while contributing to a professional game development team.",
-        lookingLocation : "Location: I'm available for on-site work anywhere in France. I'm particularly interested in opportunities around Normandy (Rouen/Évreux) and Occitanie (Nîmes / Montpellier), but I'm open to relocating. I'm also open to international remote opportunities and can adapt my schedule to work with teams in different time zones.",
+        lookingLocation : "Location: I'm available for on-site work anywhere in France. I'm particularly interested in opportunities around Normandy (Rouen / Évreux) and Occitanie (Nîmes / Montpellier), but I'm open to relocating. I'm also open to international remote opportunities and can adapt my schedule to work with teams in different time zones.",
 
         talkTitle : "Let's talk :",
         talkText : "If you'd like to discuss an internship, one of my projects, or simply get in touch, feel free to contact me. Email/LinkedIn/GitHub/CV",
@@ -80,7 +82,7 @@ export default
         after_impact :
         {
             title1 : "Overview",
-            overview : "After Impact was a game that I made during my third year at Créajeux, in 2026. We were working in a team composed of 8 programmers, and 4 graphic artists, and with 5 months to produce a playable game, we had to regularly balance technical ambition with the time and resources available. As for the programming, we used Unity, C#, FMOD and Visual Studio for the IDE.",
+            overview : "After Impact was a game that I made during my third year at Créajeux, in 2026. We were working in a team composed of 8 programmers, and 4 graphic artists, and with 5 months to produce a playable game, we had to regularly balance technical ambition with the time and resources available. As for the programming, we used Unity, C#, FMOD, Visual Studio for the IDE, and SVN as our VCS (Version Control System).",
 
             ImgForShow : 
             {   
