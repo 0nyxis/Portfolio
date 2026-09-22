@@ -3,7 +3,7 @@ export default
     nav : {
         home:"Louis [0nyxis]",
         projects : "Projets",
-        about : "A propos",
+        about : "À propos",
         btn : 
         {
             darkmodeTxt : "Mode ",
@@ -15,7 +15,7 @@ export default
         }
     },
     footer : {
-        titleTouch : "Let's get in touch : ",
+        titleTouch : "Venez me contacter : ",
         github : "https:\/\/github.com\/0nyxis",
         itchio : "https:\/\/0nyxis.itch.io\/",
         LinkedIn : "https:\/\/www.linkedin.com\/in\/louis-le-cleach\/",
@@ -26,46 +26,46 @@ export default
     },
     home :
     {
-        welcomeTitle : "Louis [0nyxis] - Programmeur de Jeux Vidéo",
-        welcomeTxt : "Salut, je suis un étudiant en programmation de jeux-vidéo à Créajeux, spécialisé dans le gameplay, et la conception de systèmes. <br><br> J'aime créer des jeux, expérimenter avec de technologies je ne connaissais pas, et surtout résoudre les problèmes techniques qui se cachent derrière les expériences interactives, souvent invisibles aux utilisateurs.",
+        welcomeTitle : "Louis [0nyxis] - Programmeur de jeux vidéo",
+        welcomeTxt : "Salut, je suis un étudiant en programmation de jeux vidéo à Créajeux, spécialisé dans l'élaboration de gameplay et de conception de systèmes. <br><br> J'aime créer des jeux, expérimenter avec de nouvelles technologies et surtout résoudre les problèmes techniques qui se cachent derrière les expériences interactives, souvent invisibles aux utilisateurs.",
 
         projectTitle : "Projets",
-        projectText : "Voici une sélection de projets sur lesquels j'ai travaillé au cours de mes études, ainsi que projet personnel.",
-        projectLink :  "[Voir tout les projets]",
+        projectText : "Voici une sélection de projets sur lesquels j'ai travaillé au cours de mes études, ainsi que projets personnels.",
+        projectLink :  "[Voir tous les projets]",
 
         technologiesTitle : "Technologies",
         technologiesText : "Voici les technologies que j'ai utilisées au cours de mes projets académiques, personnels et professionnels. Mon niveau d'expérience varie naturellement selon les technologies.",
 
         aboutmeTitle : "Vous voulez en savoir plus sur moi ou mes études ?",
-        aboutMeText : "Alors n'hésitez pas à aller voir la page \"A propos\" !",
-        helphover : "Que veulent dire les couleurs ? <br><br>Vert -- J'ai travaillé récemment avec cette technologie et je peux l'utiliser sans difficulté. <br><br> Jaune -- J'ai beaucoup travaillé avec cette technologie par le passé, mes connaissances devraient donc me revenir rapidement. <br><br> Orange -- J'ai travaillé avec cette technologie par le passé, mais je pourrais avoir besoin de temps pour me remettre à niveau.",
+        aboutMeText : "Alors n'hésitez pas à aller voir la page \"À propos\" !",
+        helphover : "Que signifient les couleurs ? <br><br>Vert -- J'ai travaillé récemment avec cette technologie et je peux l'utiliser sans difficulté. <br><br> Jaune -- J'ai beaucoup travaillé avec cette technologie par le passé, mes connaissances devraient donc me revenir rapidement. <br><br> Orange -- J'ai travaillé avec cette technologie par le passé, mais je pourrais avoir besoin de temps pour me remettre à niveau.",
     },
     about :
     {
-        littleTitle : "Un peu à propos de moi",
-        littleText : "Salut, je m'appelle Louis LE CLEAC'H, ou 0nyxis en ligne,et je suis un étudiant de 23 ans à Créajeux, une école de programmation de jeux vidéo. Actuellement dans ma dernière année d'étude, je suis à la recherche d'opportunités de stage pour l'année prochaine (2027), sur développement de jeux. Je suis particulièrement intéressé par l'élaboration de systèmes de gameplay, ainsi que trouver comment plusieurs morceaux d'un jeu peuvent fonctionner ensemble.",
+        littleTitle : "Quelques mots sur moi",
+        littleText : "Salut, je m'appelle Louis LE CLEAC'H, ou 0nyxis en ligne, et je suis un étudiant de 23 ans à Créajeux, une école de programmation de jeux vidéo. Actuellement dans ma dernière année d'études, je suis à la recherche d'opportunités de stage pour l'année prochaine (2027), dans le développement de jeux vidéo. Je suis particulièrement intéressé par la conception de systèmes de gameplay et par la manière dont les différentes parties d'un jeu peuvent fonctionner ensemble.",
         
         journeyTitle : "Mon parcours",
-        journeyTextMiddleSchool : "Quand je suis rentré au collège, on m'a posé la fameuse question : Qu'est-ce que tu veux faire plus tard ? A ce moment-là, je ne savais pas quoi répondre. Ce que je savais en revanche, c'est que j'ai toujours été curieux et que j'aimais passer du temps sur un ordinateur. J'aime écrire sur un clavier, découvrir de nouvelles choses, et surtout comprendre comment les choses fonctionnent, et en même temps, les jeux vidéos étaient une passion pour moi. Sans être vraiment sûr, je suis donc rester sur cette idée, et je suis allé au lycée. Lorsque j'ai dû choisir mes spécialités (le nouveau système remplaçant les filières, où nous devons choisir trois matières pour avoir notre ), j'ai choisis les suivantes : NSI (\"Numérique et Sciences de l'Informatique\"), Mathématiques, et LLCE (\"Langues, Littératures et Cultures Étrangères\") que j'ai choisis en anglais.",
+        journeyTextMiddleSchool : "Quand je suis rentré au collège, on m'a posé la fameuse question : Qu'est-ce que tu veux faire plus tard ? À ce moment-là, je ne savais pas quoi répondre. Ce que je savais en revanche, c'est que j'ai toujours été curieux et que j'aimais passer du temps sur un ordinateur. J'aime écrire sur un clavier, découvrir de nouvelles choses, et surtout comprendre comment les choses fonctionnent, et en même temps, les jeux vidéos étaient une passion pour moi. Sans être vraiment sûr, je suis donc resté sur cette idée, et je suis allé au lycée. Lorsque j'ai dû choisir mes spécialités (le nouveau système remplaçant les filières, où nous devons choisir trois matières pour commencer à nous spécialiser), j'ai choisi les suivantes : NSI (\"Numérique et Sciences de l'Informatique\"), Mathématiques, et LLCE (\"Langues, Littératures et Cultures Étrangères\"), que j'ai choisie en anglais.",
 
-        journeyTextHSBUT : "Après avoir fait deux ans en NSI, et un projet que vous pouvez trouver ici, j'étais sûr que j'aimais développer des applications, plus particulièrement des jeux vidéos, alors j'ai cherché mes prochaines destinations, après le lycée. J'aurais pu directement aller en école de jeux-vidéos, mais je voulais d'abord avoir des bases plus solides et garder mes options ouvertes au delà de l'industrie du jeu vidéo. J'ai donc choisis d'aller en BUT Informatique, au Havre, où j'ai étudié de nombreux domaines, allant de base de données, développement web, architecture logicielle, réseaux et bien d'autre domaines informatiques.",
+        journeyTextHSBUT : "Après avoir fait deux ans en NSI, et un projet que vous pouvez trouver ici, j'étais sûr que j'aimais développer des applications, plus particulièrement des jeux vidéos, alors j'ai réfléchi à la suite de mes études, après le lycée. J'aurais pu directement aller en école de jeux-vidéos, mais je voulais d'abord avoir des bases plus solides et garder mes options ouvertes au-delà de l'industrie du jeu vidéo. J'ai donc choisi d'aller en BUT Informatique, au Havre, où j'ai étudié de nombreux domaines, allant de base de données, au développement web, en passant par l'architecture logicielle, les réseaux et bien d'autre domaines de l'informatiques.",
 
-        journeyTextCreajeux : "Après ces trois nouvelles années, cette fois-ci, j'étais prêt à me spécialiser dans le développement de jeux vidéo, alors je suis allé à Créajeux. Le large éventail de sujets du BUT était intéressant et utile, mais j'étais heureux de revenir au développement de jeux vidéo - cette fois-ci avec une base plus solide, and encore beaucoup à apprendre.",
+        journeyTextCreajeux : "Après ces trois années, cette fois-ci, j'étais prêt à me spécialiser dans le développement de jeux vidéo, alors je suis allé à Créajeux. Le large éventail de sujets du BUT était intéressant et utile, mais j'étais heureux de revenir au développement de jeux vidéo - cette fois-ci avec une base plus solide, et encore beaucoup à apprendre.",
 
         beyondTitle : "Au-delà du développement",
-        beyondRoutine : "Je suis naturellement quelqu'un qui aime avoir une routine, mais j'essaie d'en sortir en essayant de nouvelles choses. Sortir avec des amis, essayer un nouveau sport, ou juste faire quelque chose d'inhabituel peu parfois, et c'est assez surprenant, amener à de bonnes expériences. En parlant de sport, j'ai démarré la pratique de la Calisthenics, mais je suis encore un débutant. Ça avance doucement, mais ça avance au moins !",
+        beyondRoutine : "Je suis naturellement quelqu'un qui aime avoir une routine, mais j'essaie aussi d'en sortir en expérimentant de nouvelles choses. Sortir avec des amis, essayer un nouveau sport ou simplement découvrir quelque chose d'inhabituel peu parfois, et c'est assez surprenant, mener à de très bonnes expériences. En parlant de sport, je me suis récemment mis à la Callisthénie, mais je suis encore débutant. Ça avance doucement, mais ça avance au moins !",
 
-        beyondGames : "Les jeux vidéos sont, sans surprises, une grande partie de mes hobbies. J'aime découvrir à la fois de vieux jeux, et de nouveaux jeux, et j'ai tendance à alterner des genres bien différents (allant de \"Final Fantasy XIV\" à \"Warframe\", de \"The Binding of Isaac\", \"Powerwash\" ou même \"A Dance of Fire and Ice\" ou \"Sayonara Wild Hearts\"). J'apprécie ces jeux pour un tas de raisons, que ce soit pour leur histoire, gameplay, musique, ou même un mélange des trois, ou plus encore.",
+        beyondGames : "Les jeux vidéos sont, sans surprise, une grande partie de mes hobbies. J'aime découvrir à la fois de vieux jeux, et de nouveaux jeux, et j'ai tendance à alterner des genres bien différents (de \"Final Fantasy XIV\" et \"Warframe\" à \"The Binding of Isaac\", \"Powerwash\" ou même \"A Dance of Fire and Ice\" et \"Sayonara Wild Hearts\"). J'apprécie ces jeux pour un tas de raisons, que ce soit pour leur histoire, leur gameplay, leur musique, ou même un mélange des trois, ou plus encore.",
 
-        beyondMusic : "Une autre chose que je trouve intéressante est la musique, en particulier comment elle peut contribuer à l'identité  et l'atmosphère d'un jeu. J'ai récemment commencé à apprendre le piano de mon côté. Je n'ai jamais eu de véritable leçon, alors c'est assez lent, mais j'apprends à mon rythme. Je suis aussi intéressé par la compréhension de comment sont faites les musiques, et comment certains choix affectent le ressentiment d'un morceau. J'aime aussi écouter de la musique, ayant tendance à écouter de nombreux genre différents ()",
+        beyondMusic : "Une autre chose que je trouve intéressante est la musique, en particulier comment elle peut contribuer à l'identité et l'atmosphère d'un jeu. J'ai récemment commencé à apprendre le piano de mon côté. Je n'ai jamais eu de véritable leçon, alors c'est assez lent, mais j'apprends à mon rythme. Je suis aussi intéressé par la compréhension de comment sont faites les musiques, et comment certains choix affectent le ressenti d'un morceau. J'aime aussi écouter de la musique, ayant tendance à écouter de nombreux genres différents ()",
 
         workTitle : "Comment est-ce que je travaille ?",
-        workTeamProject : "La plupart de mon expérience en programmation a été acquise en travaillant en projets d'équipe. Ces 6 dernières années, j'ai travaillé sur plus de 15 projets avec des équipes ou membres d'équipe différents, et cela inclut deux stages.",
-        workTeamImportance : "Travailler en équipe m'a appris que la programmation, ce n'est pas juste faire en sorte que son code fonctionne. Il est important de communiquer, et comprendre ce dont les autres ont besoin de nos systèmes, et être prêt à les adapater lorsque le projet change.",
-        workOutside : "J'ai aussi l'habitude de ce genre de coordination en dehors du développement. Je participe régulièrement à des raids de haut niveau dans \"Final Fantasy XIV\", où le succès est basé sur un groupe de joueur qui arrive à comprendre leurs responsabilités individuelles, communiquer dans des situations difficiles, et s'aider mutuellement à se relever après une erreur. Ca ne sert à rien de remettre la faute sur quelqu'un lorsqu'une erreur est faite; la question importante est de savoir ce que l'équipe peut changer afin de réussir au prochain essai.",
+        workTeamProject : "La plupart de mon expérience en programmation a été acquise en travaillant sur des projets en équipe. Ces 6 dernières années, j'ai travaillé sur plus de 15 projets avec différentes équipes et différents membres d'équipe, et cela inclut deux stages.",
+        workTeamImportance : "Travailler en équipe m'a appris que la programmation, ce n'est pas juste faire en sorte que son code fonctionne. Il est important de communiquer, et de comprendre ce dont les autres ont besoin de nos systèmes, et d'être prêt à les adapter lorsque le projet change.",
+        workOutside : "J'ai aussi l'habitude de ce genre de coordination en dehors du développement. Je participe régulièrement à des raids de haut niveau dans \"Final Fantasy XIV\", où la réussite dépends d'un groupe de joueurs qui arrive à comprendre leurs responsabilités individuelles, communiquer dans des situations difficiles, et s'aider mutuellement à se relever après une erreur. Ça ne sert à rien de remettre la faute sur quelqu'un lorsqu'une erreur est commise; la question importante est de savoir ce que l'équipe peut changer afin de réussir au prochain essai.",
 
         lookingTitle : "Ce que je cherche",
-        lookingDate : "Je suis actuellement à la recherche d'un stage de 6 mois dans la programmation de jeu vidéo, à partir de mars 2027, afin de valider ma dernière année de Créajeux.",
+        lookingDate : "Je suis actuellement à la recherche d'un stage de six mois en programmation de jeu vidéo, à partir de mars 2027, dans le cadre de ma dernière année à Créajeux.",
         lookingWhat : "Je suis principalement à la recherche d'une opportunité où je pourrais continuer à développer mes compétences en tant que programmeur tout en contribuant à une équipe professionnelle dans le développement de jeu.",
         lookingLocation : "Lieux : Je suis disponible pour travailler en présentiel partout en France. Je suis en particulier intêresser par les opportunités autour de la Normandie (Rouen / Évreux), et en Occitanie (Nîmes / Montpellier), mais je reste ouvert à déménager. Je suis également ouvert à l'internationnal pour des opportunités en distanciel, et je peux adapter mon emplois du temps afin de travailler avec des équipes sur un fuseau horaire différent.",
 
@@ -125,213 +125,216 @@ export default
                 title : "Img. 4 : Outils Editeur Personnalisé pour les entités",
             },
 
-            title4b : "",
-            animalOverview : "",
-            animalMovementBehavior : "",
+            title4b : "b. Systèmes liés aux animaux",
+            animalOverview : "Ayant fait les données pour les animaux, on m'a ensuite demandé de les implémenter dans le jeu, de leur logique de mouvement à leur apparition, tout en incluant comment les animations fonctionnent et comment la génération de leur butin se fait.",
+
+            animalMovementBehavior : "Pour leur logique de mouvement, j'ai utilisé un NavMesh qui couvrait toute la carte. A l'origine, je pensais faire des \"morceaux de la carte\", ne chargeant que ceux proche du joueur, mais cela aurait pris trop de temps à être fait, puisque cela devait changer beaucoup de systèmes. C'est pour cela que j'ai décidé de rester avec la carte en entière, puisque ça ne changeait pas le temps de gestion, une fois générée. Dessus, les animaux suivaient un Arbre de Comportement (\"Behavior Tree\") : leur mouvement de base était \"l'attente\" (ou \"idle\"), puis se dirige à un endroit aléatoire proche d'eux. <br><br> Après avoir atteint cet objectif, ils repassent en état \"Idle\", pendant qu'ils \"cherchent\" s'il y a un piège autour d'eux. S'ils trouvent piège dans lequel ils rentrent (selon leur taille), alors ils commenceront à marcher vers ce dernier, et finiront par mourir. En revanche, s'ils ne trouvent rien, ils choisiront un endroit aléatoire autour d'eux et s'y dirigeront comme auparavant, sauf s'ils croisent le joueur. Dans ce cas, il y a deux possibilités : si l'animal est \"aggressif\", alors il va \"pourchasser\" le joueur, en courant dans sa direction. Au contraire, s'il n'est pas aggressif mais non passif, alors il fuira le joueur. Enfin, s'il est passif et non aggressif, l'animal va simplement continuer son cycle de balade, recherche et attente.",
+
             BehaviorTree : 
             {   
                 src : "BehaviorTree.png",
-                desc : "",
-                title : "",
+                desc : "Dessin du Behavior Tree (\"Arbre de Comportement\") fait pour les entités. En haut, on voit comment ils réagissent lorsqu'ils voient le joueur : fuir ou pourchasser. Puis, s'ils le perdent de vue, ils retournent à leur mouvement habituel : des boucles entre \"se balader\", \"chercher des pièges\" et \"attente\".",
+                title : "Img. 5 : Dessin que j'ai fait du Behavior Tree (\"Arbre de Comportement\") pour les animaux",
             },
 
-            animalSpawning : "",
+            animalSpawning : "L'apparition des animaux a été faite vers la fin du développement. A l'origine, ils étaient placés à la main, un par un, au bon endroit, et loin du joueur. Mais rien que pour la chasse, et aussi notre santé mentale, nous avons décidé d'implémenter des \"spawner\" d'apparition. Voulant qu'il soit réutilisable dans le futur, j'ai décidé de faire un simple espace, autour duquel un objet ou animal pourrait apparaître, avec la possibilité d'ajouter plusieurs choses, et d'y ajouter un \"poid\". Vous pouviez aussi changer le nombre \"d'apparition adjacente\" possible, afin d'éviter d'avoir un nombre infinis de renards, ou de branches. Enfin, sur la vue de la scène, j'ai fait en sorte qu'on puisse toujours clicker sur cette zone, afin de la voir elle, les choses qui peuvent apparaîtrent, mais aussi leur pourcentage d'apparition, calculé en utilisant les poids entrés auparavant.",
+
             SpawnerInScene : 
             {   
                 src : "SpawnerInScene.png",
-                desc : "",
-                title : "",
+                desc : "Capture d'écran d'un tronc tombé, dans la scène. Il est utilisé en tant que spawner pour les renard. Sur cet écran, on peut aussi voir en haut \"Max: 5\#, signifiant que seule 5 entités peuvent apparaître à la fois. Sur chaque côté, on peut voir quelle entité peut apparaître, ours et renard, et leur chances d'apparaître, 20% et 80%. Au centre, il y a une orbe verte, qui permet au développeur de clicker sur l'objet \"spawner\" pour le bouger.",
+                title : "Img. 6 : Vu du spawner dans la scène du projet",
             },
             SpawnerInInspector : 
             {   
                 src : "SpawnerInInspector.png",
-                desc : "",
-                title : "",
+                desc : "Capture d'écran du spawner dans l'inspecteur. Dans l'exemple, il n'y a qu'un type d'entité, le renard, avec un poid de 1. Il ne peut y avoir que 5 entités à la fois à ce spawner, et une entité peut apparaître une fois toutes les quatres secondes.",
+                title : "Img. 7 : Vue du spawner dans l'inspecteur du projet",
             },
 
-            animalAnimation : "",
+            animalAnimation : "Intégrer les animations des animaux s'est avéré plus compliqué, car notre équipe n'avait pas d'animateur désigné. Plusieurs animations importées avait une taille d'os ou configuration de squelette incorrecte. C'est pourquoi, en dessous, vous pouvez observer un problème lors de l'affichage du renard, forçant sa texture et son mesh à être étiré dramaticalement. Une autre animation a causé le modèle en entier à réduire en taille de façon aggressive lorsqu'elle est jouée, comme montré par les deux vidéos ci-dessous.",
             FoxBig : 
             {   
                 src : "FoxBig.png",
-                desc : "",
-                title : "",
+                desc : "Capture d'écran du renard. Ces os étirent son modèle bien plus que son modèle ne le permet, le faisant ressembler à une sorte de dinosaure, ou de giraffe. Le renard surplombe la forêt, le faisant ressembler à une créature préhistorique.",
+                title : "Img. 8 : Le renard, avec ses os qui étirent le modèle",
             },
             shrinkingFox : 
             {   
                 src : "shrinkingFox.webm",
-                desc : "",
-                title : "",
+                desc : "Vidéo montrant le renard, commençant à réduire de taille dès que le joueur s'approche. On dirait qu'il a peur du joueur, et que rétrécir est un mécanisme de défense.",
+                title : "Img. 9 : Le renard réduit en taille",
             },
             MiniFoxRunning : 
             {   
                 src : "MiniFoxRunning.webm",
-                desc : "",
-                title : "",
+                desc : "Vidéo montrant le renard, toujours petit. Il effectue bien son animation de course, mais il est trop petit pour que quiconque puisse le voir.",
+                title : "Img. 10 : Le renard, très petit, essaie de fuir",
             },
 
-            animalAnimConclusion : "",
+            animalAnimConclusion : "A cause du temps limité, ainsi que de la charge de travail des artistes, régler les problèmes liés à l'export des animations n'était pas faisable. J'ai donc adapté l'implémentation du gameplay avec les animations disponibles, cela inclus donc d'utiliser l'animation de marche qui est accéléré, ce qui donne l'impression que l'animal fuit.",
             RunningFox : 
             {   
                 src : "runningFox.webm",
-                desc : "",
-                title : "",
+                desc : "Vidéo représentant le renard, avec la bonne taille cette fois-ci. On le voit \"fuir en courant\", ou comme expliqué auparavant, \"en marchant rapidement\".",
+                title : "Img. 11 : Le renard marche vite, loin du joueur",
             },
 
-            title4c : "",
-            huntOverview : "",
-            huntTraps : "",
-            bowAndArrow : "",
-            arrowDifficulty : "",
+            title4c : "c. Système de chasse",
+            huntOverview : "Après ça, j'ai dû implémenté les méchaniques liées aux animaux, et cela consiste en deux méthodes de chasse : un système de projectile lié à un arc, et des pièges posables.",
+            huntTraps : "Les pièges pouvaient être placés de façon libre dans l'environnement. Lorsqu'un animal entre dans la zone de détection du piège, ses mouvements sont désactivé, et après quelques secondes, son état de mort est lancé, ce qui produit son butin.",
+            bowAndArrow : "Pour l'arc et les flèches, j'ai donc dû travailler sur un système de projectiles. Mise à part les particules tombantes, nous n'avions rien de proche à cela dans le code, alors il a fallu que je fasse quelques recherches. Après quelques tests et recherches, j'ai donc décidé d'utiliser un Raycast depuis la vue (le \"viewport\") de la caméra, et ensuite calculer la distance parcourue par la flèche selon la durée pour laquelle le joueur l'a chargée. Pour indiquer au joueur que la flèche était à sa puissance maximale, il y avait une réticule au centre de l'écran. Au début, nous voulions garder le jeu avec uniquement des éléments intradiégétique, et de tel élément d'interface était incohérent, mais pas la suite, nous avons utilisé des textes volants, et autres symboles d'interfaces, alors j'ai décidé d'implémenter ma réticule dynamique, apparaissant uniquement lorsque l'arc est équipé, et changeant dépendemment de la charge actuelle. Aussi, en faisant cela, la caméra fait un zoom, lorsque vous visez une cible devant vous. <br><br> Quand le joueur relâche son click, cela fait apparaître une flèche avec une vélocité initiale basé sur la charge, et qui part tout droit (en suivant donc le Raycast calculé auparavant depuis le Viewport), puis, s'il y a une collision avec quoi que ce soit, elle s'y accroche, et si c'était une entité, elle active son état de mort. Même si pour tirer une flèche, il fallait la crafter auparavant, et que le joueur n'avait pas de flèches infinis, j'ai décidé d'ajouter des sécurités pour éviter de potentiels lags, c'est la raison pour laquelle les flèches ont un temps de vie, ainsi qu'une vérification de hauteur (si jamais elles tombent sous la carte), ces deux cas détruisant la flèche une fois une certaine valeur passée.",
+            arrowDifficulty : "J'ai eu quelques difficultés à faire fonctionner les flèches, car son modèle ou sa taille ne faisait que changer dans le projet, et cela produisait des bugs de collision. Après un moment, j'ai aussi remarqué que l'arc ne tirait pas droit, parce que sa trajectoire était réfléchis sur d'autre objet, et la décalait. Donc, j'ai décidé d'ignorer le modèle du joueur ainsi que sa physique, et j'ai fait la même pour l'arc et les autres flèches. De cette manière, les flèches pouvaient filer droit devant !",
             ShootingTheFox : 
             {   
                 src : "ShootingTheFox.png",
-                desc : "",
-                title : "",
+                desc : "Capture d'écran du jeu, où l'on peut voir la main du joueur, tenant l'arc. Au centre de l'écran, on y voit un renard, ignorant la présence du joueur, et on comprends aisément que le renard est la cible du joueur.",
+                title : "Img. 12 : Capture d'écran du joueur, tenant un arc en direction du renard",
             },
             ShootingTheFoxGif : 
             {   
                 src : "ShootingTheFox.webm",
-                desc : "",
-                title : "",
+                desc : "Vidéo prise depuis Unity. On y voit le joueur visant le renard, avant de tirer sa flèche et de le tuer, alors que de la neige continue de tomber. Comme expliqué auparavant, la caméra bouge en avant, et la réticule fait de même.",
+                title : "Img. 13 : L'arc en action, pris depuis Unity",
             },
 
-            retrospectiveTitle : "",
-            retroOverview : "",
-            retroTitleA : "",
-            retroA : "",
-            retroTitleB : "",
-            retroB : "",
-            retroTitleC : "",
-            retroC : "",
-            retroTitleD : "",
-            retroD : "",
+            retrospectiveTitle : "<u>Rétrospective</u>",
+            retroOverview : "Après avoir travaillé sur ce projet et en ayant eu des retours d'autres programmeurs, j'ai identifié plusieurs choses que je ferais différemment aujourd'hui.",
+            retroTitleA : "Savoir équilibrer l'ambition technique avec les contraintes de projet",
+            retroA : "L'idée de diviser la carte en morceaux semblait approprié pour ce projet, mais la décision aurait dû être évalué plus tôt. Le problème principal n'était pas l'idée en elle-même, mais le timing : il aurait fallu changer beaucoup trop de système au sein du jeu.",
+            retroTitleB : "Adapter des solutions techniques aux contraintes de production",
+            retroB : "Une des choses les plus importantes que j'ai appris de ce projet était que la solution techniquement idéal n'est pas forcément la meilleure solution pour un projet donné. Les problèmes d'animations en sont un bon exemple, car en ayant un temps limité et aucun animateur dédié, corriger toutes les animations a leur source n'était pas réaliste. C'est pourquoi, j'ai choisis d'adapter le gameplay aux assets disponibles, comme réutiliser l'animation de marche à une vitesse supérieur pour la fuite/poursuites des animaux. <br><br> Aujourd'hui, je ferais toujours cette décision si c'était nécessaire, mais j'essaierais d'identifier les limitations potentielles le plus vite possible, et d'imaginer les systèmes autour dès le début.",
+            retroTitleC : "Système réutilisable",
+            retroC : "J'ai appris à faire attention lorsque je fais des systèmes réutilisables, comme le spawner. Je l'ai intentionnellement fait pour à la fois les animaux et les objets du monde, mais au final, il n'a servis que pour les animaux. Construire des systèmes réutilisables peut aussi introduire des prérequis qui n'était pas nécessaire pour le projet actuel, ou son usage actuel. Aujourd'hui, je ferais d'abord une liste concrète des utilisations, et après je généraliserais le système où il y a un bénéfice clair.",
+            retroTitleD : "Un dernier mot",
+            retroD : "Malgrès ces limitations, After Impact est le projet de groupe sur lequel j'ai travaillé dont je suis le plus fier, particulièrement parce que j'ai pu prendre la responsabilité de plusieurs système, de leur imagination initiale à leur intégration dans le jeu. Travailler avec une si grande équipe a aussi imposé un certain défis, mais cela m'a appris à imaginer des systèmes qui devront être utilisé et adapté pour d'autres membres de mon équipe.",
 
-            links : "",
+            links : "<a href=\"https://www.creajeux.fr/\"> Page du jeu sur Créajeux </a>",
         },
 
         cyberdemineur :
         {
-            titleOverview : "",
-            textOverview : "",
+            titleOverview : "Aperçu rapide",
+            textOverview : "Cyberdémineur est un jeu que j'ai développé lors de ma dernière année de lycée, lors du cours de \"NSI\" (\"Numérique et Science de l'informatique\"). Nous avions pour objectif de travailler en petit groupe sur le projet de notre choix. J'ai donc travaillé avec un ami sur mon idée d'un jeu inspiré du Démineur. <br><br> Après trois mois de développement Python, en utilisant les librairies PIL, TKinter et SQLite, nous avions un jeu entièrement jouable, qui dépassait les attentes de nos professeurs. Quelques années plus tard, j'ai recréé seul le jeu sur Java, et C++/SFML.",
 
             ConceptArt : 
             {
                 src : "concept_art_demineur.png",
-                desc : "",
-                title : "",
+                desc : "Concept art du jeu fait assez tôt. Il montre une partie en cours.",
+                title : "Img. 1 : Concept art du jeu",
             },
 
-            whatIsTitle : "",
-            whatIsText : "",
+            whatIsTitle : "Qu'est-ce que Cyberdémineur ?",
+            whatIsText : "Cyberdémineur est un jeu avec une logique inspiré du Démineur classique. Le joueur doit localiser des bombes cachées en utilisant les nombres sur les cases, qui corresponds au nombre de bombes autour de cette case.<br><br> Contrairement au Démineur originel, le jeu donne trois vies au joueur, ce qui lui permet de faire des erreurs sans perdre immédiatement. Il existe trois difficultés - Facile, Moyen, Difficile - qui définisse la taille de la grille ainsi que le nombre de bombes. Les joueurs peuvent également enregistrer leur meilleur score à une base de données locales.",
 
-            contriTitle : "",
-            contriText : "",
+            contriTitle : "Mes contributions et responsabilités",
+            contriText : "Puisque le projet était basé sur mon idée originel, j'étais responsable de la plupart du code. Mes contributions principales étaient : <br>- Algorithme de Génération de la Grille.<br>- Phase de jeu et Boucle principale<br>- Menu Option<br>- Système de meilleur score et intégration base de donnée SQLite",
 
-            aTitle : "",
-            aText : "",
+            aTitle : "a. Algorithm de Création de Grille",
+            aText : "La première chose que j'ai implémenté était l'algorithme de génération de grille. Chaque difficulté définisse les dimensions de la grille, ainsi que le nombre de bombe à générer. <br><br>L'algorithme d'abord créé un tableau vide 2D, place les bombes de manière aléatoire tout en empêchant les bombes d'être sur la même cases, puis calcules le nombre de bombes adjacentes pour chaque case restante. <br><br>Un des premiers problèmes que j'ai rencontré était la gestion des cases sur les bords de la grille. Mon implémentation initiale vérifiait les cases voisines directement, ce qui pouvait donc causer un problème de sortie de tableau. <br><br>Pour éviter d'ajouter d'ajouter un nombre conséquent de \"cas spécial\" pour les coins et bords, j'ai ajouté une bordure d'une case tout autour de la grille jouable. Ces lignes et colonnes ne peuvent pas contenir de bombes, ce qui permet donc à l'algorithme de vérifier les cases voisines en tout sécurité. Une fois la génération complétée, la bordure est retirée avant que la grille soit utilisée par le jeu.<br><br>J'ai également implémenté une sécurité pour le premier clic du joueur. Quand le joueur ouvre sa première case, la grille générée est vérifiée pour être sûr que cette case ne possède pas de bombe. Si c'est le cas, l'algorithme est relancé jusqu'à ce que cette case n'une position de départ valide soit trouvé.",
 
             generatedGrid :
             {
                 src : "generatedGrid.png",
-                desc : "",
-                title : ""
+                desc : "Capture d'écran de la console du jeu. On y voit la grille générée à la fin de l'algorithme",
+                title : "Img. 2 : Vue de la console de la grille générée par l'algorithme"
             },
 
-            bTitle : "",
-            bTextDifficulty : "",
+            bTitle : "b. Gestion des phases de jeu et de la boucle principale",
+            bTextDifficulty : "Quand le joueur arrive sur le jeu, il arrive sur le menu principal. Dessus, il y a quatres boutons, un pour quitter le jeu, un autre pour le tableau de score, un pour les options et un dernier pour jouer. En cliquant sur ce dernier, le joueur doit choisir la difficulté, allant de \"Facile\", \"Normal\" et \"Difficile\". J'ai aussi voulu ajouter une difficulté personnalisé, où le joueur peut définir les dimensions de la grille, le nombre de bombes ou même le nombre de vies. J'ai décidé de ne pas l'inclure dans la version finale du jeu dans l'idée de conserver un scope gérable.",
 
             difficultyPage : 
             {
                 src : "DifficultyPage.png",
-                desc : "",
-                title : "",
+                desc : "Ecran de sélection de difficulté de la version Python montrant les boutons Facile, Moyen, et Difficile",
+                title : "Img. 3 : Menu où l'on choisit la difficulté du jeu",
             },
 
-            bTextGame : "",
+            bTextGame : "Une fois que le joueur a sélectionné une difficulté, la grille est générée, et affiché non ouverte. Le joueur commence avec trois vies, et le timer démarre une fois que la première cellule valide est ouverte. <br><br>A chaque fois qu'une case est ouverte ou signalé par un drapeau, le jeu vérifie si le nombre de bombes trouvé (et ouverte) + le nombre de cases correctement signalées est égale au nombre de bombe à trouver. Si c'est le cas, l'écran change pour celui de \"Victoire\", sinon, le jeu continue. Si le joueur clique sur une bombe et la découvre, il perd une vie, et l'algorithme vérifie qu'il a toujours plus que 0 vie. <br><br>Si ce n'est pas le cas, l'écran change en sa version \"Dommage\", proposant au joueur de recommencer, ou de quitter le jeu.",
 
             pythonGameOpened :
             {
                 src : "PythonGameOpened.png",
-                desc : "",
-                title : ""
+                desc : "Gameplay de la version python, où l'on peut voir une grille de démineur ouverte, des drapeaux, des bombes découvertes ainsi que le nombre de vie restante du joueur",
+                title : "Img. 4 : Le jeu a démarré"
             },
 
-            cTitle : "",
-            cText : "",
+            cTitle : "c. Menu Option",
+            cText : "Le menu des options est l'un des derniers systèmes que j'ai implémenté. Il permet au joueur de changer les fonds d'écrans ainsi que les musiques, depuis une sélection préparé par mon collègue. J'ai également implémenté un système de menu \"Aide\", expliquant les règles basiques et les contrôles.",
 
             pythonOptionMenu :
             {
                 src : "PythonOptionMenu.png",
-                desc : "",
-                title : ""
+                desc : "Menu options de la version Python, montrant les contrôles pour le changement d'images, de musiques et d'aide",
+                title : "Img. 5 : Le Menu Option de la version Python"
             },
 
             pythonHelpPopup :
             {
                 src : "PythonHelpPopup.png",
-                desc : "",
-                title : ""
+                desc : "Il s'agit d'une capture d'écran du Pop-up d'aide, où les règles générales sont écrites. Il y a également des cases avec leur explication, en dessous",
+                title : "Img. 6 : Le Pop-up d'aide, après avoir cliqué sur le bouton associé"
             },
 
-            dTitle : "",
-            dText : "",
+            dTitle : "d. Gestion du score et intégration de base de données",
+            dText : "Pendant le projet, je voulais appliquer des concepts de base de données que j'ai appris en classe à quelques chose de concret et d'utile dans ce jeu. Un jeu de style Démineur tend à avoir un système de meilleur score, j'ai donc implémenté une base de données locale pour enregistrer le nom des joueurs ainsi que temps pour compléter la grille.<br><br>J'ai utilisé SQLite pour créer un gérer une table \"meilleur score\", une par difficulté. Parce que ce système a été implémenté relativement tard, son interface est moins polis que le reste du jeu, mais le système sous-jacent est fonctionnel.",
 
             DBCode :
             {
                 src : "DBCode.png",
-                desc : "",
-                title : ""
+                desc : "Morceau de code, contenant la requête SQL : d'abord essayant de créer la table si elle n'existe pas encore, puis insérant les données dans la bonne table.",
+                title : "Img.7 : Morceau de code Python, contenant une requête SQL"
             },
 
-            laterIterTitle : "",
-            laterIterOverview : "",
+            laterIterTitle : "Nouvelles itérations",
+            laterIterOverview : "Cyberdémineur ne s'est pas arrêté avec la version originel en Python. Au fur et à mesure que j'ai appris de nouveau langage et framework, je revenais toujours sur ce projet pour voir comment je le reconstruirais avec les nouveaux outils que j'ai appris.",
 
-            javaTitle : "",
-            javaText : "",
+            javaTitle : "Java",
+            javaText : "Après avoir finis le lycée, j'ai appris le Java, et j'ai décidé de recréer Cyberdémineur en tant qu'exercice personnel, une fois que j'étais assez confortable avec l'utilisation de ce langage. <br><br>J'ai passé à peu près une à deux semaines à reconstruire Gameplay principal. La version Java conserva donc les mécaniques principales du Démineur, incluant la génération de la grille, les vies, chronomètre, et système de drapeau, mais n'incluant pas certaines fonctionnalités de la version originel, comme le système de difficulté, la sélection de musiques ou de fond d'écran, et ne contient pas non plus les écrans de victoire et défaite. <br><br>Cette version était principalement un exercice de transfert d'un gameplay existant vers un nouveau langage, plutôt que créer un remplacement complet du code pour le jeu de base.",
 
             javaFullGrid :
             {
                 src : "JavaFullGrid.png",
-                desc : "",
-                title : ""
+                desc : "Il s'agit d'une capture d'écran de la version Java du jeu. On peut y voir une grille de 12 * 12 case, non ouverte. On peut lire en bas \"Vie Restante : 3\" en bas à gauche, \"Temps : 0\" en bas au centre, et \"Bombes restantes : 25\" en bas à droite.",
+                title : "Img. 8 : Capture d'écran de la version Java. La grille n'est pas encore ouverte"
             },
 
             javaOpenGrid :
             {
                 src : "JavaOpenGrid.png",
-                desc : "",
-                title : ""
+                desc : "Il s'agit d'une capture d'écran de la version Java du jeu. On peut y voir une grille de 12 * 12 case, ouverte cette fois-ci. Quelques drapeaux ont été posé, et une bombe a été trouvé. On peut lire en bas \"Vie Restante : 2\" en bas à gauche, \"Temps : 20\" en bas au centre, et \"Bombes restantes : 19\" en bas à droite.",
+                title : "Img. 9 : Capture d'écran de la version Java. La grille est ouverte cette fois-ci"
             },
 
-            cppTitle : "",
-            cppText : "",
+            cppTitle : "C++",
+            cppText : "Plus tard, après avoir appris le C++ et la SFML à Créajeux, j'ai décidé de recréer Cyberdémineur encore une fois. Cette version était une autre opportunité d'appliquer ce que j'avais appris à un projet dont je comprenais déjà les tenants et aboutissants. <br><br>Comparé à la version originel en Python, cette implémentation se concentrait d'avantage sur la présentation et la navigation du jeu. Cette interface est affiché à une taille fixe, en plein écran, et le joueur peut naviguer au travers de grille bien plus grande grâce aux touches ZQSD. <br><br>Quelques fonctionnalités ont intentionnellement été retirés : c'est le cas des options et du menu de score, qui voit leur boutons visibles mais désactivé. La musique et le timer ont également été omis.",
 
             cppMainMenu :
             {
                 src : "CppMainMenu.png",
-                desc : "",
-                title : ""
+                desc : "C'est une capture d'écran de la version C++. Comme indiqué précédemment, on peut voir \"Jouer\" et \"Quitter\". Deux autres boutons sont présents, mais grisés : \"Classement\" et \"Option\".",
+                title : "Img. 10 : Ecran titre de la version C++"
             },
 
             cppGridOpen :
             {
                 src : "CppGridOpen.png",
-                desc : "",
-                title : ""
+                desc : "Capture d'écran de la version C++. Elle est similaire aux autres versions, seulement il manque le système de chronomètre et de vies",
+                title : "Img. 11 : En plein milieu d'une partie"
             },
 
-            retroTitle : "",
-            retroOverview : "",
-            retroTitleA : "",
-            retroTextA : "",
+            retroTitle : "Rétrospective",
+            retroOverview : "Travailler sur ce jeu m'a fait réaliser plusieurs choses.",
+            retroTitleA : "Réutilisation d'ancien projet pour apprendre de nouvelles technologies",
+            retroTextA : "Plutôt que de redémarrer à partir de rien à chaque fois que j'apprenais un nouveau langage, j'ai réutiliser un projet dont je connais parfaitement le gameplay et l'implémentation architecturale. Cela m'a ainsi permit de me concentrer sur l'apprentissage du nouveau langage, and ses outils, plutôt que d'imaginer entièrement un nouveau jeu. J'ai également utilisé ces opportunités pour améliorer l'architectures de ce projet.",
 
-            retroTitleB : "",
-            retroTextB : "",
+            retroTitleB : "Gestion du scope",
+            retroTextB : "Ecrire une liste de fonctionnalités voulues est une chose; arriver à les implémenter en restant au sein du scope définis en est une autre. Avec la version originel du Cyberdémineur, j'ai vite réalisé qu'un système de personnalisation de difficulté serait trop pour le projet, alors j'ai choisis de le supprimer des objectifs. Dans les nouvelles itérations, je voulais initialement recréer le jeu originel fonctionnalité pour fonctionnalité, mais j'ai vite réalisé que ce n'était pas le but de ces versions. C'est quelques chose dont je me souviendrais toujours à chaque fois que je veux ajouter une nouvelle fonctionnalité : la fonctionnalité peut être une bonne idée, tout en étant pas approprié pour le scope d'un projet.",
 
-            retroTitleC : "",
-            retroTextC : "",
+            retroTitleC : "Revisiter mes anciens travaux",
+            retroTextC : "Revisiter Cyberdémineur plusieurs années après son développement originel m'a donné une opportunité de voir comment mon approche de la programmation a évolué. A l'origine, la version Python était principalement concentré sur \"faire fonctionner le jeu\", alors que les itérations futures m'ont laissé d'avantage réfléchir sur la structure, la présentation, ou la maintenabilité. <br><br>Rien qu'en écrivant cette page de Portfolio, je me suis retrouvé à devoir lire mon implémentation en C++ des mois après, afin d'en comprendre l'implémentation. C'était un bon rappel que le code ne doit pas être crit pour fonctionner au moment où c'est écrit, mais doit rester compréhensible pour y revenir bien plus tard.",
 
-            links : ""
+            links : "<a href=\"https://github.com/ThomasRub/Cyberdemineur\"> La version Python du jeu</a>, sur le Github de mon collègue et ami. <br> <a href=\"https://github.com/0nyxis/Cyberdemineur-Java\"> Version Java du jeu</a>, sur ma page Github. <br> <a href=\"https://github.com/0nyxis/Cyberdemineur-Cpp\"> Version C++ du jeu</a> , sur ma page Github."
         },
     },
 }
