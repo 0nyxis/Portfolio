@@ -225,13 +225,13 @@ export default
             },
 
             whatIsTitle : "Qu'est-ce que Cyberdémineur ?",
-            whatIsText : "Cyberdémineur est un jeu avec une logique inspiré du Démineur classique. Le joueur doit localiser des bombes cachées en utilisant les nombres sur les cases, qui corresponds au nombre de bombes autour de cette case.<br><br> Contrairement au Démineur originel, le jeu donne trois vies au joueur, ce qui lui permet de faire des erreurs sans perdre immédiatement. Il existe trois difficultés - Facile, Moyen, Difficile - qui définisse la taille de la grille ainsi que le nombre de bombes. Les joueurs peuvent également enregistrer leur meilleur score à une base de données locales.",
+            whatIsText : "Cyberdémineur est un jeu avec une logique inspirée du Démineur classique. Le joueur doit localiser des bombes cachées en utilisant les nombres affichés sur les cases, qui correspondent au nombre de bombes présentes autour d'elles. <br><br>Contrairement au Démineur originel, le jeu donne trois vies au joueur, ce qui lui permet de faire des erreurs sans perdre immédiatement. Il existe trois difficultés - Facile, Moyen, Difficile - qui définissent la taille de la grille ainsi que le nombre de bombes. Les joueurs peuvent également enregistrer leur meilleur score à une base de données locale.",
 
             contriTitle : "Mes contributions et responsabilités",
             contriText : "Puisque le projet était basé sur mon idée originel, j'étais responsable de la plupart du code. Mes contributions principales étaient : <br>- Algorithme de Génération de la Grille.<br>- Phase de jeu et Boucle principale<br>- Menu Option<br>- Système de meilleur score et intégration base de donnée SQLite",
 
             aTitle : "a. Algorithm de Création de Grille",
-            aText : "La première chose que j'ai implémenté était l'algorithme de génération de grille. Chaque difficulté définisse les dimensions de la grille, ainsi que le nombre de bombe à générer. <br><br>L'algorithme d'abord créé un tableau vide 2D, place les bombes de manière aléatoire tout en empêchant les bombes d'être sur la même cases, puis calcules le nombre de bombes adjacentes pour chaque case restante. <br><br>Un des premiers problèmes que j'ai rencontré était la gestion des cases sur les bords de la grille. Mon implémentation initiale vérifiait les cases voisines directement, ce qui pouvait donc causer un problème de sortie de tableau. <br><br>Pour éviter d'ajouter d'ajouter un nombre conséquent de \"cas spécial\" pour les coins et bords, j'ai ajouté une bordure d'une case tout autour de la grille jouable. Ces lignes et colonnes ne peuvent pas contenir de bombes, ce qui permet donc à l'algorithme de vérifier les cases voisines en tout sécurité. Une fois la génération complétée, la bordure est retirée avant que la grille soit utilisée par le jeu.<br><br>J'ai également implémenté une sécurité pour le premier clic du joueur. Quand le joueur ouvre sa première case, la grille générée est vérifiée pour être sûr que cette case ne possède pas de bombe. Si c'est le cas, l'algorithme est relancé jusqu'à ce que cette case n'une position de départ valide soit trouvé.",
+            aText : "La première chose que j'ai implémentée était l'algorithme de génération de grille. Chaque difficulté définit les dimensions de la grille, ainsi que le nombre de bombes à générer. <br><br>L'algorithme créé d'abord un tableau vide 2D, place les bombes de manière aléatoire tout en empêchant les bombes d'être sur la même case, puis calcule le nombre de bombes adjacentes pour chaque case restante. <br><br>Un des premiers problèmes que j'ai rencontrés était la gestion des cases sur les bords de la grille. Mon implémentation initiale vérifiait les cases voisines directement, ce qui pouvait donc causer un problème de sortie de tableau. <br><br>Pour éviter d'ajouter d'ajouter un nombre conséquent de cas particuliers pour les coins et bords, j'ai ajouté une bordure d'une case tout autour de la grille jouable. Ces lignes et colonnes ne peuvent pas contenir de bombes, ce qui permet donc à l'algorithme de vérifier les cases voisines en toute sécurité. Une fois la génération complétée, la bordure est retirée avant que la grille soit utilisée par le jeu.<br><br>J'ai également implémenté une sécurité pour le premier clic du joueur. Quand le joueur ouvre sa première case, la grille générée est vérifiée pour s'assurer que cette case ne possède pas de bombe. Si c'est le cas, l'algorithme est relancé jusqu'à ce que cette case ait une position de départ valide.",
 
             generatedGrid :
             {
@@ -241,7 +241,7 @@ export default
             },
 
             bTitle : "b. Gestion des phases de jeu et de la boucle principale",
-            bTextDifficulty : "Quand le joueur arrive sur le jeu, il arrive sur le menu principal. Dessus, il y a quatres boutons, un pour quitter le jeu, un autre pour le tableau de score, un pour les options et un dernier pour jouer. En cliquant sur ce dernier, le joueur doit choisir la difficulté, allant de \"Facile\", \"Normal\" et \"Difficile\". J'ai aussi voulu ajouter une difficulté personnalisé, où le joueur peut définir les dimensions de la grille, le nombre de bombes ou même le nombre de vies. J'ai décidé de ne pas l'inclure dans la version finale du jeu dans l'idée de conserver un scope gérable.",
+            bTextDifficulty : "Quand le joueur arrive sur le jeu, il arrive sur le menu principal. Dessus, il y a quatre boutons, un pour quitter le jeu, un autre pour le tableau de score, un pour les options et un dernier pour jouer. En cliquant sur ce dernier, le joueur doit choisir la difficulté, allant de \"Facile\" à \"Moyen\" et \"Difficile\". J'ai aussi voulu ajouter une difficulté personnalisée, où le joueur peut définir les dimensions de la grille, le nombre de bombes ou même le nombre de vies. J'ai décidé de ne pas l'inclure dans la version finale du jeu pour garder un périmètre raisonnable.",
 
             difficultyPage : 
             {
@@ -250,7 +250,7 @@ export default
                 title : "Img. 3 : Menu où l'on choisit la difficulté du jeu",
             },
 
-            bTextGame : "Une fois que le joueur a sélectionné une difficulté, la grille est générée, et affiché non ouverte. Le joueur commence avec trois vies, et le timer démarre une fois que la première cellule valide est ouverte. <br><br>A chaque fois qu'une case est ouverte ou signalé par un drapeau, le jeu vérifie si le nombre de bombes trouvé (et ouverte) + le nombre de cases correctement signalées est égale au nombre de bombe à trouver. Si c'est le cas, l'écran change pour celui de \"Victoire\", sinon, le jeu continue. Si le joueur clique sur une bombe et la découvre, il perd une vie, et l'algorithme vérifie qu'il a toujours plus que 0 vie. <br><br>Si ce n'est pas le cas, l'écran change en sa version \"Dommage\", proposant au joueur de recommencer, ou de quitter le jeu.",
+            bTextGame : "Une fois que le joueur a sélectionné une difficulté, la grille est générée, et affiché sans être ouverte. Le joueur commence avec trois vies, et le timer démarre une fois que la première cellule valide est ouverte. <br><br>A chaque fois qu'une case est ouverte ou signalée par un drapeau, le jeu vérifie si le nombre de bombes trouvées (et ouvertes) + le nombre de cases correctement signalées est égal au nombre de bombes à trouver. Si c'est le cas, l'écran change pour celui de \"Victoire\", sinon, le jeu continue. Si le joueur clique sur une bombe et la découvre, il perd une vie, et l'algorithme vérifie qu'il a toujours plus d'une vie. <br><br>Si ce n'est pas le cas, le jeu affiche alors l'écran \"Dommage\", proposant au joueur de recommencer, ou de quitter le jeu.",
 
             pythonGameOpened :
             {
@@ -260,7 +260,7 @@ export default
             },
 
             cTitle : "c. Menu Option",
-            cText : "Le menu des options est l'un des derniers systèmes que j'ai implémenté. Il permet au joueur de changer les fonds d'écrans ainsi que les musiques, depuis une sélection préparé par mon collègue. J'ai également implémenté un système de menu \"Aide\", expliquant les règles basiques et les contrôles.",
+            cText : "Le menu des options est l'un des derniers systèmes que j'ai implémentés. Il permet au joueur de changer les fonds d'écran ainsi que les musiques, depuis une sélection préparée par mon collègue. J'ai également implémenté un système de menu \"Aide\", expliquant les règles de base et les contrôles.",
 
             pythonOptionMenu :
             {
@@ -272,12 +272,12 @@ export default
             pythonHelpPopup :
             {
                 src : "PythonHelpPopup.png",
-                desc : "Il s'agit d'une capture d'écran du Pop-up d'aide, où les règles générales sont écrites. Il y a également des cases avec leur explication, en dessous",
-                title : "Img. 6 : Le Pop-up d'aide, après avoir cliqué sur le bouton associé"
+                desc : "Il s'agit d'une capture d'écran de la fenêtre d'aide, où les règles générales sont écrites. Il y a également des cases avec leur explication, en dessous",
+                title : "Img. 6 : La fenêtre d'aide, après avoir cliqué sur le bouton associé"
             },
 
             dTitle : "d. Gestion du score et intégration de base de données",
-            dText : "Pendant le projet, je voulais appliquer des concepts de base de données que j'ai appris en classe à quelques chose de concret et d'utile dans ce jeu. Un jeu de style Démineur tend à avoir un système de meilleur score, j'ai donc implémenté une base de données locale pour enregistrer le nom des joueurs ainsi que temps pour compléter la grille.<br><br>J'ai utilisé SQLite pour créer un gérer une table \"meilleur score\", une par difficulté. Parce que ce système a été implémenté relativement tard, son interface est moins polis que le reste du jeu, mais le système sous-jacent est fonctionnel.",
+            dText : "Pendant le projet, je voulais appliquer des concepts de base de données que j'ai appris en classe à quelque chose de concret et d'utile dans ce jeu. Un jeu de style Démineur tend à avoir un système de meilleur score, j'ai donc implémenté une base de données locale pour enregistrer le nom des joueurs ainsi que le temps pour compléter la grille.<br><br>J'ai utilisé SQLite pour créer et gérer une table \"meilleur score\", une table par difficulté. Parce que ce système a été implémenté relativement tard, son interface est moins polie que le reste du jeu, mais le système sous-jacent est fonctionnel.",
 
             DBCode :
             {
@@ -287,27 +287,27 @@ export default
             },
 
             laterIterTitle : "Nouvelles itérations",
-            laterIterOverview : "Cyberdémineur ne s'est pas arrêté avec la version originel en Python. Au fur et à mesure que j'ai appris de nouveau langage et framework, je revenais toujours sur ce projet pour voir comment je le reconstruirais avec les nouveaux outils que j'ai appris.",
+            laterIterOverview : "Cyberdémineur ne s'est pas arrêté avec la version originelle en Python. Au fur et à mesure que j'ai appris de nouveaux langages et frameworks, je revenais toujours sur ce projet pour voir comment je le reconstruirais avec les nouveaux outils que j'ai appris.",
 
             javaTitle : "Java",
-            javaText : "Après avoir finis le lycée, j'ai appris le Java, et j'ai décidé de recréer Cyberdémineur en tant qu'exercice personnel, une fois que j'étais assez confortable avec l'utilisation de ce langage. <br><br>J'ai passé à peu près une à deux semaines à reconstruire Gameplay principal. La version Java conserva donc les mécaniques principales du Démineur, incluant la génération de la grille, les vies, chronomètre, et système de drapeau, mais n'incluant pas certaines fonctionnalités de la version originel, comme le système de difficulté, la sélection de musiques ou de fond d'écran, et ne contient pas non plus les écrans de victoire et défaite. <br><br>Cette version était principalement un exercice de transfert d'un gameplay existant vers un nouveau langage, plutôt que créer un remplacement complet du code pour le jeu de base.",
+            javaText : "Après avoir fini le lycée, j'ai appris le Java, et j'ai décidé de recréer Cyberdémineur en tant qu'exercice personnel, une fois que j'étais suffisamment à l'aise avec l'utilisation de ce langage. <br><br>J'ai passé à peu près une à deux semaines à reconstruire le gameplay principal. La version Java conservait donc les mécaniques principales du Démineur, incluant la génération de la grille, les vies, le chronomètre, et le système de drapeaux, mais n'incluant pas certaines fonctionnalités de la version originelle, comme le système de difficulté, la sélection de musiques ou de fond d'écran, et ne contient pas non plus les écrans de victoire et défaite. <br><br>Cette version était principalement un exercice de transfert d'un gameplay existant vers un nouveau langage, plutôt que de créer un remplacement complet du code pour le jeu de base.",
 
             javaFullGrid :
             {
                 src : "JavaFullGrid.png",
-                desc : "Il s'agit d'une capture d'écran de la version Java du jeu. On peut y voir une grille de 12 * 12 case, non ouverte. On peut lire en bas \"Vie Restante : 3\" en bas à gauche, \"Temps : 0\" en bas au centre, et \"Bombes restantes : 25\" en bas à droite.",
+                desc : "Il s'agit d'une capture d'écran de la version Java du jeu. On peut y voir une grille de 12 x 12 cases, non ouverte. On peut lire en bas \"Vie Restante : 3\" en bas à gauche, \"Temps : 0\" en bas au centre, et \"Bombes restantes : 25\" en bas à droite.",
                 title : "Img. 8 : Capture d'écran de la version Java. La grille n'est pas encore ouverte"
             },
 
             javaOpenGrid :
             {
                 src : "JavaOpenGrid.png",
-                desc : "Il s'agit d'une capture d'écran de la version Java du jeu. On peut y voir une grille de 12 * 12 case, ouverte cette fois-ci. Quelques drapeaux ont été posé, et une bombe a été trouvé. On peut lire en bas \"Vie Restante : 2\" en bas à gauche, \"Temps : 20\" en bas au centre, et \"Bombes restantes : 19\" en bas à droite.",
+                desc : "Il s'agit d'une capture d'écran de la version Java du jeu. On peut y voir une grille de 12 * 12 case, ouverte cette fois-ci. Quelques drapeaux ont été posés, et une bombe a été trouvée. On peut lire en bas \"Vie restante : 2\" en bas à gauche, \"Temps : 20\" en bas au centre, et \"Bombes restantes : 19\" en bas à droite.",
                 title : "Img. 9 : Capture d'écran de la version Java. La grille est ouverte cette fois-ci"
             },
 
             cppTitle : "C++",
-            cppText : "Plus tard, après avoir appris le C++ et la SFML à Créajeux, j'ai décidé de recréer Cyberdémineur encore une fois. Cette version était une autre opportunité d'appliquer ce que j'avais appris à un projet dont je comprenais déjà les tenants et aboutissants. <br><br>Comparé à la version originel en Python, cette implémentation se concentrait d'avantage sur la présentation et la navigation du jeu. Cette interface est affiché à une taille fixe, en plein écran, et le joueur peut naviguer au travers de grille bien plus grande grâce aux touches ZQSD. <br><br>Quelques fonctionnalités ont intentionnellement été retirés : c'est le cas des options et du menu de score, qui voit leur boutons visibles mais désactivé. La musique et le timer ont également été omis.",
+            cppText : "Plus tard, après avoir appris le C++ et la SFML à Créajeux, j'ai décidé de recréer Cyberdémineur encore une fois. Cette version était une autre opportunité d'appliquer ce que j'avais appris à un projet dont je comprenais déjà les tenants et aboutissants. <br><br>Comparé à la version originelle en Python, cette implémentation se concentrait davantage sur la présentation et la navigation du jeu. Cette interface est affichée à une taille fixe, en plein écran, et le joueur peut naviguer à travers une grille bien plus grande grâce aux touches ZQSD. <br><br>Quelques fonctionnalités ont intentionnellement été retirées : c'est le cas des options et du menu de score, qui voit leurs boutons visibles mais désactivés. La musique et le timer ont également été omis.",
 
             cppMainMenu :
             {
@@ -326,13 +326,13 @@ export default
             retroTitle : "Rétrospective",
             retroOverview : "Travailler sur ce jeu m'a fait réaliser plusieurs choses.",
             retroTitleA : "Réutilisation d'ancien projet pour apprendre de nouvelles technologies",
-            retroTextA : "Plutôt que de redémarrer à partir de rien à chaque fois que j'apprenais un nouveau langage, j'ai réutiliser un projet dont je connais parfaitement le gameplay et l'implémentation architecturale. Cela m'a ainsi permit de me concentrer sur l'apprentissage du nouveau langage, and ses outils, plutôt que d'imaginer entièrement un nouveau jeu. J'ai également utilisé ces opportunités pour améliorer l'architectures de ce projet.",
+            retroTextA : "Plutôt que de redémarrer à partir de rien à chaque fois que j'apprenais un nouveau langage, j'ai réutilisé un projet dont je connais parfaitement le gameplay et l'implémentation architecturale. Cela m'a ainsi permis de me concentrer sur l'apprentissage du nouveau langage, et ses outils, plutôt que d'imaginer entièrement un nouveau jeu. J'ai également utilisé ces opportunités pour améliorer l'architecture de ce projet.",
 
             retroTitleB : "Gestion du scope",
-            retroTextB : "Ecrire une liste de fonctionnalités voulues est une chose; arriver à les implémenter en restant au sein du scope définis en est une autre. Avec la version originel du Cyberdémineur, j'ai vite réalisé qu'un système de personnalisation de difficulté serait trop pour le projet, alors j'ai choisis de le supprimer des objectifs. Dans les nouvelles itérations, je voulais initialement recréer le jeu originel fonctionnalité pour fonctionnalité, mais j'ai vite réalisé que ce n'était pas le but de ces versions. C'est quelques chose dont je me souviendrais toujours à chaque fois que je veux ajouter une nouvelle fonctionnalité : la fonctionnalité peut être une bonne idée, tout en étant pas approprié pour le scope d'un projet.",
+            retroTextB : "Écrire une liste de fonctionnalités voulues est une chose; arriver à les implémenter en restant au sein du scope défini en est une autre. Avec la version originelle du Cyberdémineur, j'ai vite réalisé qu'un système de personnalisation de difficulté serait trop pour le projet, alors j'ai choisi de le supprimer des objectifs. Dans les nouvelles itérations, je voulais initialement recréer le jeu originel fonctionnalité pour fonctionnalité, mais j'ai vite réalisé que ce n'était pas le but de ces versions. C'est quelque chose dont je me souviendrai toujours à chaque fois que je veux ajouter une nouvelle fonctionnalité : la fonctionnalité peut être une bonne idée, tout en n'étant pas adaptée pour le scope d'un projet.",
 
             retroTitleC : "Revisiter mes anciens travaux",
-            retroTextC : "Revisiter Cyberdémineur plusieurs années après son développement originel m'a donné une opportunité de voir comment mon approche de la programmation a évolué. A l'origine, la version Python était principalement concentré sur \"faire fonctionner le jeu\", alors que les itérations futures m'ont laissé d'avantage réfléchir sur la structure, la présentation, ou la maintenabilité. <br><br>Rien qu'en écrivant cette page de Portfolio, je me suis retrouvé à devoir lire mon implémentation en C++ des mois après, afin d'en comprendre l'implémentation. C'était un bon rappel que le code ne doit pas être crit pour fonctionner au moment où c'est écrit, mais doit rester compréhensible pour y revenir bien plus tard.",
+            retroTextC : "Revisiter Cyberdémineur plusieurs années après son développement originel m'a donné une opportunité de voir comment mon approche de la programmation a évolué. À l'origine, la version Python était principalement concentrée sur \"faire fonctionner le jeu\", alors que les itérations futures m'ont laissé d'avantage réfléchir sur la structure, la présentation, ou la maintenabilité. <br><br>Rien qu'en écrivant cette page de Portfolio, je me suis retrouvé à devoir lire mon implémentation en C++ des mois après, afin de comprendre les choix qui avaient été faits. C'était un bon rappel que le code ne doit pas seulement être écrit pour fonctionner au moment où il est créé, mais doit rester compréhensible lorsqu'on y revient bien plus tard.",
 
             links : "<a href=\"https://github.com/ThomasRub/Cyberdemineur\"> La version Python du jeu</a>, sur le Github de mon collègue et ami. <br> <a href=\"https://github.com/0nyxis/Cyberdemineur-Java\"> Version Java du jeu</a>, sur ma page Github. <br> <a href=\"https://github.com/0nyxis/Cyberdemineur-Cpp\"> Version C++ du jeu</a> , sur ma page Github."
         },
