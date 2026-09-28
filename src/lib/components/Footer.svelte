@@ -8,7 +8,7 @@
 
 <style>
 	.container {
-		background-color: rgb(165, 165, 255);
+		background-color: var(--footer-backgroundColor);
 	}
 
 	footer {
@@ -16,7 +16,7 @@
 		margin: 0 auto;
 		padding: 3rem 2rem 1.5rem;
 		box-sizing: border-box;
-		color:black;
+		color: var(--text);
 	}
 
 	.footerTop 
@@ -57,17 +57,17 @@
 	.contact a {
 		width: fit-content;
 		text-decoration: none;
-		color:black;
+		color:var(--text);
 		transition: transform 0.2s ease;
 	}
 
 	.contact a:hover {
-		color:blue;
+		color: var(--hover);
 		transform: translateY(-2px);
 	}
 
 	.bottom {
-		border-top: 1px solid rgba(0,0,0,0.25);
+		border-top: 1px solid var(--border);
 		padding-top: 1.25rem;
 	}
 

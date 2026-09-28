@@ -22,7 +22,7 @@
         grid-template-rows: repeat(5, 1fr);
 
         aspect-ratio : 2 / 1;
-        background-color: var(--background);
+        background-color: var(--backgroundSection);
     }
 
     .image
@@ -30,7 +30,7 @@
         grid-column: 1;
         grid-row: 1 / 6;
 
-        background-color: var(--background);
+        background-color: var(--backgroundSection);
 
         border : 2px solid var(--border);
         border-radius: var(--radius);
@@ -85,7 +85,7 @@
 
     .title, .desc, .roles, .year, .engines, .tags
     {
-        background-color: var(--background);
+        background-color: var(--backgroundSection);
 
         border : 2px solid var(--border);
         border-radius: var(--radius);

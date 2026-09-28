@@ -21,8 +21,8 @@
 
 		height: 70px;
 				
-		background-color: #a0a2a5;
-		color : white;
+		background-color: var(--navBar-BackgroundColor);
+		color : var(--text);
 		
 		box-sizing: border-box;
 	}
@@ -39,7 +39,7 @@
 
 	.navbar a 
 	{
-		color: #e8eeec;
+		color:  var(--text);
 		text-decoration: none;
 
 		font-family: Arial, sans-serif;
@@ -50,7 +50,7 @@
 	
 	.navbar a:hover
 	{
-		color:#b8d8d0;
+		color:var(--hover);
 	}
 
 	.sous-menu 
@@ -69,7 +69,7 @@
 
 		list-style: none;
 
-		background-color: #19352f;
+		background-color: var(--navBar-sousMenu-background);
 		border: 1px solid #47635d;
 	}
 

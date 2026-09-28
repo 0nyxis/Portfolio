@@ -92,7 +92,7 @@
 		padding: 2rem;
 		margin: 2rem 0;
 
-        background-color: var(--background);
+        background-color: var(--backgroundSection);
 	}
 
 	.Paragraph
