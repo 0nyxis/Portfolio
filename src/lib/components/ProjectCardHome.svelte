@@ -12,11 +12,11 @@
 	{
 		width :100%;
 
-        border : 2px solid #000000;
+        border : 2px solid var(--border);
         border-radius: 30px;
         overflow:hidden;
 
-        background-color: white;
+        background-color: var(--backgroundSection);
         box-sizing: border-box;
 
         transition:
@@ -29,13 +29,13 @@
 	a
 	{
 		text-decoration: none;
-		color:black;
+		color: var(--text);
 	}
 
 	.projectCard:hover
 	{
         transform: translateY(-5px);
-        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        box-shadow: 0 8px 20px var(--border);
     }
 	img
 	{

@@ -23,8 +23,10 @@
 		display:grid;
 		align-items: center;
 	}
-
-	@media(max-width: 700px)
+	a {
+		color : var(--text-variant);
+	}
+	@media(max-width: 900px)
 	{
 		.Paragraph
 		{
@@ -46,7 +48,7 @@
 				srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.ImgForShow.src} 
 				altTxt={$translate.project.after_impact.ImgForShow.desc} 
 				title={$translate.project.after_impact.ImgForShow.title}
-				maxWidth = "700px"
+				maxWidth = "500px"
 			/>
 		</div>
 		<div class="Paragraph">
@@ -59,7 +61,7 @@
 			srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.Inventory.src} 
 			altTxt={$translate.project.after_impact.Inventory.desc} 
 			title={$translate.project.after_impact.Inventory.title}
-			maxWidth = "700px"
+			maxWidth = "550px"
 		/>
 	</div>
 
@@ -115,7 +117,7 @@
 				srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.BehaviorTree.src} 
 				altTxt={$translate.project.after_impact.BehaviorTree.desc} 
 				title={$translate.project.after_impact.BehaviorTree.title}
-				maxWidth = "700px"
+				maxWidth = "500px"
 				/>
 		</div>
 

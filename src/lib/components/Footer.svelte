@@ -16,7 +16,7 @@
 		margin: 0 auto;
 		padding: 3rem 2rem 1.5rem;
 		box-sizing: border-box;
-		color: var(--text);
+		color: var(--navBar-text);
 	}
 
 	.footerTop 
@@ -57,7 +57,7 @@
 	.contact a {
 		width: fit-content;
 		text-decoration: none;
-		color:var(--text);
+		color:var(--navBar-text);
 		transition: transform 0.2s ease;
 	}
 
@@ -71,7 +71,7 @@
 		padding-top: 1.25rem;
 	}
 
-	@media (max-width: 700px)
+	@media (max-width: 900px)
 	{
 		.footerTop {
 			grid-template-columns: 1fr;
@@ -93,21 +93,21 @@
 					rel="noopener noreferrer" 
 					class="socialLink"
 					aria-label="GitHub"> 
-						<img src={base + "/images/icons/githubLogo.png"} alt=""/>
+						<img src={base + "/images/icons/githubLogoWhite.png"} alt=""/>
 					</a>
 					<a href={$translate.footer.itchio}
 					target="_blank"
 					rel="noopener noreferrer" 
 					class="socialLink"
 					aria-label="Itch.Io"> 
-					 	<img src={base + "/images/icons/itchioLogo.svg"} alt=""/> 
+					 	<img src={base + "/images/icons/itchioLogoWhite.png"} alt=""/> 
 					</a>
 					<a href={$translate.footer.LinkedIn} 
 					target="_blank"
 					rel="noopener noreferrer" 
 					class="socialLink"
 					aria-label="LinkedIn"> 
-						<img src={base + "/images/icons/linkedInLogo.png"} alt=""/> 
+						<img src={base + "/images/icons/linkedInLogoWhite.png"} alt=""/> 
 					</a>
 				</div>
 			</div>

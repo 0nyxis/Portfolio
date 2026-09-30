@@ -50,7 +50,7 @@ export const projects : Project[] =
         },
         desc :
         {
-            en : "The first reel project I've worked on : it is a minesweeper game, with a \"cyberpunk\" art visual.",
+            en : "The first real project I've worked on : it is a minesweeper game, with a \"cyberpunk\" art visual.",
             fr : "Le premier projet sur lequel j'ai travaillé : il s'agit d'un démineur, avec un style visuel dit \"cyberpunk\"",
         },
         role : "Game programmer, Data manager, co-leader",

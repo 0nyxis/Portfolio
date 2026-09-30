@@ -23,6 +23,18 @@
 		display:grid;
 		align-items: center;
 	}
+
+	a {
+		color : var(--text-variant);
+	}
+
+	@media (max-width:900px)
+     {
+        .Paragraph 
+        {
+            grid-template-columns: 1fr !important; 
+        }
+     }
 </style>
 
 <div class="section">
@@ -38,7 +50,7 @@
 			srcLink={"/images/projects/Cyberdemineur/" + $translate.project.cyberdemineur.ConceptArt.src} 
 			altTxt={$translate.project.cyberdemineur.ConceptArt.desc} 
 			title={$translate.project.cyberdemineur.ConceptArt.title}
-			maxWidth = "700px"
+			maxWidth = "500px"
 		/>
 	</div>
 
@@ -80,11 +92,11 @@
 			srcLink={"/images/projects/Cyberdemineur/" + $translate.project.cyberdemineur.difficultyPage.src} 
 			altTxt={$translate.project.cyberdemineur.difficultyPage.desc} 
 			title={$translate.project.cyberdemineur.difficultyPage.title}
-			maxWidth = "700px"
+			maxWidth = "500px"
 		/>
 	</div>	
 
-	<div class="Paragraph" style="grid-template-columns:1fr 1fr;">
+	<div class="Paragraph">
 		<Texte txt={$translate.project.cyberdemineur.bTextGame}/>
 		<Media 
 			type="image"
@@ -93,6 +105,7 @@
 			title={$translate.project.cyberdemineur.pythonGameOpened.title}
 		/>
 	</div>
+	
 
 	<div class="Paragraph">
 		<Title txt={$translate.project.cyberdemineur.cTitle}/>
@@ -126,7 +139,7 @@
 			srcLink={"/images/projects/Cyberdemineur/" + $translate.project.cyberdemineur.DBCode.src} 
 			altTxt={$translate.project.cyberdemineur.DBCode.desc} 
 			title={$translate.project.cyberdemineur.DBCode.title}
-				maxWidth = "700px"
+				maxWidth = "500px"
 		/>
 	</div>
 </div>

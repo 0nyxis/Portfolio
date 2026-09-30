@@ -33,6 +33,7 @@
     {
         text-align: center;
         margin-top: 0rem;
+        color : var(--text-variant);
     }
 
 </style>

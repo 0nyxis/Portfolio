@@ -34,8 +34,8 @@
 
         position: relative;
 
-        background-color: #f0f0f0;
-        border: 2px solid #000000;
+        background-color: var(--backgroundSection);
+        border: 2px solid var(--border);
 
         box-sizing: border-box;
     }
@@ -43,6 +43,10 @@
     .TechIcon:hover p{
         display : flex;
         justify-content: center;
+    }
+
+    .TechIcon:hover{
+        box-shadow: 0 8px 20px var(--border);
     }
 
     img

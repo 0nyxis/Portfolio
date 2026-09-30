@@ -100,7 +100,11 @@
         padding: 1rem 0;
 	}
 
-     @media (max-width:700px)
+    a {
+        color : var(--text-variant);
+    }
+
+     @media (max-width:900px)
      {
         .carouselProject
         {

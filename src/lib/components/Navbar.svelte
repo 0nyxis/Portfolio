@@ -22,7 +22,7 @@
 		height: 70px;
 				
 		background-color: var(--navBar-BackgroundColor);
-		color : var(--text);
+		color : var(--navBar-text);
 		
 		box-sizing: border-box;
 	}
@@ -39,7 +39,7 @@
 
 	.navbar a 
 	{
-		color:  var(--text);
+		color:  var(--navBar-text);
 		text-decoration: none;
 
 		font-family: Arial, sans-serif;
@@ -70,7 +70,7 @@
 		list-style: none;
 
 		background-color: var(--navBar-sousMenu-background);
-		border: 1px solid #47635d;
+		border: 1px solid var(--border);
 	}
 
 	.sous-menu li
@@ -86,7 +86,7 @@
 
 	.sous-menu li a:hover
 	{
-		background-color: #294840;
+		background-color: var(--narBar-sousMenu-Hover);
 	}
 
 	.projects 

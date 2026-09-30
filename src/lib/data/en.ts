@@ -69,7 +69,7 @@ export default
         lookingLocation : "Location: I'm available for on-site work anywhere in France. I'm particularly interested in opportunities around Normandy (Rouen / Évreux) and Occitanie (Nîmes / Montpellier), but I'm open to relocating. I'm also open to international remote opportunities and can adapt my schedule to work with teams in different time zones.",
 
         talkTitle : "Let's talk:",
-        talkText : "If you'd like to discuss an internship, one of my projects, or simply get in touch, feel free to contact me. Email/LinkedIn/GitHub/CV",
+        talkText : "Interested in my work or looking for a game programming intern? Feel free to get in touch - I'd be happy to discuss a project, an intership opportunity, or simply talk about game development. <br/> <br/> <a style=\"color:var(--text-variant);\" href=\"mailto:louislecleach27@gmail.com\" target=\"_blank\"> [Get in touch →] </a>",
     },
     projectPage : 
     {
@@ -220,7 +220,7 @@ export default
             retroTitleD : "Final thoughts",
             retroD : "Despite these limitations, After Impact is the group project I've worked on that I'm currently the most proud of, particularly because I was able to take ownership of several systems from their initial design to their integration in the game. Working in such a big team was also a significant challenge, but it taught me a lot about designing systems that had to be used and adapted by other members of the team.",
 
-            links : "<a href=\"https://www.creajeux.fr/\"> Game's page on Créajeux </a>",
+            links : "<a style=\"color:var(--text-variant);\" href=\"https://www.creajeux.fr/\"> Game's page on Créajeux </a>",
         },
 
         cyberdemineur :
@@ -347,7 +347,7 @@ export default
             retroTitleC : "Revisiting my own work",
             retroTextC : "Revisiting Cyberdémineur several years after its original development gave me an opportunity to see how my programming approach had evolved. The original Python version was primarily focused on making the game work, while the later implementations gave me more opportunities to think about structure, presentation, and maintainability. <br><br>Even while writing this portfolio page, I found myself going back to my C++ implementation to understand decisions I had made months earlier. It was a good reminder that code should not only work when it is written, but should also remain understandable when returning to it later.",
 
-            links : "<a href=\"https://github.com/ThomasRub/Cyberdemineur\"> Game's Python version </a>, on my friend's GitHub page. <br> <a href=\"https://github.com/0nyxis/Cyberdemineur-Java\"> Game's Java version</a>, on my GitHub page. <br> <a href=\"https://github.com/0nyxis/Cyberdemineur-Cpp\"> Game's C++ version</a> , on my GitHub page."
+            links : "<a style=\"color:var(--text-variant);\" href=\"https://github.com/ThomasRub/Cyberdemineur\"> Game's Python version </a>, on my friend's GitHub page. <br> <a style=\"color:var(--text-variant);\" href=\"https://github.com/0nyxis/Cyberdemineur-Java\"> Game's Java version</a>, on my GitHub page. <br> <a style=\"color:var(--text-variant);\" href=\"https://github.com/0nyxis/Cyberdemineur-Cpp\"> Game's C++ version</a> , on my GitHub page."
         },
     },
 }

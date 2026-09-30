@@ -20,7 +20,7 @@
 
 <button onclick={() => $darkMode = !$darkMode}> 
 	{#if $darkMode == false}
-		<img src={base + "/images/icons/MoonLogo.png"} alt=""/> 
+		<img src={base + "/images/icons/MoonLogoWhite.png"} alt=""/> 
 	{:else}
 		<img src={base + "/images/icons/SunLogo.png"} alt=""/> 
 	{/if}

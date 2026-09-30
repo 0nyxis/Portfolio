@@ -12,7 +12,7 @@
 		cursor:pointer;
 	}	
 	img{
-		border: 1px solid #000000;
+		border: 1px solid var(--border);
 	}
 </style>
 

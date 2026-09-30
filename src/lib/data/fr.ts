@@ -70,7 +70,7 @@ export default
         lookingLocation : "Lieux : Je suis disponible pour travailler en présentiel partout en France, en effet, je possède le permis B, mais je ne dispose pas de véhicule. Je suis particulièrement intéressé par les opportunités en Normandie (Rouen / Évreux), et en Occitanie (Nîmes / Montpellier), mais je reste ouvert à déménager. Je suis également ouvert à l'international pour des opportunités en distanciel, et je peux adapter mon emploi du temps afin de travailler avec des équipes sur différents fuseaux horaires.",
 
         talkTitle : "Discutons !",
-        talkText : "Si vous souhaitez discuter d'un stage, d'un de mes projets, ou simplement entrer en contact avec moi, n'hésitez pas à me contacter via les liens ci-dessous.",
+        talkText : "Si vous souhaitez discuter d'un stage, d'un de mes projets, ou simplement entrer en contact avec moi, n'hésitez pas à me contacter via les liens ci-dessous. <br/> <br/> <a style=\"color:var(--text-variant);\" href=\"mailto:louislecleach27@gmail.com\" target=\"_blank\"> [Entrons en contact →] </a>",
     },
     projectPage : 
     {
@@ -209,7 +209,7 @@ export default
             retroTitleD : "Un dernier mot",
             retroD : "Malgré ces limitations, After Impact est le projet de groupe sur lequel j'ai travaillé dont je suis le plus fier, particulièrement parce que j'ai pu prendre la responsabilité de plusieurs systèmes, de leur imagination initiale à leur intégration dans le jeu. Travailler avec une si grande équipe a aussi imposé un certain défi, mais cela m'a appris à imaginer des systèmes qui devront être utilisés et adaptés pour d'autres membres de mon équipe.",
 
-            links : "<a href=\"https://www.creajeux.fr/\"> Page du jeu sur Créajeux </a>",
+            links : "<a style=\"color:var(--text-variant);\" href=\"https://www.creajeux.fr/\"> Page du jeu sur Créajeux </a>",
         },
 
         cyberdemineur :
@@ -235,7 +235,7 @@ export default
 
             generatedGrid :
             {
-                src : "generatedGrid.png",
+                src : "GeneratedGrid.png",
                 desc : "Capture d'écran de la console du jeu. On y voit la grille générée à la fin de l'algorithme",
                 title : "Img. 2 : Vue de la console de la grille générée par l'algorithme"
             },
@@ -334,7 +334,7 @@ export default
             retroTitleC : "Revisiter mes anciens travaux",
             retroTextC : "Revisiter Cyberdémineur plusieurs années après son développement originel m'a donné une opportunité de voir comment mon approche de la programmation a évolué. À l'origine, la version Python était principalement concentrée sur \"faire fonctionner le jeu\", alors que les itérations futures m'ont laissé davantage réfléchir sur la structure, la présentation, ou la maintenabilité. <br><br>Rien qu'en écrivant cette page du portfolio, je me suis retrouvé à devoir lire mon implémentation en C++ des mois après, afin de comprendre les choix qui avaient été faits. C'était un bon rappel que le code ne doit pas seulement être écrit pour fonctionner au moment où il est créé, mais doit rester compréhensible lorsqu'on y revient bien plus tard.",
 
-            links : "<a href=\"https://github.com/ThomasRub/Cyberdemineur\"> La version Python du jeu</a>, sur le GitHub de mon collègue et ami. <br> <a href=\"https://github.com/0nyxis/Cyberdemineur-Java\"> Version Java du jeu</a>, sur ma page GitHub. <br> <a href=\"https://github.com/0nyxis/Cyberdemineur-Cpp\"> Version C++ du jeu</a> , sur ma page GitHub."
+            links : "<a style=\"color:var(--text-variant);\" href=\"https://github.com/ThomasRub/Cyberdemineur\"> La version Python du jeu</a>, sur le GitHub de mon collègue et ami. <br> <a style=\"color:var(--text-variant);\" href=\"https://github.com/0nyxis/Cyberdemineur-Java\"> Version Java du jeu</a>, sur ma page GitHub. <br> <a style=\"color:var(--text-variant);\" href=\"https://github.com/0nyxis/Cyberdemineur-Cpp\"> Version C++ du jeu</a> , sur ma page GitHub."
         },
     },
 }

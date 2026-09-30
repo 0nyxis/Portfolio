@@ -12,11 +12,11 @@
 	{
 		width :100%;
 
-        border : 2px solid #104439;
+        border : 2px solid var(--border);
         border-radius: 30px;
         overflow:hidden;
 
-        background-color: white;
+        background-color: var(--backgroundSection);
         box-sizing: border-box;
 
         transition:
@@ -29,7 +29,7 @@
     .projectCard:hover
 	{
         transform: translateY(-5px);
-        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        box-shadow: 0 8px 20px var(--border);
     }
 
 	.thumbnail
@@ -59,7 +59,7 @@
         display:grid;
         grid-template-rows: repeat(3,1fr);
 
-        border-left: 2px solid #19352f;
+        border-left: 2px solid var(--border);
     }
 
     .rightInfo p
@@ -67,7 +67,7 @@
         margin : 0;
         padding: 1rem;
 
-        border-bottom: 2px solid #19352f;
+        border-bottom: 2px solid var(--border);
     }
 
     .rightInfo p:last-child
@@ -78,7 +78,7 @@
     a 
     {
         text-decoration: none;
-        color: black;
+        color: var(--text);
     }
 </style>
 {#if project.shown}
