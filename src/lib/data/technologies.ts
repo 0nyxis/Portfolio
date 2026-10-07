@@ -85,13 +85,13 @@ export const technologies =
     },
     {
         name: "C++",
-        known: "yellow",
+        known: "green",
         image: "Cpp.webp",
         alt_txt: "C++ Logo",
     },
     {
         name: "C#",
-        known: "yellow",
+        known: "green",
         image: "CS.webp",
         alt_txt: "C# Logo",
     },

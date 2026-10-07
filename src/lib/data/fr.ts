@@ -210,6 +210,13 @@ export default
             retroD : "Malgré ces limitations, After Impact est le projet de groupe sur lequel j'ai travaillé dont je suis le plus fier, particulièrement parce que j'ai pu prendre la responsabilité de plusieurs systèmes, de leur imagination initiale à leur intégration dans le jeu. Travailler avec une si grande équipe a aussi imposé un certain défi, mais cela m'a appris à imaginer des systèmes qui devront être utilisés et adaptés pour d'autres membres de mon équipe.",
 
             links : "<a style=\"color:var(--text-variant);\" href=\"https://www.creajeux.fr/\"> Page du jeu sur Créajeux </a>",
+
+            AfterImpactgroupPhoto : 
+            {   
+                src : "AfterImpactgroupPhoto.png",
+                desc : "Photo où l'on voit 9 des 12 membres de l'équipe, prise après la dernière présentation du projet. Les trois dernières personnes ont été dessinées, afin de montrer leur présence, de façon humoristique.",
+                title : "Img. 14 : Photo du groupe, à la fin du projet",
+            },
         },
 
         cyberdemineur :
