@@ -53,10 +53,31 @@ export default
 
         journeyTextCreajeux : "After those three years passed, this time, I was ready to specialize in video game development, so I went to Créajeux. The broad range of subjects in the BUT was interesting and useful, but I was happy to return to game development - this time with a stronger foundation and a lot more to learn.",
 
+        chrono : 
+            {   
+                src : "chronoEN.png",
+                desc : "Timeline previously explained. Successively, there is middle school (2014/2018), highschool (2018/2021), IUT (2021/2024) and Créajeux (2024/2027).",
+                title : "Img. 1 : Timeline of my journey",
+            },
+
         beyondTitle : "Beyond development",
         beyondRoutine : "I'm naturally someone who likes having a routine, but I also try to push myself out of it by experiencing new things. Going somewhere with a friend, trying a new sport, or simply picking up something unfamiliar can sometimes lead to surprisingly good experiences. Speaking of sports, I've recently started training in calisthenics, but I'm still in the beginner phase. It's going slow, but it's going steady!",
         beyondGames : "Video games are, unsurprisingly, also a big part of my interests. I enjoy discovering both new and older games, and I tend to jump between very different genres (going from \"Final Fantasy XIV\" and \"Warframe\" to \"The Binding of Isaac\", \"Powerwash\" or even \"A Dance of Fire and Ice\" or \"Sayonara Wild Hearts\"). I enjoy these games for many different reasons, whether it's the story, gameplay, music, or a combination of three or more.",
         beyondMusic : "Another thing I find interesting is music, in particular how it contributes to the identity and atmosphere of a game. I've recently started learning piano on my own. I never had formal lessons, so it's definitely a slower process, but I've become increasingly interested in understanding how music is written and how different musical choices affect the feeling of a piece. I also love listening to music, as I listen to a lot of different genres (from \"New Bodhum\", composed by Mitsuto Suzuki, \"Prominence\" by Seraphine Noir, and RAYE's \"Joy\", to music like \"Set It On Fire\" by Blood Cultures, Angèle's \"Une seule vie\" or \"Feel The Heat\" composed by Sachio Ogawa)",
+
+        gameList : 
+            {   
+                src : "steamHistory.png",
+                desc : "Screenshot from Steam, showing the last 5 games that were launched : Resident Evil 5, Warframe, FFXIV, Powerwash Simulator and Alan Wake.",
+                title : "Img. 2 : Last games started on Steam",
+            },
+
+        musicList : 
+        {   
+            src : "musicPlaylist.png",
+            desc : "Screenshot of a Youtube Playlist. We can see 6 songs : \"ALL FOR YOU\" from RIMERA, \"Day & Night\" from OK Goodnight, \"attack\" from chanpan, \"Ascension\" from SERAPHINE NOIR, \"Quit My Job\" from Pan Tèrra and \"Starting Over\" from Naoshi Mizuta",
+            title : "Img. 3 : Excerpt of my playlist of the year",
+        },
 
         workTitle : "How do I work?",
         workTeamProject : "Most of my programming experience has been gained through team projects. Over the past six years, I've worked on more than 15 projects with different teams and team members, including two internships.",
@@ -220,7 +241,7 @@ export default
             retroTitleD : "Final thoughts",
             retroD : "Despite these limitations, After Impact is the group project I've worked on that I'm currently the most proud of, particularly because I was able to take ownership of several systems from their initial design to their integration in the game. Working in such a big team was also a significant challenge, but it taught me a lot about designing systems that had to be used and adapted by other members of the team.",
 
-            links : "<a style=\"color:var(--text-variant);\" href=\"https://www.creajeux.fr/\"> Game's page on Créajeux </a>",
+            links : "<a style=\"color:var(--text-variant);\" href=\"https://www.creajeux.fr/\"> Game's page on Créajeux </a> <br> <a style=\"color:var(--text-variant);\" href=\"https://alex-grt.itch.io/project-after-impact\"> Game's page on one of my teammate's Itch.io </a>",
 
             AfterImpactgroupPhoto : 
             {   

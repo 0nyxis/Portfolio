@@ -71,6 +71,7 @@
 		max-width: 1400px;
 		margin : 0 auto;
 		padding: 2rem;
+		box-sizing: border-box;
 		font-family: 'Tahoma', 'Arial', sans-serif;
 	}
 </style>

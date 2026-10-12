@@ -4,6 +4,7 @@
 
 	import Texte from '$lib/components/FormattingPage/Texte.svelte';
 	import Title from '$lib/components/FormattingPage/Title.svelte';
+	import Media from '$lib/components/FormattingPage/Media.svelte';
 </script>
 
 <style>
@@ -19,7 +20,17 @@
 
 	.Paragraph
 	{
-        padding: 1rem 0;  
+        padding: 1rem 0;
+		display:grid;
+		align-items: center;
+	}
+
+    @media(max-width: 900px)
+	{
+		.Paragraph
+		{
+			grid-template-columns: 1fr !important;
+		}
 	}
 </style>
 <div class="section">
@@ -35,6 +46,14 @@
         <Texte txt={$translate.about.journeyTextHSBUT}/>   
         <br/>
         <Texte txt={$translate.about.journeyTextCreajeux}/>         
+        <br>
+        <Media 
+			type="image"
+			srcLink={"/images/aboutPage/" + $translate.about.chrono.src} 
+			altTxt={$translate.about.chrono.desc} 
+			title={$translate.about.chrono.title}
+			maxWidth = "700px"
+        />
     </div>
     
     <div class="Paragraph">
@@ -45,10 +64,36 @@
     </div>
 
     <div class="Paragraph">
+        <Media 
+			type="image"
+			srcLink={"/images/aboutPage/" + $translate.about.gameList.src} 
+			altTxt={$translate.about.gameList.desc} 
+			title={$translate.about.gameList.title}
+			maxWidth = "500px"
+        />
+        <Media 
+            type="image"
+            srcLink={"/images/aboutPage/" + $translate.about.musicList.src} 
+            altTxt={$translate.about.musicList.desc} 
+            title={$translate.about.musicList.title}
+            maxWidth = "550px"
+        />
+    </div>
+
+    <div class="Paragraph">
         <Title txt={$translate.about.workTitle}/>
         <Texte txt={$translate.about.workTeamProject}/>  
         <Texte txt={$translate.about.workTeamImportance}/>
         <Texte txt={$translate.about.workOutside}/>
+
+        <br>
+        <Media 
+			type="image"
+			srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.AfterImpactgroupPhoto.src} 
+			altTxt={$translate.project.after_impact.AfterImpactgroupPhoto.desc} 
+			title={$translate.project.after_impact.AfterImpactgroupPhoto.title}
+			maxWidth = "500px"
+		/>
     </div>
 
     <div class="Paragraph">

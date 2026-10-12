@@ -52,12 +52,33 @@ export default
 
         journeyTextCreajeux : "Après ces trois années, cette fois-ci, j'étais prêt à me spécialiser dans le développement de jeux vidéo, alors je suis allé à Créajeux. Le large éventail de sujets du BUT était intéressant et utile, mais j'étais heureux de revenir au développement de jeux vidéo - cette fois-ci avec une base plus solide, et encore beaucoup à apprendre.",
 
+        chrono : 
+            {   
+                src : "chronoFR.png",
+                desc : "Frise chronologique de l'historique précédemment énoncé. On y voit successivement le collège (2014/2018), le lycée (2018/2021), l'IUT (2021/2024) et Créajeux (2024/2027).",
+                title : "Img. 1 : Frise chronologique de mon parcours",
+            },
+
         beyondTitle : "Au-delà du développement",
         beyondRoutine : "Je suis naturellement quelqu'un qui aime avoir une routine, mais j'essaie aussi d'en sortir en expérimentant de nouvelles choses. Sortir avec des amis, essayer un nouveau sport ou simplement découvrir quelque chose d'inhabituel peut parfois - et c'est assez surprenant - mener à de très bonnes expériences. En parlant de sport, je me suis récemment mis à la callisthénie, mais je suis encore débutant. Ça avance doucement, mais ça avance au moins !",
 
         beyondGames : "Les jeux vidéo sont, sans surprise, une grande partie de mes hobbies. J'aime découvrir à la fois de vieux jeux, et de nouveaux jeux, et j'ai tendance à alterner des genres bien différents (de \"Final Fantasy XIV\" et \"Warframe\" à \"The Binding of Isaac\", \"Powerwash\" ou même \"A Dance of Fire and Ice\" et \"Sayonara Wild Hearts\"). J'apprécie ces jeux pour un tas de raisons, que ce soit pour leur histoire, leur gameplay, leur musique, ou même un mélange des trois, ou plus encore.",
 
         beyondMusic : "Une autre chose que je trouve intéressante est la musique, en particulier comment elle peut contribuer à l'identité et l'atmosphère d'un jeu. J'ai récemment commencé à apprendre le piano de mon côté. Je n'ai jamais eu de véritable leçon, alors c'est assez lent, mais j'apprends à mon rythme. Je suis aussi intéressé par la compréhension de comment sont faites les musiques, et comment certains choix affectent le ressenti d'un morceau. J'aime aussi écouter de la musique, ayant tendance à écouter de nombreux genres différents (de \"New Bodhum\", composé par Mitsuto Suzuki, \"Prominence\" par Seraphine Noir, et \"Joy\" de RAYE, jusqu'à des musiques comme \"Set It On Fire\" de Blood Cultures, \"Une seule vie\" d'Angèle ou \"Feel The Heat\" composé par Sachio Ogawa)",
+
+        gameList : 
+            {   
+                src : "steamHistory.png",
+                desc : "Capture d'écran de Steam, montrant les 5 derniers jeux lancés : Resident Evil 5, Warframe, FFXIV, Powerwash Simulator et Alan Wake.",
+                title : "Img. 2 : Derniers jeux lancés sur Steam",
+            },
+
+        musicList : 
+        {   
+            src : "musicPlaylist.png",
+            desc : "Capture d'écran d'une playlist Youtube. On y voit 6 musiques : \"ALL FOR YOU\" de RIMERA, \"Day & Night\" de OK Goodnight, \"attack\" de chanpan, \"Ascension\" de SERAPHINE NOIR, \"Quit My Job\" de Pan Tèrra et \"Starting Over\" de Naoshi Mizuta",
+            title : "Img. 3 : Extrait de ma playlist de cette année",
+        },
 
         workTitle : "Comment je travaille",
         workTeamProject : "La plupart de mon expérience en programmation a été acquise en travaillant sur des projets en équipe. Ces 6 dernières années, j'ai travaillé sur plus de 15 projets avec différentes équipes et différents membres d'équipe, et cela inclut deux stages.",
@@ -209,7 +230,7 @@ export default
             retroTitleD : "Un dernier mot",
             retroD : "Malgré ces limitations, After Impact est le projet de groupe sur lequel j'ai travaillé dont je suis le plus fier, particulièrement parce que j'ai pu prendre la responsabilité de plusieurs systèmes, de leur imagination initiale à leur intégration dans le jeu. Travailler avec une si grande équipe a aussi imposé un certain défi, mais cela m'a appris à imaginer des systèmes qui devront être utilisés et adaptés pour d'autres membres de mon équipe.",
 
-            links : "<a style=\"color:var(--text-variant);\" href=\"https://www.creajeux.fr/\"> Page du jeu sur Créajeux </a>",
+            links : "<a style=\"color:var(--text-variant);\" href=\"https://www.creajeux.fr/\"> Page du jeu sur Créajeux </a> <br> <a style=\"color:var(--text-variant);\" href=\"https://alex-grt.itch.io/project-after-impact\"> Page du jeu sur le Itch.io d'un membre de l'équipe </a>",
 
             AfterImpactgroupPhoto : 
             {   

@@ -240,15 +240,13 @@
 		<Title txt={$translate.project.after_impact.retroTitleD}/>
 		<Texte txt={$translate.project.after_impact.retroD}/>
 		<br>
-		<Title txt={$translate.project.after_impact.links}/>
-	</div>
-	<div class ="Paragraph">
 		<Media 
 			type="image"
 			srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.AfterImpactgroupPhoto.src} 
 			altTxt={$translate.project.after_impact.AfterImpactgroupPhoto.desc} 
 			title={$translate.project.after_impact.AfterImpactgroupPhoto.title}
 			maxWidth = "500px"
-			/>
+		/>
+		<Title txt={$translate.project.after_impact.links}/>
 	</div>
 </div>
