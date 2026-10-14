@@ -1,4 +1,5 @@
 <script>
+	import LastUpdated from '$lib/components/FormattingPage/LastUpdated.svelte';
 	import Media from '$lib/components/FormattingPage/Media.svelte';
 	import Texte from '$lib/components/FormattingPage/Texte.svelte';
 	import Title from '$lib/components/FormattingPage/Title.svelte';
@@ -37,6 +38,7 @@
      }
 </style>
 
+<LastUpdated txt={$translate.project.cyberdemineur.lastUpdated}/>
 <div class="section">
 	<div class="Paragraph">
 		<Title txt={$translate.project.cyberdemineur.titleOverview}/>

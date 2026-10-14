@@ -108,6 +108,8 @@ export default
     {
         after_impact :
         {
+            lastUpdated : "Last updated on 01/10/2026",
+            
             title1 : "Aperçu rapide",
             overview : "After Impact est un jeu que j'ai réalisé lors de ma troisième année à Créajeux, en 2026. Notre équipe était composée de 8 programmeurs et 4 artistes graphiques. Avec seulement 5 mois pour produire un jeu jouable, nous devions régulièrement équilibrer nos ambitions techniques en fonction du temps et des ressources disponibles. Pour la programmation, nous avons utilisé Unity, C#, FMOD, Visual Studio en tant qu'IDE et SVN en tant que VCS (système de contrôle de version).",
             ImgForShow : 
@@ -247,6 +249,8 @@ export default
 
         cyberdemineur :
         {
+            lastUpdated : "Page mise à jour le 01/10/2026",
+
             titleOverview : "Aperçu rapide",
             textOverview : "Cyberdémineur est un jeu que j'ai développé lors de ma dernière année de lycée, lors du cours de \"NSI\" (\"Numérique et Sciences Informatiques\"). Nous avions pour objectif de travailler en petit groupe sur le projet de notre choix. J'ai donc travaillé avec un ami sur mon idée d'un jeu inspiré du Démineur. <br><br> Après trois mois de développement Python, en utilisant les librairies PIL, TKinter et SQLite, nous avions un jeu entièrement jouable, qui dépassait les attentes de nos professeurs. Quelques années plus tard, j'ai recréé seul le jeu en Java, et C++/SFML.",
 

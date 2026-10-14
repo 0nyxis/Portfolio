@@ -1,5 +1,6 @@
 <script>
-	import Media from '$lib/components/FormattingPage/Media.svelte';
+	import LastUpdated from '$lib/components/FormattingPage/LastUpdated.svelte';
+import Media from '$lib/components/FormattingPage/Media.svelte';
 	import Texte from '$lib/components/FormattingPage/Texte.svelte';
 	import Title from '$lib/components/FormattingPage/Title.svelte';
 	import { translate } from '$lib/data/translateSystem';
@@ -26,6 +27,7 @@
 	a {
 		color : var(--text-variant);
 	}
+
 	@media(max-width: 1060px)
 	{
 		.Paragraph
@@ -36,6 +38,7 @@
 	
 </style>
 <div class="section">
+	<LastUpdated txt={$translate.project.after_impact.lastUpdated}/>
 	<div class="Paragraph">
 		<Title txt={$translate.project.after_impact.title1}/>
 		<Texte txt={$translate.project.after_impact.overview}/>

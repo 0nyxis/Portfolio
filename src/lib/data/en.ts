@@ -107,6 +107,8 @@ export default
     {
         after_impact :
         {
+            lastUpdated : "Last updated on 01/10/2026",
+            
             title1 : "Overview",
             overview : "After Impact was a game that I made during my third year at Créajeux, in 2026. We were working in a team composed of 8 programmers, and 4 graphic artists, and with 5 months to produce a playable game, we had to regularly balance technical ambition with the time and resources available. As for the programming, we used Unity, C#, FMOD, Visual Studio for the IDE, and SVN as our VCS (Version Control System).",
 
@@ -258,6 +260,8 @@ export default
 
         cyberdemineur :
         {
+            lastUpdated : "Last updated on 01/10/2026",
+
             titleOverview : "Overview",
             textOverview : "Cyberdémineur was a game I developed during my final year of high school, as part of a class called \"NSI\" (\"Numérique et Science de l'informatique\", or \"Digital and Computer Science\"). We were asked to work in small groups on a project of our choice. I worked with a friend on my idea for a Minesweeper-inspired game. <br><br> After three months of development in Python, using the PIL, TKinter and SQLite libraries, we had a fully playable game that exceeded our teachers' expectations. A few years later, I recreated the game in Java and C++/SFML. All of the versions are available in French only.",
 
