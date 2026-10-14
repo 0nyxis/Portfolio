@@ -26,7 +26,7 @@
 	a {
 		color : var(--text-variant);
 	}
-	@media(max-width: 900px)
+	@media(max-width: 1060px)
 	{
 		.Paragraph
 		{
@@ -131,14 +131,14 @@
 				srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.SpawnerInScene.src} 
 				altTxt={$translate.project.after_impact.SpawnerInScene.desc} 
 				title={$translate.project.after_impact.SpawnerInScene.title}
-				maxWidth = "450px"
+				maxWidth = "380px"
 				/>
 			<Media 
 				type="image"
 				srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.SpawnerInInspector.src} 
 				altTxt={$translate.project.after_impact.SpawnerInInspector.desc} 
 				title={$translate.project.after_impact.SpawnerInInspector.title}
-				maxWidth = "400px"
+				maxWidth = "330px"
 				/>
 		</div>
 
@@ -152,12 +152,14 @@
 				srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.FoxBig.src} 
 				altTxt={$translate.project.after_impact.FoxBig.desc} 
 				title={$translate.project.after_impact.FoxBig.title}
+				maxWidth = "400px"
 				/>
 			<Media 
 				type="video"
 				srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.shrinkingFox.src} 
 				altTxt={$translate.project.after_impact.shrinkingFox.desc} 
 				title={$translate.project.after_impact.shrinkingFox.title}
+				maxWidth = "400px"
 				/>
 		</div>
 
@@ -205,12 +207,14 @@
 			srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.ShootingTheFox.src} 
 			altTxt={$translate.project.after_impact.ShootingTheFox.desc} 
 			title={$translate.project.after_impact.ShootingTheFox.title}
+			maxWidth = "400px"
 			/>
 		<Media 
 			type="video"
 			srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.ShootingTheFoxGif.src} 
 			altTxt={$translate.project.after_impact.ShootingTheFoxGif.desc} 
 			title={$translate.project.after_impact.ShootingTheFoxGif.title}
+			maxWidth = "400px"
 			/>
 	</div>
 </div>
