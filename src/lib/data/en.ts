@@ -84,6 +84,11 @@ export default
         workTeamImportance : "Working in a team taught me that programming isn't just about making your own part work. You need to communicate, understand what other people need from your systems and be willing to adapt when the project changes.",
         workOutside : "I'm also used to this kind of coordination outside of development. I regularly participate in high-level raids in \"Final Fantasy XIV\", where success depends on a group of players understanding their individual responsibilities, communicating during difficult situations, and helping each other recover from mistakes. There's very little value in blaming someone when something goes wrong; the useful question is what the team can change to succeed on the next attempt.",
 
+        imgGroup :
+        {
+            title : "Img. 4 : Group photo at the end of the project \"After Impact\"",
+        },
+
         lookingTitle : "What I'm looking for",
         lookingDate : "I'm currently looking for a 6-month game programming internship starting in March 2027, as part of my final year at Créajeux.",
         lookingWhat : "I'm primarily looking for an opportunity where I can continue developing my skills as a programmer while contributing to a professional game development team.",

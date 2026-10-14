@@ -91,7 +91,7 @@
 			type="image"
 			srcLink={"/images/projects/AfterImpact/" + $translate.project.after_impact.AfterImpactgroupPhoto.src} 
 			altTxt={$translate.project.after_impact.AfterImpactgroupPhoto.desc} 
-			title={$translate.project.after_impact.AfterImpactgroupPhoto.title}
+			title={$translate.about.imgGroup.title}
 			maxWidth = "500px"
 		/>
     </div>

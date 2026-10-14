@@ -85,6 +85,11 @@ export default
         workTeamImportance : "Travailler en équipe m'a appris que la programmation, ce n'est pas juste faire en sorte que son code fonctionne. Il est important de communiquer, de comprendre les besoins des autres vis-à-vis de nos systèmes et d'être prêt à les adapter lorsque le projet évolue.",
         workOutside : "J'ai aussi l'habitude de ce genre de coordination en dehors du développement. Je participe régulièrement à des raids de haut niveau dans \"Final Fantasy XIV\", où la réussite dépend d'un groupe de joueurs qui comprennent leurs responsabilités individuelles, communiquent dans des situations difficiles, et s'aident mutuellement à se relever après une erreur. Ça ne sert à rien de remettre la faute sur quelqu'un lorsqu'une erreur est commise; la question importante est de savoir ce que l'équipe peut changer afin de réussir au prochain essai.",
 
+        imgGroup :
+        {
+            title : "Img. 4 : Photo de groupe à la fin du projet \"After Impact\"",
+        },
+
         lookingTitle : "Ce que je cherche",
         lookingDate : "Je suis actuellement à la recherche d'un stage de six mois en programmation de jeux vidéo, à partir de mars 2027, dans le cadre de ma dernière année à Créajeux.",
         lookingWhat : "Je suis principalement à la recherche d'une opportunité où je pourrais continuer à développer mes compétences en tant que programmeur tout en contribuant à une équipe professionnelle dans le développement de jeux vidéo.",
